@@ -8,3 +8,5 @@
 - installed apps (Fusion360, KiCAD, Git, VS Code)
 - project to start working on: remake the Xiami vacuum cleaner robot using Octanis' technologies
 
+- saw parts already available for vacuum cleaner
+- started getting used to Fusion 360

@@ -7,9 +7,13 @@ Make a vacuum cleaning robot applying the technologies developped at Octanis Ins
 
 ### Mechanics
 
-Global insight of the robot:
+Global insight of the robot (teardown):
+
 [https://www.youtube.com/watch?v=1b2tJTBn6us](https://www.youtube.com/watch?v=1b2tJTBn6us)
 
+[https://www.youtube.com/watch?v=wglJz23Gt4w&t=23s](https://www.youtube.com/watch?v=wglJz23Gt4w&t=23s)
+
+[https://www.youtube.com/watch?v=8FlZgIHOodM](https://www.youtube.com/watch?v=8FlZgIHOodM)
 
 ### Electronics
 
