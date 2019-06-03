@@ -2,9 +2,9 @@
 
 ## Other pages
 
-- [links](./links.md)
-- [daily reports](./dailyReports.md)
-- [XIAOMI MI ROBOROCK Remake](./xiamiRemake.md)
+- [links](./docs/links.md)
+- [daily reports](./docs/dailyReports.md)
+- [XIAOMI MI ROBOROCK Remake](./xiaomiRemake/xiaomiRemake.md)
 
 
 ## Useful webpages
