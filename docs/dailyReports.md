@@ -21,7 +21,15 @@ __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is t
 - exported STL from Fusion 360
 - installed the Prusa slicer and sliced STL file
 - upgraded the firmware of one of the 3D printers
-- printed front wheel part
+- printed front wheel part: print lasted around 1h17 and came out good at the first time, yet, the wheel is really difficult to push in the part
+
+- studied the different parts designs: corner, face and top
+- modeled the corner part in Fusion 360
+
+- modeled face part in Fusion 360
+
+- realized a test of how small a thread could be 3D printed (20, 10, 5 mm)
+
 
 
 
