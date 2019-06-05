@@ -28,8 +28,27 @@ __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is t
 
 - modeled face part in Fusion 360
 
-- realized a test of how small a thread could be 3D printed (20, 10, 5 mm)
+- realized a test of how small a thread could be 3D printed (20, 10, 5 mm). All threads came out good. Smaller sizes should be tried out! This shows that 3D printed threads could be used in projects without being too bulky.
+
+#### To do tomorrow
+
+- try assembling parts in Fusion 360
+- think about the best way to scan the environment
+- design top part
+- think better about how to fix outer PCBs
+- 
 
 
 
+### 03.06.2019
 
+#### Weekly meeting conclusions
+
+- use o-ring to connect pump to dust collector
+- construct global case and create modules for distinct parts that are all the same height (can be on two floors)
+- consider making an hermetic case for the core PCBs
+- use metallic threads that are fixed in 3D printed holes (using a soldering machine)
+- better put too much sensors than not enough -> consider 8 peripheral boards on the faces with distance, fall and bump detection + Lidar on top + camera (on front face?)
+- consider that the wheels will be fully squeezed when robot working -> the wheels have a sensor that knows when the robot is lifted
+- maximal height that can be 3D printed is about 20 cm
+- pump should be fixed using three small printed parts that are screwed on top

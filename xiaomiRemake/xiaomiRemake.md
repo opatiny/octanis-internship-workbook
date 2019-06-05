@@ -15,6 +15,8 @@ Global insight of the robot (teardown):
 
 [https://www.youtube.com/watch?v=8FlZgIHOodM](https://www.youtube.com/watch?v=8FlZgIHOodM)
 
+[https://www.youtube.com/watch?v=OxYrifW4Feo](https://www.youtube.com/watch?v=OxYrifW4Feo)
+
 ### Electronics
 
 The Lidar of the Roborock:
