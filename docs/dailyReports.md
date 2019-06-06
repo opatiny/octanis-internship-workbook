@@ -10,7 +10,7 @@
 
 - saw parts already available for vacuum cleaner
 - started getting used to Fusion 360
-- __Note:__ a big disadvantage od Fusion 360 is that you can't save the files on another support than AutoDesk -> no git (except for the exports)
+- __Note:__ a big disadvantage od Fusion 360 )at least the free startup licence) is that you can't save the files on another support than AutoDesk -> no git (except for the exports)
 
 __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is top-down: I must consider that all the electronics exist and work (-> abstraction!). It's different from all the other projects I have made where I prioritized a bottom-up approach. I could do that since I was working alone. Therefore, I have to learn __teamwork__.
 
@@ -36,11 +36,16 @@ __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is t
 - think about the best way to scan the environment
 - design top part
 - think better about how to fix outer PCBs
-- 
-
 
 
 ### 03.06.2019
+
+- modeled and printed second thread test (M5, M4, M3, M2, inner threads) -> they seem to work all fine and well fitted. However, the surface of the part is flawy.
+
+- continued modeling face
+- started modeling top
+
+- adapted small PCB box to the vacuum cleaner
 
 #### Weekly meeting conclusions
 
@@ -52,3 +57,19 @@ __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is t
 - consider that the wheels will be fully squeezed when robot working -> the wheels have a sensor that knows when the robot is lifted
 - maximal height that can be 3D printed is about 20 cm
 - pump should be fixed using three small printed parts that are screwed on top
+
+### 04.06.2019
+
+- continued working on top part (globally finished)
+- modeled bottom part
+- modeled laser cutter test
+
+- tried making forms in Fusion 360, but didn't manage. Problems with selection of objects and these "T-splines".
+
+- made 3D models based on the 2D models for face, top and bottom
+
+
+#### To do tomorrow
+
+- make dust collector / pump part in Fusion 360
+

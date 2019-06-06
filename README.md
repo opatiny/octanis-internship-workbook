@@ -4,6 +4,9 @@ Documentation resulting of my 20 weeks internship at Octanis Instruments.
 
 ## Documentation
 
+[Absences](./docs/absences.md)
+
+
 To have global insight of what has been done during the internship:
 - [Daily reports](./docs/dailyReports.md)
 
