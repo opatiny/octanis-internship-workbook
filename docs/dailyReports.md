@@ -73,3 +73,10 @@ __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is t
 
 - make dust collector / pump part in Fusion 360
 
+### 05.06.2019
+
+- made assembly of bottom, corners, faces, top and flap
+- How do I create folders in a Fusion 360 file?
+- learned to import designs from McMaster-Carr database in Fusion 360
+
+__Remark:__ We need to do things for the society's benefits and not always because they are fun.
