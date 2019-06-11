@@ -16,9 +16,5 @@ Various information that has been useful during the internship:
 - [Fusion 360 cheat sheet](./docs/apps/3D/fusion360/fusion360CheatSheet.md)
 - [Prusa printers doc](./docs/apps/3D/prusa/prusaPrinters.md)
 
-First project that has been realized: a vacuum cleaner that uses the technologies developped at Octanis Instuments.
+First project that has been realized: a vacuum cleaner that uses the technologies developed at Octanis Instuments.
 - [XIAOMI MI ROBOROCK Remake](./xiaomiRemake/xiaomiRemake.md)
-
-
-
-
