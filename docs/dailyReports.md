@@ -2,7 +2,7 @@
 
 ## June
 
-### 01.06.2019
+### 03.06.2019 - w1
 - signed contract
 - setup computer
 - installed apps (Fusion360, KiCAD, Git, VS Code), problem with installing Terminal for Windows
@@ -15,7 +15,7 @@
 __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is top-down: I must consider that all the electronics exist and work (-> abstraction!). It's different from all the other projects I have made where I prioritized a bottom-up approach. I could do that since I was working alone. Therefore, I have to learn __teamwork__.
 
 
-### 02.06.2019
+### 04.06.2019
 
 - continued working in Fusion 360 on front wheel part
 - exported STL from Fusion 360
@@ -38,7 +38,7 @@ __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is t
 - think better about how to fix outer PCBs
 
 
-### 03.06.2019
+### 05.06.2019
 
 - modeled and printed second thread test (M5, M4, M3, M2, inner threads) -> they seem to work all fine and well fitted. However, the surface of the part is flawy.
 
@@ -58,7 +58,7 @@ __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is t
 - maximal height that can be 3D printed is about 20 cm
 - pump should be fixed using three small printed parts that are screwed on top
 
-### 04.06.2019
+### 06.06.2019
 
 - continued working on top part (globally finished)
 - modeled bottom part
@@ -73,10 +73,22 @@ __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is t
 
 - make dust collector / pump part in Fusion 360
 
-### 05.06.2019
+### 07.06.2019
 
 - made assembly of bottom, corners, faces, top and flap
 - How do I create folders in a Fusion 360 file?
 - learned to import designs from McMaster-Carr database in Fusion 360
 
 __Remark:__ We need to do things for the society's benefits and not always because they are fun.
+
+### 11.06.2019 - w2
+- tried fix both Prusa printers, which were under-extruding, resulting docs are [here](./apps/3D/prusa/prusaPrinters.md)
+- printers have been fixed but the prints still have strange little dots on the vertical surfaces
+- learned to make "folders" in Fusion 360 assemblies
+- learned to make technical drawings in Fusion 360
+
+- made 3D printed model of hinge and printed it out
+
+__Results:__ The hinge doesn't work in PLA. The plastic breaks instead of bending. This could be tried with some flexible material but isn't otherwise a good idea.
+
+__Problem:__ I need something to measure angles (protractor).
