@@ -92,3 +92,15 @@ __Remark:__ We need to do things for the society's benefits and not always becau
 __Results:__ The hinge doesn't work in PLA. The plastic breaks instead of bending. This could be tried with some flexible material but isn't otherwise a good idea.
 
 __Problem:__ I need something to measure angles (protractor).
+
+- thought to use only small PCB format but:
+  1. all the boards just can't be in the small format (like the motherboard)
+  2. the goal is to show both formats
+
+  Notes to self:
+  - making all the 3D printed parts for each component will be difficult because they have weird shapes, also, I will have to find a way to manage overhands -> use supports
+  - it would be good to get the main missing parts (lidar, screen, camera)
+  - I should start making the missing PCBs, since they take a long time to arrive (1 week at least), I could continue to do things in the mean time
+  - I could run my laser cutter test tomorrow
+  - try to make work the different parts I already have and understand the technologies they use (i.e.: the wheels and DC motors)
+  
