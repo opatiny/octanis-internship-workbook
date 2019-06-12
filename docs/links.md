@@ -4,7 +4,7 @@
 
 - [https://webmail.gandi.net/roundcube/?_task=mail&_mbox=INBOX](https://webmail.gandi.net/roundcube/?_task=mail&_mbox=INBOX) : email
 - [https://ikea.octanis.ch/index.php/apps/files/?dir=/&fileid=83347](https://ikea.octanis.ch/index.php/apps/files/?dir=/&fileid=83347) : drive
-
+- partial screenshot to clipboard windows: Windows + Shift + S
 
 ## CAD
 
@@ -15,6 +15,9 @@
 - [https://grabcad.com/](https://grabcad.com/) : large database of 3D files
 
 - [https://www.prusa3d.com/new-user-guides/](https://www.prusa3d.com/new-user-guides/) : install software (slicer) for Prusa 3D printers
+
+## 3D printing
+ - [http://fffworld.com/documentation/](http://fffworld.com/documentation/) : doc for the flexible filament FlexiSmart
 
 ## Programming
 

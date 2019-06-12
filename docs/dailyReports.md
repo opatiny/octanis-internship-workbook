@@ -2,7 +2,7 @@
 
 ## June
 
-### 03.06.2019 - w1
+### 2019.06.03 - w1
 - signed contract
 - setup computer
 - installed apps (Fusion360, KiCAD, Git, VS Code), problem with installing Terminal for Windows
@@ -15,7 +15,7 @@
 __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is top-down: I must consider that all the electronics exist and work (-> abstraction!). It's different from all the other projects I have made where I prioritized a bottom-up approach. I could do that since I was working alone. Therefore, I have to learn __teamwork__.
 
 
-### 04.06.2019
+### 2019.06.04
 
 - continued working in Fusion 360 on front wheel part
 - exported STL from Fusion 360
@@ -38,7 +38,7 @@ __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is t
 - think better about how to fix outer PCBs
 
 
-### 05.06.2019
+### 2019.06.05
 
 - modeled and printed second thread test (M5, M4, M3, M2, inner threads) -> they seem to work all fine and well fitted. However, the surface of the part is flawy.
 
@@ -47,18 +47,9 @@ __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is t
 
 - adapted small PCB box to the vacuum cleaner
 
-#### Weekly meeting conclusions
+- weekly meeting
 
-- use o-ring to connect pump to dust collector
-- construct global case and create modules for distinct parts that are all the same height (can be on two floors)
-- consider making an hermetic case for the core PCBs
-- use metallic threads that are fixed in 3D printed holes (using a soldering machine)
-- better put too much sensors than not enough -> consider 8 peripheral boards on the faces with distance, fall and bump detection + Lidar on top + camera (on front face?)
-- consider that the wheels will be fully squeezed when robot working -> the wheels have a sensor that knows when the robot is lifted
-- maximal height that can be 3D printed is about 20 cm
-- pump should be fixed using three small printed parts that are screwed on top
-
-### 06.06.2019
+### 2019.06.06
 
 - continued working on top part (globally finished)
 - modeled bottom part
@@ -73,7 +64,7 @@ __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is t
 
 - make dust collector / pump part in Fusion 360
 
-### 07.06.2019
+### 2019.06.07
 
 - made assembly of bottom, corners, faces, top and flap
 - How do I create folders in a Fusion 360 file?
@@ -81,7 +72,7 @@ __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is t
 
 __Remark:__ We need to do things for the society's benefits and not always because they are fun.
 
-### 11.06.2019 - w2
+### 2019.06.11 - w2
 - tried fix both Prusa printers, which were under-extruding, resulting docs are [here](./apps/3D/prusa/prusaPrinters.md)
 - printers have been fixed but the prints still have strange little dots on the vertical surfaces
 - learned to make "folders" in Fusion 360 assemblies
@@ -98,9 +89,16 @@ __Problem:__ I need something to measure angles (protractor).
   2. the goal is to show both formats
 
   Notes to self:
-  - making all the 3D printed parts for each component will be difficult because they have weird shapes, also, I will have to find a way to manage overhands -> use supports
+  - making all the 3D printed parts for each component will be difficult because they have weird shapes, also, I will have to find a way to manage overhangs -> use supports
   - it would be good to get the main missing parts (lidar, screen, camera)
   - I should start making the missing PCBs, since they take a long time to arrive (1 week at least), I could continue to do things in the mean time
   - I could run my laser cutter test tomorrow
   - try to make work the different parts I already have and understand the technologies they use (i.e.: the wheels and DC motors)
-  
+
+### 2019.06.12
+
+- started collector-pump part model
+- weekly meeting
+- learned to add new filament parameters to Prusa Slicer
+- tried to print hinge out of FlexiSMART
+- modeled clip in Fusion 360
