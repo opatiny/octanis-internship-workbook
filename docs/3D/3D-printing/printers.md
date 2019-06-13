@@ -1,4 +1,4 @@
-# Prusa 3D printers cheat sheet
+# 3D printers cheat sheet
 
 ## PrusaSlicer
 
@@ -13,6 +13,7 @@ Then click on generate "Slice now" and then on "Export G-code".
 To vary the slicer setting and the type of pattern of the top and bottom layers and the infill: [https://manual.slic3r.org/expert-mode/print-settings](https://manual.slic3r.org/expert-mode/print-settings)
 
 ## Fixing under-extrusion problems and general maintenance
+
 Remove a blob: [https://www.youtube.com/watch?v=mSmJKjibMT0](https://www.youtube.com/watch?v=mSmJKjibMT0)
 
 
@@ -38,32 +39,3 @@ Clean a clogged nozzle: [https://www.youtube.com/watch?v=g8uvh6kvr54](https://ww
 - clean printing surface with __isopropanol__
 
 - print a part to check if all the things you did were at all useful...
-
-## Printed parts parameters
-
-### front wheel v4
-
-- Print settings: 0.2mm QUALITY
-- Filament: Prusament PLA
-- Infill: 25%
-
-### threads test v3
-
-- Print settings: 0.2mm QUALITY
-- Filament: Prusament PLA
-- Infill: 25%
-
-### thread test 2 v3
-
-- Print settings: 0.1mm QUALITY
-- Filament: Prusament PLA
-- Infill: 25%
-
--> problem: printer has been under-extruding
-
-### corner v11
-- Print settings: 0.2mm QUALITY
-- Filament: Prusament PLA
-- Infill: 25%
-
-

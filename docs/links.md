@@ -17,7 +17,7 @@
 - [https://www.prusa3d.com/new-user-guides/](https://www.prusa3d.com/new-user-guides/) : install software (slicer) for Prusa 3D printers
 
 ## 3D printing
- - [http://fffworld.com/documentation/](http://fffworld.com/documentation/) : doc for the flexible filament FlexiSmart
+ - [http://fffworld.com/documentation/](http://fffworld.com/documentation/) : doc for the flexible filament FlexiSMART
 
 ## Programming
 

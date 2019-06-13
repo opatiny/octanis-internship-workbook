@@ -102,3 +102,10 @@ __Problem:__ I need something to measure angles (protractor).
 - learned to add new filament parameters to Prusa Slicer
 - tried to print hinge out of FlexiSMART
 - modeled clip in Fusion 360
+- flexible hinge worked perfectly, but was really difficult to get off the bed of the printer (-> see [video](../xiaomiRemake/docs/pictures/flexHinge.mp4))
+
+### 2019.06.13
+
+- made bottom clip : a part to keep the flap closed
+- after discussion with Raph : I should start working on the PCBs, especially the motor board (clone the project and create folder "rev2")
+- understand what __H-bridges__ are, what a __clamping diode__ is and what __breaking current__ does (current reflow due to motor free rotation)
