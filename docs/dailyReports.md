@@ -109,3 +109,11 @@ __Problem:__ I need something to measure angles (protractor).
 - made bottom clip : a part to keep the flap closed
 - after discussion with Raph : I should start working on the PCBs, especially the motor board (clone the project and create folder "rev2")
 - understand what __H-bridges__ are, what a __clamping diode__ is and what __breaking current__ does (current reflow due to motor free rotation)
+- printed hinge bent, clip and bottom clip
+
+### 2019.06.14
+
+- cloned motor board project through https, didn't work otherwise (`git clone https://make.octanis.ch/oi/oibus-dc-motor-controller.git`)
+- in fact, this is how you __clone with ssh__: `git clone ssh://git@make.octanis.ch:2222/oi/oibus-dc-motor-controller.git`
+
+

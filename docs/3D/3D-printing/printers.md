@@ -1,5 +1,7 @@
 # 3D printers cheat sheet
 
+Click [here](./printsParameters.md) to consult the parameters of all the prints that were realized.
+
 ## PrusaSlicer
 
 When you want to print something, you first have to slice it. They are software that allow todo that specifically for certain printers. We use Prusa 3D printers. The corresponding slicer is PrusaSlicer:
