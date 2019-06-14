@@ -17,6 +17,10 @@ Global insight of the robot (teardown):
 The Lidar of the Roborock:
 [https://www.youtube.com/watch?v=4sQCz75BfrM](https://www.youtube.com/watch?v=4sQCz75BfrM)
 
+H-bridge component: [__VNH7040AYTR__, Motion Motor Control](https://www.arrow.com/en/products/vnh7040aytr/stmicroelectronics?utm_campaign=octopart_2018&utm_currency=USD&utm_keyword=VNH7040AYTR&utm_medium=aggregator&utm_content=inv_listing&utm_source=octopart)
+
+Distance sensor: [__VL53L0X__, Time-of-Flight (ToF) ranging sensor](https://www.st.com/en/mems-and-sensors/proximity-sensors.html#products)
+
 ### Programming
 
 Coral (object recognition, image analysis, ML):

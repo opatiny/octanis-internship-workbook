@@ -7,6 +7,8 @@ The computer board is the main board of the project. A Raspberry PI slides onto 
 
 To modify!
 
+Project cloned with: `git clone ssh://git@make.octanis.ch:2222/oi/oibus-dc-motor-controller.git`
+
 GitLab project: [https://make.octanis.ch/oi/oibus-dc-motor-controller/tree/master](https://make.octanis.ch/oi/oibus-dc-motor-controller/tree/master)
 
 The motor board has to be enhanced to become functional. The goal is to solve all the issues of the project. The board allows to control __4 DC motors__. It uses __H-bridges__ to chose the rotation direction.
@@ -21,7 +23,7 @@ To design!
 
 Each board should include two distance sensors, one vertical (to prevent fall) and one horizontal, and one bump sensor.
 
-Distance sensor: 
+Distance sensor: [__VL53L0X, Time-of-Flight (ToF) ranging sensor__](https://www.st.com/en/mems-and-sensors/proximity-sensors.html#products)
 
 ### Coral board (small format)
 
