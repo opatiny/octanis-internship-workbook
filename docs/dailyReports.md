@@ -119,7 +119,17 @@ __Problem:__ I need something to measure angles (protractor).
 - started reading paragraphs of "The Art of Electronics"
 
 ### 2019.06.17 - w3
+
 - try printing thermochrome filament of Robox -> it could be used to make cases that change color in case something is heating up inside
 - upgraded MK3 printer firmware
-- moved things around with Sam (11-15)
+- moved things around with Sam (11-15), company business
+- continued electronics theory doc
+- 
+### 2019.06.18 - w3
 
+- debrief meeting with Raph and Quentin
+- learned more about transistors
+- problems with 3D printer -> MINTEMP error...
+- continued working on electronics: reverse engineering wheels
+- wheel teardown and basic soldering (cables to analyse encoder signal)
+- getting started with multimeter, oscilloscope, power supply

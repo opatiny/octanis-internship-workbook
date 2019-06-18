@@ -9,3 +9,4 @@
 ## Hours made before 9am or after 6pm
 
 - 05.06.2019 : started at 8am
+- 17.06.2019 : finished at 7pm

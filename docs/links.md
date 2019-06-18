@@ -24,3 +24,4 @@
 GitLab: [https://make.octanis.ch/oi/workbook/oceane.patiny](https://make.octanis.ch/oi/workbook/oceane.patiny)
 
 ## Electronics
+- BM235 multimeter datasheet: [https://www.eevblog.com/files/BM235-Manual-EEVblog.pdf](https://www.eevblog.com/files/BM235-Manual-EEVblog.pdf)

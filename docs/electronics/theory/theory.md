@@ -2,11 +2,15 @@
 
 ## Concepts
 
-### Impedence
+### Hall effect
+Voltage perpendicular to a current that can be measured when a magnetic field is near it.
 
+### Impedence ($Z$)
+
+"Electrical impedance is the measure of the __opposition that a circuit presents to a current when a voltage is applied___. The term complex impedance may be used interchangeably." - Wiki
 - "generalized resistance"
 - is different from the resistance when there is a frequency in the signal -> AC
-
+- $Z = R + jX$, where $R$ is the __resistance__, $j$ is the complex unit number and $X$ is the __reactance__
 
 ## Electrical circuits and components
 
@@ -31,15 +35,20 @@ An H-bridge  (half bridge) is an electrical circuit which allows to chose in whi
 
 - Active component,  three-terminal (3 legs)
 - can amplify (output signal with more power than input signal)
-- a transistor is basically a __current amplifier__
+- can be compared to two diodes (diodes are made in the same material, but are only np or pn)
+- a transistor is basically two things : a __current amplifier__ or an __electronic switch__
 - __npm__ and __pnp__: one has the opposite polarities of the other
 - __npm__ : open when no current, closed when current
 
 <img src="./transistor.gif" alt="case assembly" width="60%" class="center">
 
+- the names npn and pnp refer to the layers inside the component
+- transistors have replaced __vacuum tubes__ aka __valves__ because they heat less and can be a lot smaller
+
 
 #### BJT : Bipolar junction transistor
 
+- basically three layers of semi-conductors (like silica) with added components inside the crystal. When voltage is applied on one side, a bridge of charges forms which allows the current to flow.
 - accuracy, low noise
 - when some rules respected, $I_C$ roughly proportional to $I_B$ : $I_C = \beta \cdot I_B$ where $I_B$ is typically 100. $I_C$ and $I_B$ flow to the emitter.
 - beware: $\beta$ can vary a lot (temperature and others)
@@ -49,6 +58,7 @@ An H-bridge  (half bridge) is an electrical circuit which allows to chose in whi
 #### FET : Field-effect transistor
 
 - low power, high impedence, high current switching
+- __MOSFET:__ Metal Oxide Semiconductor Field-Effect Transistor
 
 
 ### Zener diode
@@ -61,15 +71,30 @@ To check : [https://electronics.stackexchange.com/questions/292140/why-is-a-resi
 
 ## Vocabulary
 
-### The art of electronics
-- IC : integrated circuit
-
-### Datasheets
+- __IC :__ integrated circuit
 - __clamp :__
 - __current drift :__
 - __drain :__
-- __hysteresis :__
-- __leakage current :__
+- __hysteresis :__ lag in a physical response to an input (response occurs only after the effect)
+- __leakage current :__ in general, current that goes through something when it is open (no connection). In the case of a capacitor, current that goes through because the isolator is not perfect
 - __low-side and high-side :__ whether it is on the high potential or the low potential side
 - __NC:__ Not Connected
 - __open-load :__
+
+## Tools tips
+
+### Variable power supply
+
+- beware that the output is on! (little orange light next to "output")
+
+
+### Oscilloscope
+
+- use trigger on edge (abrupt voltage change)
+- trigger has 3 modes: normal (keeps last event), single (keeps first event) and auto (refreshes every new event)
+
+### Multimeter (BM235)
+
+- on resistance analysis mode, click on Select to switch from one mode to the other
+- mode 1: bips when direct electric connection (null resistance)
+- mode 2: indicates resistance
