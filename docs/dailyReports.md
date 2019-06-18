@@ -20,7 +20,7 @@ __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is t
 - continued working in Fusion 360 on front wheel part
 - exported STL from Fusion 360
 - installed the Prusa slicer and sliced STL file
-- upgraded the firmware of one of the 3D printers
+- upgraded the firmware of one of the 3D printers -> refer to [this pdf](./Firmware_upgrade_guide_EN.pdf)
 - printed front wheel part: print lasted around 1h17 and came out good at the first time, yet, the wheel is really difficult to push in the part
 
 - studied the different parts designs: corner, face and top
@@ -115,5 +115,11 @@ __Problem:__ I need something to measure angles (protractor).
 
 - cloned motor board project through https, didn't work otherwise (`git clone https://make.octanis.ch/oi/oibus-dc-motor-controller.git`)
 - in fact, this is how you __clone with ssh__: `git clone ssh://git@make.octanis.ch:2222/oi/oibus-dc-motor-controller.git`
+- discussed with Raph to understand general structure of the board and the enhancements to make
+- started reading paragraphs of "The Art of Electronics"
 
+### 2019.06.17 - w3
+- try printing thermochrome filament of Robox -> it could be used to make cases that change color in case something is heating up inside
+- upgraded MK3 printer firmware
+- moved things around with Sam (11-15)
 

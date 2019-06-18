@@ -14,6 +14,15 @@ Then click on generate "Slice now" and then on "Export G-code".
 
 To vary the slicer setting and the type of pattern of the top and bottom layers and the infill: [https://manual.slic3r.org/expert-mode/print-settings](https://manual.slic3r.org/expert-mode/print-settings)
 
+
+## Global issues
+
+### Firmware update of Prusa printers
+
+__Note:__ The plug for the cable is on the top of the black box on the left.
+
+-> refer to [this pdf](./Firmware_upgrade_guide_EN.pdf)
+
 ## Fixing under-extrusion problems and general maintenance
 
 Remove a blob: [https://www.youtube.com/watch?v=mSmJKjibMT0](https://www.youtube.com/watch?v=mSmJKjibMT0)

@@ -4,7 +4,7 @@
 
 - [https://webmail.gandi.net/roundcube/?_task=mail&_mbox=INBOX](https://webmail.gandi.net/roundcube/?_task=mail&_mbox=INBOX) : email
 - [https://ikea.octanis.ch/index.php/apps/files/?dir=/&fileid=83347](https://ikea.octanis.ch/index.php/apps/files/?dir=/&fileid=83347) : drive
-- partial screenshot to clipboard windows: Windows + Shift + S
+- partial screenshot to clipboard Windows: Windows + Shift + S
 
 ## CAD
 
