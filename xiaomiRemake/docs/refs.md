@@ -12,6 +12,8 @@ Global insight of the robot (teardown):
 
 [https://www.youtube.com/watch?v=OxYrifW4Feo](https://www.youtube.com/watch?v=OxYrifW4Feo)
 
+Plexiglass
+
 ### Electronics
 
 The Lidar of the Roborock:

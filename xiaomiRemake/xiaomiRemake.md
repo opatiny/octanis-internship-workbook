@@ -15,7 +15,10 @@ __General concept of the case:__ The case is has an __octogonal base__ with a wi
 
 _Outer case assembled in Fusion 360_
 
-## Various parts description / comment
+
+### Not making holes for distance sensors
+
+[plexiglas optical and transmission characteristics](https://www.plexiglas.com/export/sites/plexiglas/.content/medias/downloads/sheet-docs/plexiglas-optical-and-transmission-characteristics.pdf)
 
 ### The hinges
 Hinges are needed to make a door that allows easy access to the dust collector and to the battery. Initially, regular commercial brass hinges were to be used. However, they were finally 3D printed using flexible filament. This allows to vary the shape, size and color of the hinges (not sure that it is cheaper, though).
@@ -24,6 +27,24 @@ A first try was made in PLA, but it did not work, for the part broke instead of 
 
 ## Electronics
 
-### VNH7040AYTR notes
+### TCS40DPR (Hall sensor)
+
+Datasheet: [__TCS40DPR__](./docs/datasheets/TCS40DPR_hall_sensor.pdf)
+
+- Digital Output Magnetic Sensor
+- 3 terminal device: GND, V<sub>CC</sub> (2.3 to 5.5V), <sub>OUT</sub> (0 to  V<sub>CC</sub> V)
+- [https://sensing.honeywell.com/hallbook.pdf](https://sensing.honeywell.com/hallbook.pdf) p. 25: "The output of a digital Hall effect sensor is NPN (current sinking, open collector)."
+- p. 26 : "The current sink configuration produces a logic “0” condition when a magnetic field of sufficient magnitude is applied to the sensor."
+- use a pull-up resistor!
+
+<img src="./docs/pcb/hall_sensor_pull-up.jpg" alt="pull-up resistor Hall sensor" width="50%" class="center">
+
+
+### VNH7040AYTR (H-bridge)
+
+###  VL53L0X (distance sensor)
+
+- ToF (time-of-flight) module
+- __940 nm__ VCSEL emitter
 
 

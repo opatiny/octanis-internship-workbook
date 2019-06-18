@@ -15,7 +15,9 @@ The motor board has to be enhanced to become functional. The goal is to solve al
 
 H-bridge component: [__VNH7040AYTR__, Motion Motor Control](https://www.arrow.com/en/products/vnh7040aytr/stmicroelectronics?utm_campaign=octopart_2018&utm_currency=USD&utm_keyword=VNH7040AYTR&utm_medium=aggregator&utm_content=inv_listing&utm_source=octopart)
 
-One of the problems to solve is that the board does not manage __encoders__ of the DC motors.
+Wheels Hall effect sensor: [__TCS40DPR__](../datasheets/TCS40DPR_hall_sensor.pdf)
+
+One of the problems to solve is that the board does not manage __encoders__ of the DC motors. We made reverse engineering to understand which pins of the wheels connector corresponded to the encoder.
 
 ### Distance and bump sensing board (small format)
 
