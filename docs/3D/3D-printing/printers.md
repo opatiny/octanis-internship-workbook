@@ -15,7 +15,7 @@ Then click on generate "Slice now" and then on "Export G-code".
 To vary the slicer setting and the type of pattern of the top and bottom layers and the infill: [https://manual.slic3r.org/expert-mode/print-settings](https://manual.slic3r.org/expert-mode/print-settings)
 
 
-## Global issues
+## Prusa printers issues
 
 ### Firmware update of Prusa printers
 
@@ -50,3 +50,13 @@ Clean a clogged nozzle: [https://www.youtube.com/watch?v=g8uvh6kvr54](https://ww
 - clean printing surface with __isopropanol__
 
 - print a part to check if all the things you did were at all useful...
+
+
+## Errors
+
+### MINTEMP
+
+If you get that error and have the nozzle temperature that is 0/0°, there probably is a connection problem at the level of the temperature probe of the nozzle.
+
+<img src="./prusa_errors/error_mintemp.jpg" alt="mintemp error prusa printer" width="50%" class="center">
+
