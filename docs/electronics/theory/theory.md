@@ -48,11 +48,11 @@ An H-bridge  (half bridge) is an electrical circuit which allows to chose in whi
 
 #### BJT : Bipolar junction transistor
 
-- basically three layers of semi-conductors (like silica) with added components inside the crystal. When voltage is applied on one side, a bridge of charges forms which allows the current to flow.
+- basically three layers of semi-conductors (like silica) with added components inside the crystal. When voltage is applied on one side, a bridge of charges forms which allows the current to flow through.
 - accuracy, low noise
 - when some rules respected, $I_C$ roughly proportional to $I_B$ : $I_C = \beta \cdot I_B$ where $I_B$ is typically 100. $I_C$ and $I_B$ flow to the emitter.
 - beware: $\beta$ can vary a lot (temperature and others)
-- so a transistor is not an on-of switch! You have all the middle values as well
+- so a transistor is not an on-off switch! You have all the middle values as well
 - 
 
 #### FET : Field-effect transistor
@@ -87,7 +87,6 @@ To check : [https://electronics.stackexchange.com/questions/292140/why-is-a-resi
 
 - beware that the output is on! (little orange light next to "output")
 
-
 ### Oscilloscope
 
 - use trigger on edge (abrupt voltage change)
@@ -96,5 +95,5 @@ To check : [https://electronics.stackexchange.com/questions/292140/why-is-a-resi
 ### Multimeter (BM235)
 
 - on resistance analysis mode, click on Select to switch from one mode to the other
-- mode 1: bips when direct electric connection (null resistance)
+- mode 1: beeps when direct electric connection (null resistance)
 - mode 2: indicates resistance

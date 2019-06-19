@@ -125,7 +125,7 @@ __Problem:__ I need something to measure angles (protractor).
 - moved things around with Sam (11-15), company business
 - continued electronics theory doc
 - 
-### 2019.06.18 - w3
+### 2019.06.18
 
 - debrief meeting with Raph and Quentin
 - learned more about transistors
@@ -133,3 +133,14 @@ __Problem:__ I need something to measure angles (protractor).
 - continued working on electronics: reverse engineering wheels
 - wheel teardown and basic soldering (cables to analyse encoder signal)
 - getting started with multimeter, oscilloscope, power supply
+
+### 2019.06.19
+
+What next?
+- repair 3D printer
+- finish both pcbs (motor board and distance sensing board) and send for production
+- verify that we have all the components necessary to solder these boards, if not, order them
+- get lidar, screen and camera
+
+- meeting with insurance people
+- continued getting information about motors implied in the project

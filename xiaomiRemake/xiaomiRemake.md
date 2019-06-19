@@ -18,6 +18,10 @@ _Outer case assembled in Fusion 360_
 
 ### Not making holes for distance sensors
 
+The distance sensor that we want to use (VL53L0X) emits at 940 nm. Referring to the image underneath, clear plexiglass has a high transmittance at this frequency. Therefore, it could be possible to use the distance sensor through the plexiglass (no holes required).
+
+<img src="../datasheets/plexiglass_transmittance_IR.jpg" alt="clear acrylic glass transmittance for IR frequencies" width="50%" class="center">
+
 [plexiglas optical and transmission characteristics](https://www.plexiglas.com/export/sites/plexiglas/.content/medias/downloads/sheet-docs/plexiglas-optical-and-transmission-characteristics.pdf)
 
 ### The hinges
@@ -27,24 +31,7 @@ A first try was made in PLA, but it did not work, for the part broke instead of 
 
 ## Electronics
 
-### TCS40DPR (Hall sensor)
-
-Datasheet: [__TCS40DPR__](./docs/datasheets/TCS40DPR_hall_sensor.pdf)
-
-- Digital Output Magnetic Sensor
-- 3 terminal device: GND, V<sub>CC</sub> (2.3 to 5.5V), <sub>OUT</sub> (0 to  V<sub>CC</sub> V)
-- [https://sensing.honeywell.com/hallbook.pdf](https://sensing.honeywell.com/hallbook.pdf) p. 25: "The output of a digital Hall effect sensor is NPN (current sinking, open collector)."
-- p. 26 : "The current sink configuration produces a logic “0” condition when a magnetic field of sufficient magnitude is applied to the sensor."
-- use a pull-up resistor!
-
-<img src="./docs/pcb/hall_sensor_pull-up.jpg" alt="pull-up resistor Hall sensor" width="50%" class="center">
 
 
-### VNH7040AYTR (H-bridge)
-
-###  VL53L0X (distance sensor)
-
-- ToF (time-of-flight) module
-- __940 nm__ VCSEL emitter
 
 
