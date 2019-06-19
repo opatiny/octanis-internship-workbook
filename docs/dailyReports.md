@@ -144,3 +144,4 @@ What next?
 
 - meeting with insurance people
 - continued getting information about motors implied in the project
+- working on motor board
