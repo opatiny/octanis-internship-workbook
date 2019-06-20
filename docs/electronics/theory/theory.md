@@ -44,20 +44,27 @@ An H-bridge  (half bridge) is an electrical circuit which allows to chose in whi
 
 - the names npn and pnp refer to the layers inside the component
 - transistors have replaced __vacuum tubes__ aka __valves__ because they heat less and can be a lot smaller
+- __SOT :__ Small Outline Transistor
+- logic gates out of transistors: [https://www.youtube.com/watch?v=SW2Bwc17_wA](https://www.youtube.com/watch?v=SW2Bwc17_wA)
+- BJT and FET : [https://www.youtube.com/watch?v=Bine_PbyFSQ](https://www.youtube.com/watch?v=Bine_PbyFSQ)
+- 
 
 
 #### BJT : Bipolar junction transistor
 
 - basically three layers of semi-conductors (like silica) with added components inside the crystal. When voltage is applied on one side, a bridge of charges forms which allows the current to flow through.
 - accuracy, low noise
+- base, emitter, collector
 - when some rules respected, $I_C$ roughly proportional to $I_B$ : $I_C = \beta \cdot I_B$ where $I_B$ is typically 100. $I_C$ and $I_B$ flow to the emitter.
 - beware: $\beta$ can vary a lot (temperature and others)
 - so a transistor is not an on-off switch! You have all the middle values as well
-- 
+
 
 #### FET : Field-effect transistor
 
 - low power, high impedence, high current switching
+- gate, source, drain
+- the output current is proportional to the voltage at the gate
 - __MOSFET:__ Metal Oxide Semiconductor Field-Effect Transistor
 
 

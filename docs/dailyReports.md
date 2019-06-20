@@ -150,8 +150,8 @@ What next?
 
 - finished motor board layout
 - read Octanis Instruments Internal README
-- 
-
+- watched KiCAD tutorials
+- tried making logic gates using transistors
 
 TO DO:
 - watch this till the end! [https://www.autodesk.com/autodesk-university/class/Assemblies-Putting-It-Together-Fusion-360-2017#video](https://www.autodesk.com/autodesk-university/class/Assemblies-Putting-It-Together-Fusion-360-2017#video)
