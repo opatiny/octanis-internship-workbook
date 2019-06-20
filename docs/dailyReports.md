@@ -136,12 +136,22 @@ __Problem:__ I need something to measure angles (protractor).
 
 ### 2019.06.19
 
+- meeting with insurance people
+- continued getting information about motors implied in the project
+- working on motor board (KiCAD)
+
 What next?
 - repair 3D printer
 - finish both pcbs (motor board and distance sensing board) and send for production
 - verify that we have all the components necessary to solder these boards, if not, order them
 - get lidar, screen and camera
 
-- meeting with insurance people
-- continued getting information about motors implied in the project
-- working on motor board
+### 2019.06.20
+
+- finished motor board layout
+- read Octanis Instruments Internal README
+- 
+
+
+TO DO:
+- watch this till the end! [https://www.autodesk.com/autodesk-university/class/Assemblies-Putting-It-Together-Fusion-360-2017#video](https://www.autodesk.com/autodesk-university/class/Assemblies-Putting-It-Together-Fusion-360-2017#video)
