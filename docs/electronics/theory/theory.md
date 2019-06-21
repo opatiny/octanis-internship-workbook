@@ -40,15 +40,15 @@ An H-bridge  (half bridge) is an electrical circuit which allows to chose in whi
 - __npm__ and __pnp__: one has the opposite polarities of the other
 - __npm__ : open when no current, closed when current
 
-<img src="./transistor.gif" alt="case assembly" width="60%" class="center">
+<img src="./transistors.gif" alt="npn pnp difference" width="60%" class="center">
 
 - the names npn and pnp refer to the layers inside the component
 - transistors have replaced __vacuum tubes__ aka __valves__ because they heat less and can be a lot smaller
 - __SOT :__ Small Outline Transistor
 - logic gates out of transistors: [https://www.youtube.com/watch?v=SW2Bwc17_wA](https://www.youtube.com/watch?v=SW2Bwc17_wA)
 - BJT and FET : [https://www.youtube.com/watch?v=Bine_PbyFSQ](https://www.youtube.com/watch?v=Bine_PbyFSQ)
-- 
 
+<img src="./transistors_nomenclature.jpg" alt="bjt fet comparison" width="60%" class="center">
 
 #### BJT : Bipolar junction transistor
 
