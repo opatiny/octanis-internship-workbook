@@ -29,6 +29,7 @@ GitLab: [https://make.octanis.ch/oi/workbook/oceane.patiny](https://make.octanis
 - Trace width calculator: [https://www.4pcb.com/trace-width-calculator.html](https://www.4pcb.com/trace-width-calculator.html)
 - Big components database: [DigiKey](https://www.digikey.com/)
 - specifications of a manufacturer about pcb layout: [https://oshpark.com/#support](https://oshpark.com/#support)
+- STM32CubeMX (to make configuration of STM32 easier, application): [https://www.st.com/en/development-tools/stm32cubemx.html](https://www.st.com/en/development-tools/stm32cubemx.html)
 
 
 ### Tools

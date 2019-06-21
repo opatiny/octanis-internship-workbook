@@ -155,3 +155,11 @@ What next?
 
 TO DO:
 - watch this till the end! [https://www.autodesk.com/autodesk-university/class/Assemblies-Putting-It-Together-Fusion-360-2017#video](https://www.autodesk.com/autodesk-university/class/Assemblies-Putting-It-Together-Fusion-360-2017#video)
+
+### 2019.06.21
+
+- work on electronics theory
+- initiate the logic gates building blocks project
+- TO DO: order Coral usb stick
+- started distance sensing board
+- installed and started using STM32CubeMX

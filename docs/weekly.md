@@ -29,12 +29,29 @@
   - Screws: M3x12 (100), 
   - Angle measurement device
   - Brass brush
-  - Nylon
+  - Nylon 3D printer filament
   - Battery
 
 My remarks:
-- resumed the things I learned in Fusion (assembly, technical drawing) and while repairing the 3D printers (cold pull)
+- resumed the things I learned in Fusion (assembly, technical drawing) and how to repair the 3D printers (cold pull)
 - understand H bridge
 - find / reverse engineer wheels motors pin-out
 - try printing hinge in flexible material!
 - add an easy way to remove the battery for recharge!
+
+## 2019-06-12 10:00h (without Sam)
+
+Things to do soon:
+- finish motor board
+- make distance sensing board
+- start understanding coral
+- start understanding lidar
+- 
+
+Things to get:
+- Coral USB stick
+- Screen 
+- Camera
+- Lidar
+- Screws
+- Battery
