@@ -42,6 +42,15 @@ Wheels reverse engineered electric scheme:
 <img src="../pictures/electronics/wheel_elec_scheme.jpg" alt="wheel encoder electrical scheme"  rotate="180" width="80%" class="center">
 
 
+#### MPN of a few components
+
+Blue led orthogonal : IN-S63AS5B
+Red led orthogonal : IN-S63AS5R
+2.2k resistor : RC0603JR-072K2L
+10K resistor : RC0603JR-0710KL
+microblade connector 4 pins : 53261-0471
+
+
 ### Distance and bump sensing board (small format)
 
 To design!
@@ -56,6 +65,10 @@ Board to board connector: [https://www.digikey.com/en/product-highlight/a/amphen
 
 - ToF (time-of-flight) module
 - __940 nm__ VCSEL emitter
+
+#### MPN of a few components
+
+AVX 6 pos BTB connector: 009159006551906
 
 
 ### Coral board (small format)

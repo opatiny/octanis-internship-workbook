@@ -42,7 +42,8 @@ __Ctrl + d :__ duplicate / copy
 - __edit design rules :__ 
 - __ratsnest :__ all of the airwires
 
-## Import new footprints (DigiKey)
+## Import new footprints
+__DigiKey :__
 - go on DigiKey : [https://www.digikey.com/](https://www.digikey.com/)
 - search for your part by typing it's reference
 - chose the right category (i.e.: Sensors, Transducers)
@@ -50,6 +51,9 @@ __Ctrl + d :__ duplicate / copy
 - go under Documents & Media
 - go under EDA / CAD Models and click on the part "by SnapEDA"
 - click on Download Symbol and Footprint -> KiCAD
+
+__Component search engine :__
+[http://componentsearchengine.com/](http://componentsearchengine.com/)
 
 
 ## Create new footprints

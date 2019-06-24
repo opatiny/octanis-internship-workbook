@@ -88,6 +88,7 @@ To check : [https://electronics.stackexchange.com/questions/292140/why-is-a-resi
 - __NC:__ Not Connected
 - __open-load :__
 - __MPN__ : manufacturer part number
+- __BTB :__ board to board (for connectors)
 
 
 ## Tools tips
