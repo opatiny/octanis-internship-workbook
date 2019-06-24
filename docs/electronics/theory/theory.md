@@ -87,6 +87,8 @@ To check : [https://electronics.stackexchange.com/questions/292140/why-is-a-resi
 - __low-side and high-side :__ whether it is on the high potential or the low potential side
 - __NC:__ Not Connected
 - __open-load :__
+- __MPN__ : manufacturer part number
+
 
 ## Tools tips
 

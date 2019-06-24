@@ -1,7 +1,7 @@
-# XIAOMI MI ROBOROCK Remake
+# Vacuum cleaner robot
 
 ## Goal
-Make a vacuum cleaning robot applying the technologies developped at Octanis Instruments. The robot will use some of the same components as the Xiaomi Mi Roborock robot. Yet, all the user interface, the electronics and the sensors will be new.
+Make a vacuum cleaning robot applying the technologies developped at Octanis Instruments. The robot will use some of the same components as the Xiaomi Mi Roborock (already existing vacuum cleaner robot). Yet, all the user interface, the electronics and the sensors will be new.
 
 ## Mechanics
 

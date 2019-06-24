@@ -4,7 +4,6 @@
 
 - [https://webmail.gandi.net/roundcube/?_task=mail&_mbox=INBOX](https://webmail.gandi.net/roundcube/?_task=mail&_mbox=INBOX) : email
 - [https://ikea.octanis.ch/index.php/apps/files/?dir=/&fileid=83347](https://ikea.octanis.ch/index.php/apps/files/?dir=/&fileid=83347) : drive
-- partial screenshot to clipboard Windows: Windows + Shift + S
 
 ## CAD
 
@@ -30,6 +29,7 @@ GitLab: [https://make.octanis.ch/oi/workbook/oceane.patiny](https://make.octanis
 - Big components database: [DigiKey](https://www.digikey.com/)
 - specifications of a manufacturer about pcb layout: [https://oshpark.com/#support](https://oshpark.com/#support)
 - STM32CubeMX (to make configuration of STM32 easier, application): [https://www.st.com/en/development-tools/stm32cubemx.html](https://www.st.com/en/development-tools/stm32cubemx.html)
+- create BOM and directly order by DigiKey: use [octopart.com](octopart.com)
 
 
 ### Tools

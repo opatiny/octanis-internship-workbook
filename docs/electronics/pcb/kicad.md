@@ -64,3 +64,14 @@ __Ctrl + d :__ duplicate / copy
 - always rather __protect to much__ than not enough -> for instance power inputs, protect for inverted inputs
 - __avoid acute angles__, which make acid traps -> acid remains at these places after board finished and slowly eat the copper traces (not so mush this problem anymore). Yet other problems could occur with high frequencies signals: reflection -> interferences, magnetic fields induced
 - use the 3D viewer after making the layout to be sure the labels are well visible
+
+## Creating BOM (bill of materials)
+
+Two distinct BOMs are created. First, a complete BOM is generated based on the KiCAD layout and is added to the folder so that the person assembling the PCB has an exhaustive list of the components he needs. Secondly, a BOM with only the components specific to the board is created in [octopart.com](octopart.com), which allows to directly order all the parts on DigiKey.
+
+### Export BOM from KiCAD
+
+On the PCB layout go to File -> Fabrication Outputs -> BOM File...
+
+Good to know: __MPN__ = manufacturer part number
+

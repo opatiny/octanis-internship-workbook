@@ -163,3 +163,8 @@ TO DO:
 - TO DO: order Coral usb stick
 - started distance sensing board
 - installed and started using STM32CubeMX
+
+### 2019.06.24
+
+- made BOM for motor board (kicad and octopart)
+- continued distance board -> have to make daughter board for perpendicular sensor: use edge connectors or make a rigid-flex PCB?
