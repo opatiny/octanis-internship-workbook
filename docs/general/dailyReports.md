@@ -164,7 +164,14 @@ TO DO:
 - started distance sensing board
 - installed and started using STM32CubeMX
 
-### 2019.06.24
+### 2019.06.24 - w4
 
-- made BOM for motor board (kicad and octopart)
+- tried to make made BOM for motor board (kicad and octopart) but encountered problems: the imported BOM parts were not recognized by octopart
+- more problems in KiCAD with the motor board: cannot open schematic, error message says that only one input source is allowed or that the file is already open
 - continued distance board -> have to make daughter board for perpendicular sensor: use edge connectors or make a rigid-flex PCB?
+- quick explanation of Sam about the photo diodes and the micro-fluidics small projects
+
+### 2019.06.25
+
+- tried to laser cut test files and had a -Z limit error
+- 
