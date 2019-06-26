@@ -17,14 +17,25 @@ File formats accepted: DXF and SVG
 - in the Move tab, press Focus Z
 - set you Origin (preferably user define origin)
 - check cut dimensions (go scale)
-- turn filter compressor on
+- turn filter and compressor on
 - insert key to turn on the laser
 - cut you part
 - remove key
-- turn off compressor
+- turn filter and compressor off
 - turn off chiller
 - turn off computer
 - turn off laser cutter 
+
+## Errors
+
+### X or Y hard limit error
+
+- clear the error
+- press home
+
+### -Z hard limit error
+
+Once you get this error (because the laser hit the bed or something), the software doesn't allow you to move the bed up or down anymore. So, you have move it down. To do that, slip your fingers under the front panel of the laser cutter to access the belt. Pilling it towards the right should make the bed go down. Clear the error.
 
 ## Links
 

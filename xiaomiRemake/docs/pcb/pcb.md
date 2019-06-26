@@ -48,12 +48,10 @@ Blue led orthogonal : IN-S63AS5B
 Red led orthogonal : IN-S63AS5R
 2.2k resistor : RC0603JR-072K2L
 10K resistor : RC0603JR-0710KL
-microblade connector 4 pins : 53261-0471
+molex microblade connector 4 pins : 53261-0471
 
 
 ### Distance and bump sensing board (small format)
-
-To design!
 
 Each board should include two distance sensors, one vertical (to prevent fall) and one horizontal, and one bump sensor. The sensor we want to use is an SMD, therefore, a daughter board has to be designed to have one sensor perpendicular to the other. Another possibility, as Sam says, would be to make a __rigid-flex PCB__.
 

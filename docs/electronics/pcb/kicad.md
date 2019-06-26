@@ -58,10 +58,11 @@ __Component search engine :__
 
 ## Create new footprints
 
+When opening a project, the symbol and footprint editors are in Preferences.
+
 ### Schematic
 
 ### Layout
-
 
 ## Rules to apply for good PCBs
 
@@ -75,7 +76,42 @@ Two distinct BOMs are created. First, a complete BOM is generated based on the K
 
 ### Export BOM from KiCAD
 
-On the PCB layout go to File -> Fabrication Outputs -> BOM File...
+Click on the export BOM icon on the schematics and use the following command (adapt the path!!), then click generate
+
+```
+python "/Users/raffael/Desktop/OctanisOÜ/Octanis Instruments/Engineering/KiCAD/BOM_tool/gistfile1.py" "%I" "%O_BOM.csv"
+```
+
+Adapted to my computer:
+```
+python "C:\Users\opatiny\Nextcloud\Octanis Instruments\Engineering\KiCAD\BOM_tool/gistfile1.py" "%I" "%O"
+```
 
 Good to know: __MPN__ = manufacturer part number
 
+## Various issues
+
+### "error loading schematic file expected single character token in input source kicad"
+
+<img src="./schematic-error.jpg" alt="schematic error message" width="50%" class="center">
+
+This error appeared after I added MPN fields in the components description, closed my schematic and tried to open it again. After looking at the text file, it appeared that they were extra CR (carriage return) were the MPN fields were defined. They were removed using a regular expression, which fixed the problem.
+
+### library is charged without error but component doesn't appear (footprint)
+
+- always charge libraries using the __little folder icon__! This really helps
+- check and re-check that the library is at the right emplacement
+
+### 4 layers PCB
+
+In the PCB layout click on File -> Board setup... -> Copper layers
+
+### get usable footprint from .mod file
+
+- place your .mod file at the same level as the project you want to use it in
+- open Manage Footprint Libraries
+- import the .mod file using the folder icon
+- go to the Footprint editor
+- open the footprint (scroll in the libraries on the left)
+- click on File -> Export footprint
+- save the footprint in the lib_fp folder

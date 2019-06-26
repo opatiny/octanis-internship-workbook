@@ -46,7 +46,6 @@ Things to do soon:
 - make distance sensing board
 - start understanding coral
 - start understanding lidar
-- 
 
 Things to get:
 - Coral USB stick
@@ -55,3 +54,15 @@ Things to get:
 - Lidar
 - Screws
 - Battery
+
+## 2019-06-26 10:00h (without Sam)
+
+Progress of last week specifically on the vacuum project is not very big. Lots of parentheses have been done (testing things with the 3D printer, the laser cutter, learning about transistor logic).
+
+To do next week?
+- priority 0 : finish and order distance boards (-> investigate rigid-flex PCB?), understand how to export good BOM and import it to Octopart
+- priority 1 : get missing parts (lidar, camera, battery)
+- priority 1 : setup computer for STM32 programming and write basic program (-> photo-diodes small project)
+- priority 3 : continue fusion 360 parts for vacuum cleaner
+- priority 4 : investigate micro-fluidics application
+  
