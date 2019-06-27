@@ -34,3 +34,11 @@ GitLab: [https://make.octanis.ch/oi/workbook/oceane.patiny](https://make.octanis
 
 ### Tools
 - BM235 multimeter datasheet: [https://www.eevblog.com/files/BM235-Manual-EEVblog.pdf](https://www.eevblog.com/files/BM235-Manual-EEVblog.pdf)
+
+### PCB manufacturers
+
+- [https://www.pcbway.com](https://www.pcbway.com)
+- [https://www.seeedstudio.com/fusion_pcb.html](https://www.seeedstudio.com/fusion_pcb.html)
+- [https://www.elecrow.com/](https://www.elecrow.com/)
+- [https://jlcpcb.com/](https://jlcpcb.com/)
+- 

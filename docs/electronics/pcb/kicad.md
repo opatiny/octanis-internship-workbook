@@ -20,9 +20,12 @@ __g :__ grab
 __m :__ move
 __p :__ add power component
 __r :__ rotate
+__q :__ add a NC symbol
 
 - __no connect :__ blue cross on the right toolbar
 - edit the text at the bottom of a sketch: File -> Page Settings
+- add __power flags__ every time you have a tension difference at a connector
+- run debugger once schematic is finished -> you should correct all the errors
 
 ### PCB
 
@@ -33,10 +36,12 @@ __e :__ access properties of component
 __f :__ move component to the other face
 __d :__ move tracks according to design rules and nice angles
 __b :__ refill zones
+__u :__ select wire till next intersection
+__i :__ select whole wire
 
 __Ctrl + d :__ duplicate / copy
 
-- __copper zone:__ right menu -> Add filled zones -> chose layer
+- __copper zone:__ click on right layer -> add filled zone (right menu)
 - edit __zone priority level__: press "e" while on zone and modify "Zone priority level", the bigger the number, the higher the priority
 - __update copper zone :__ right-click on zone -> Zones... -> Fill
 - __edit design rules :__ 
@@ -69,6 +74,9 @@ When opening a project, the symbol and footprint editors are in Preferences.
 - always rather __protect to much__ than not enough -> for instance power inputs, protect for inverted inputs
 - __avoid acute angles__, which make acid traps -> acid remains at these places after board finished and slowly eat the copper traces (not so mush this problem anymore). Yet other problems could occur with high frequencies signals: reflection -> interferences, magnetic fields induced
 - use the 3D viewer after making the layout to be sure the labels are well visible
+- make thicker wires for power traces, all signal traces can be thin (leds, communication)
+- place capacitors next to the source of the signal you want to filter (inductances as well)
+- try to have no errors at all with the bug checker in the schematic
 
 ## Creating BOM (bill of materials)
 
@@ -82,9 +90,9 @@ Click on the export BOM icon on the schematics and use the following command (ad
 python "/Users/raffael/Desktop/OctanisOÜ/Octanis Instruments/Engineering/KiCAD/BOM_tool/gistfile1.py" "%I" "%O_BOM.csv"
 ```
 
-Adapted to my computer:
+Adapted to my computer (doesn't work, exports .xml):
 ```
-python "C:\Users\opatiny\Nextcloud\Octanis Instruments\Engineering\KiCAD\BOM_tool/gistfile1.py" "%I" "%O"
+python "C:\Users\opatiny\Nextcloud\Octanis Instruments\Engineering\KiCAD\BOM_tool\gistfile1.py" "%I" "%O"
 ```
 
 Good to know: __MPN__ = manufacturer part number
@@ -115,3 +123,7 @@ In the PCB layout click on File -> Board setup... -> Copper layers
 - open the footprint (scroll in the libraries on the left)
 - click on File -> Export footprint
 - save the footprint in the lib_fp folder
+
+### footprints seem not to snap on grid
+
+Beware what part of the component you have selected. I you selected a pad, it will align on the pad, if you selected the middle of the component, it aligns on it.

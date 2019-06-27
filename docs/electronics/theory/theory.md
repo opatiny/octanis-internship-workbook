@@ -78,17 +78,19 @@ To check : [https://electronics.stackexchange.com/questions/292140/why-is-a-resi
 
 ## Vocabulary
 
-- __IC :__ integrated circuit
+__BTB :__ board to board (for connectors)
+
 - __clamp :__
 - __current drift :__
 - __drain :__
 - __hysteresis :__ lag in a physical response to an input (response occurs only after the effect)
+- __IC :__ integrated circuit
 - __leakage current :__ in general, current that goes through something when it is open (no connection). In the case of a capacitor, current that goes through because the isolator is not perfect
 - __low-side and high-side :__ whether it is on the high potential or the low potential side
+- __MPN__ : manufacturer part number
 - __NC:__ Not Connected
 - __open-load :__
-- __MPN__ : manufacturer part number
-- __BTB :__ board to board (for connectors)
+- __open drain or open collector output :__
 
 
 ## Tools tips

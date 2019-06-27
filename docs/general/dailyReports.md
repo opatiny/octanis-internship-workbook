@@ -177,4 +177,12 @@ TO DO:
 - debug schematic of motor board and continue distance board
 - start assembling 3 computer boards -> used solder paste and the pick and place
 
-### 2019.06.25
+### 2019.06.26
+
+- manage to use the laser cutter autonomously -> problems with Frame -> the cut doesn't start where the origin is
+- continued learning kicad -> libraries import
+- continued distance mother board
+
+### 2019.06.27
+
+- work on distance module: finished mother schematic and started layout
