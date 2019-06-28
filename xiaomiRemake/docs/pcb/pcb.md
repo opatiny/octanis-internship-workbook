@@ -1,11 +1,11 @@
-## The PCBs of the robot
+# The PCBs of the robot
 
 [Home](../../../README.md) | [Project main page](../../xiaomiRemake.md)
 
-### Computer board (big format)
+## Computer board (big format)
 The computer board is the main board of the project. A Raspberry PI slides onto it and acts as the main micro-controller. The Lidar, the screen and the battery will be directly connected to it.
 
-### DC motor board (big format)
+## DC motor board (big format)
 
 Project cloned with: `git clone ssh://git@make.octanis.ch:2222/oi/oibus-dc-motor-controller.git`
 
@@ -23,9 +23,9 @@ __Wheels Hall effect sensor:__ [__TCS40DPR__](../datasheets/TCS40DPR_hall_sensor
 
 One of the problems to solve is that the board does not manage __encoders__ of the DC motors. We made reverse engineering to understand which pins of the wheels connector corresponded to the encoder.
 
-#### VNH7040AYTR (H-bridge)
+### VNH7040AYTR (H-bridge)
 
-#### TCS40DPR (Hall sensor, encoder of the wheels)
+### TCS40DPR (Hall sensor, encoder of the wheels)
 
 Datasheet: [__TCS40DPR__](../datasheets/hallSensor/TCS40DPR_hall_sensor.pdf)
 
@@ -44,7 +44,7 @@ Wheels reverse engineered electric scheme:
 <img src="../pictures/electronics/wheel_elec_scheme.jpg" alt="wheel encoder electrical scheme"  rotate="180" width="80%" class="center">
 
 
-#### MPN of a few components
+### MPN of a few components
 
 Blue led orthogonal : IN-S63AS5B
 Red led orthogonal : IN-S63AS5R
@@ -53,26 +53,33 @@ Red led orthogonal : IN-S63AS5R
 molex microblade connector 4 pins : 53261-0471
 
 
-### Distance and bump sensing board (small format)
+## Distance and bump sensing board (small format)
 
 Each board should include two distance sensors, one vertical (to prevent fall) and one horizontal, and one bump sensor. The sensor we want to use is an SMD, therefore, a daughter board has to be designed to have one sensor perpendicular to the other. Another possibility, as Sam says, would be to make a __rigid-flex PCB__.
 
 Distance sensor: [__VL53L0X, Time-of-Flight (ToF) ranging sensor__](https://www.st.com/en/mems-and-sensors/proximity-sensors.html#products)
 
+Snap switch (endstop): [https://www.digikey.com/product-detail/en/zf-electronics/DB3CB1LB/CH880-ND/1083873](https://www.digikey.com/product-detail/en/zf-electronics/DB3CB1LB/CH880-ND/1083873)
+
 Board to board connector: [https://www.digikey.com/en/product-highlight/a/amphenol-fci/minitek-connectors](https://www.digikey.com/en/product-highlight/a/amphenol-fci/minitek-connectors)
 
-####  VL53L0X (distance sensor)
+AVX board-to-board connector spec for male layout:
+<img src="../datasheets/avx-connector/avx-btb-conn-6pos-male-layout.jpg" alt="avx btb conn 6pos male layout"  rotate="180" width="80%" class="center">
+
+
+###  VL53L0X (distance sensor)
 
 - ToF (time-of-flight) module
 - __940 nm__ VCSEL emitter
 
-#### MPN of a few components
+### MPN of a few components
 
 AVX 6 pos BTB connector: 009159006551906
+Limit switch: DB3CB1LB
 
 
-### Coral board (small format)
+## Coral board (small format)
 
 To design!
 
-Coral is an IA that detects objects and recognizes them. A board integrating it will be needed.
+Coral is an IA that detects objects and recognizes them. A board integrating it will be needed. THe coral hardware is a USB stick

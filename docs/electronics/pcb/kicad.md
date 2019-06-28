@@ -25,10 +25,12 @@ __p :__ add power component
 __r :__ rotate
 __q :__ add a NC symbol
 
+
 - __no connect :__ blue cross on the right toolbar
 - edit the text at the bottom of a sketch: File -> Page Settings
 - add __power flags__ every time you have a tension difference at a connector
 - run debugger once schematic is finished -> you should correct all the errors
+- add MPN to a part: click on the Edit symbol fields icon in the schematic
 
 ### PCB
 
@@ -42,6 +44,7 @@ __b :__ refill zones
 __u :__ select wire till next intersection
 __i :__ select whole wire
 
+
 __Ctrl + d :__ duplicate / copy
 
 - __copper zone:__ click on right layer -> add filled zone (right menu)
@@ -49,6 +52,8 @@ __Ctrl + d :__ duplicate / copy
 - __update copper zone :__ right-click on zone -> Zones... -> Fill
 - __edit design rules :__ 
 - __ratsnest :__ all of the airwires
+- __DRC :__ design rule checker (the ladybird)
+- __design rules :__ File -> Board setup -> Design rules
 
 ## Import new footprints
 __DigiKey :__
@@ -80,6 +85,14 @@ When opening a project, the symbol and footprint editors are in Preferences.
 - make thicker wires for power traces, all signal traces can be thin (leds, communication)
 - place capacitors next to the source of the signal you want to filter (inductances as well)
 - try to have no errors at all with the bug checker in the schematic
+
+
+## Create Gerber files
+
+On the board layout, go to File -> Plot
+
+Check Gerbers are good: Project page -> Tools ->Rub Gerbview
+
 
 ## Creating BOM (bill of materials)
 

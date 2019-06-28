@@ -43,4 +43,11 @@ GitLab: [https://make.octanis.ch/oi/workbook/oceane.patiny](https://make.octanis
 - [https://www.seeedstudio.com/fusion_pcb.html](https://www.seeedstudio.com/fusion_pcb.html)
 - [https://www.elecrow.com/](https://www.elecrow.com/)
 - [https://jlcpcb.com/](https://jlcpcb.com/)
-- 
+  
+
+### Components sellers
+- DigiKey: [digikey.com](digikey.com)
+- LCSC: [lcsc.com](lcsc.com)
+- Conrad: [www.conrad.ch/de/](www.conrad.ch/de/)
+- Reichelt: [https://www.reichelt.com/ch/en/](https://www.reichelt.com/ch/en/)
+

@@ -190,3 +190,5 @@ TO DO:
 - work on distance module: finished mother schematic and started layout
 
 ### 2019.06.28
+
+- work on mother and daughter distance boards schematics and layouts
