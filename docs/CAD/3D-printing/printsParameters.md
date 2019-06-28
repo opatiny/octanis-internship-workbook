@@ -72,3 +72,8 @@
 
 -> __solution:__ heating the bed at 70C instead of 60C and cleaning it with isopropanol first really made a difference in the adhesion
 
+### corner v15 (with thread)
+- Print settings: 0.2mm QUALITY
+- Filament: Prusament PLA (black)
+- Infill: 25%
+

@@ -100,15 +100,11 @@ Two distinct BOMs are created. First, a complete BOM is generated based on the K
 
 ### Export BOM from KiCAD
 
-Click on the export BOM icon on the schematics and use the following command (adapt the path!!), then click generate
+Click on the export BOM icon on the schematics and chose the bom2grouped_csv plugin, then click generate.
 
+On Mac, use this command (link to adapt):
 ```
 python "/Users/raffael/Desktop/OctanisOÜ/Octanis Instruments/Engineering/KiCAD/BOM_tool/gistfile1.py" "%I" "%O_BOM.csv"
-```
-
-Adapted to my computer (doesn't work, exports .xml):
-```
-python "C:\Users\opatiny\Nextcloud\Octanis Instruments\Engineering\KiCAD\BOM_tool\gistfile1.py" "%I" "%O"
 ```
 
 Good to know: __MPN__ = manufacturer part number

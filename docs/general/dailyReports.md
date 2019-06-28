@@ -192,3 +192,7 @@ TO DO:
 ### 2019.06.28
 
 - work on mother and daughter distance boards schematics and layouts
+- continued watching KiCAD tutorial
+- finally managed exporting BOM for motor and distance boards (in octopart)
+- ran corner v15 3D print, which failed
+ 
