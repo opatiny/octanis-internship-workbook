@@ -1,5 +1,7 @@
 # Various useful / interesting links
 
+[Home](../README.md)
+
 ## Global
 
 - [https://webmail.gandi.net/roundcube/?_task=mail&_mbox=INBOX](https://webmail.gandi.net/roundcube/?_task=mail&_mbox=INBOX) : email

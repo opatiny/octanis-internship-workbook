@@ -1,5 +1,7 @@
 # Internship at Octanis Instruments: diary
 
+[Home](../../README.md) | [Weekly meetings conclusions](./weekly.md)
+
 ## June
 
 ### 2019.06.03 - w1
@@ -186,3 +188,5 @@ TO DO:
 ### 2019.06.27
 
 - work on distance module: finished mother schematic and started layout
+
+### 2019.06.28

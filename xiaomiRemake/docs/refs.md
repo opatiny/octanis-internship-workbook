@@ -1,5 +1,7 @@
 ## Interesting links / references
 
+[Home](../../README.md) | [Project main page](../xiaomiRemake.md)
+
 ### Mechanics
 
 Global insight of the robot (teardown):

@@ -1,5 +1,7 @@
 # 3D printers cheat sheet
 
+[Home](../../../README.md) | [Prints parameters](./printsParameters.md)
+
 Click [here](./printsParameters.md) to consult the parameters of all the prints that were realized.
 
 ## PrusaSlicer

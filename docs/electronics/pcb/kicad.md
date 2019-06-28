@@ -1,5 +1,8 @@
 # KiCAD : things good to know
 
+[Home](../../../README.md) | [Rigid-flex PCB](./rigid-flex.md) | [Electronics theory](../theory/theory.md)
+
+
 ## Tutorials and links
 General introduction:
 [youtube.com/watch?v=zK3rDhJqMu0](youtube.com/watch?v=zK3rDhJqMu0)

@@ -1,5 +1,7 @@
 # Making rigid-flex PCBs
 
+[Home](../../../README.md) | [KiCAD cheatsheet](./kicad.md) | [Electronics theory](../theory/theory.md)
+
 Rigid-flex PCBs are PCBs with rigid and flexible parts, which allows to bend the PCB to optimise space. They can also be used in application where the PCB is bent repeatedly.
 
 

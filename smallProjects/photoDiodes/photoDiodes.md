@@ -1,6 +1,8 @@
 # Read values of photo-diodes board 
 
-Setup environment to program STM32 : [https://wiki.octanis.org/stm32/vscode](https://wiki.octanis.org/stm32/vscode)
+[Home](../../README.md)
+
+Setup environment to program STM32 on Windows: [https://wiki.octanis.org/stm32/vscode](https://wiki.octanis.org/stm32/vscode)
 
 __Goal:__ Getting started with programming of the STM32. Generate a 10MH frequency for the photo-diodes board. Power that board and manage to retrieve data from the chip.
 

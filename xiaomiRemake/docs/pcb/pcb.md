@@ -1,5 +1,7 @@
 ## The PCBs of the robot
 
+[Home](../../../README.md) | [Project main page](../../xiaomiRemake.md)
+
 ### Computer board (big format)
 The computer board is the main board of the project. A Raspberry PI slides onto it and acts as the main micro-controller. The Lidar, the screen and the battery will be directly connected to it.
 

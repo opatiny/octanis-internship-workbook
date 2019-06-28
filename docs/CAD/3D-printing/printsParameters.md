@@ -1,5 +1,7 @@
 ## Printed parts parameters
 
+[Home](../../../README.md) | [3D printing cheatsheet](./printers.md)
+
 ### front wheel v4
 
 - Print settings: 0.2mm QUALITY

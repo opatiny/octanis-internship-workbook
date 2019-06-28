@@ -1,5 +1,7 @@
 # Weekly meetings
 
+[Home](../../README.md) | [Daily reports](./dailyReports.md) 
+
 ## 2019-06-05 10:00h
 
 - use o-ring to connect pump to dust collector

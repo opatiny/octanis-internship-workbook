@@ -1,5 +1,7 @@
 # Theoretical knowledge in electronics and general observations
 
+[Home](../../../README.md) | [KiCAD cheatsheet](../pcb/kicad.md) | [Rigid-flex PCB](../pcb/rigid-flex.md)
+
 ## Concepts
 
 ### Hall effect

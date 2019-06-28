@@ -1,5 +1,7 @@
 # Vacuum cleaner robot
 
+[Home](../README.md) | [Links / references](./docs/refs.md) | [Project PCBs doc](./docs/pcd/pcb.md)
+
 ## Goal
 Make a vacuum cleaning robot applying the technologies developped at Octanis Instruments. The robot will use some of the same components as the Xiaomi Mi Roborock (already existing vacuum cleaner robot). Yet, all the user interface, the electronics and the sensors will be new.
 

@@ -1,5 +1,7 @@
 # Micro fluidics application
 
+[Home](../../README.md)
+
 __Goal :__ Find an application in micro-fluidics for the valve control developed by Octanis Instruments. We should consider that it is possible to get a precise pressure at some point in a pneumatic circuit. Design the load.
 
 __Idea :__ Device allowing to get 5 precise concentrations of a solution from a concentrated solution and a solvent. The final solutions should allow to realise calibration curves.
