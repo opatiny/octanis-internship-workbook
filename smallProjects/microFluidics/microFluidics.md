@@ -6,6 +6,11 @@ __Goal :__ Find an application in micro-fluidics for the valve control developed
 
 __Idea :__ Device allowing to get 5 precise concentrations of a solution from a concentrated solution and a solvent. The final solutions should allow to realise calibration curves.
 
+## Interesting points
+
+- Using PDMS resin allows to integrate things inside of the microfluidics chip (sensors, stirrers, heating, microcontrollers,...).
+- ABS can be 3D printed to get nearly any shape and then be dissolved using acetone
+
 ## Links
 
 General micro-fluidics : [https://metafluidics.org/?s=mixer](https://metafluidics.org/?s=mixer)
@@ -22,7 +27,7 @@ Mixers:
 
 [https://www.youtube.com/watch?v=AMQkW9yXjR8](https://www.youtube.com/watch?v=AMQkW9yXjR8)
 
-PDMS resin and ABS filament!!!
+__PDMS resin__ and ABS filament (and acetone)!!!
 [https://www.youtube.com/watch?v=7z8I7awRYY4](https://www.youtube.com/watch?v=7z8I7awRYY4)
 
 Shrink dink (temperature shrinking plastic sheet):
