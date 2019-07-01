@@ -139,3 +139,11 @@ In the PCB layout click on File -> Board setup... -> Copper layers
 ### footprints seem not to snap on grid
 
 Beware what part of the component you have selected. I you selected a pad, it will align on the pad, if you selected the middle of the component, it aligns on it.
+
+### where to place the crystal?
+
+-> [www.ti.com/lit/an/swra495f/swra495f.pdf](www.ti.com/lit/an/swra495f/swra495f.pdf)
+
+- the crystal should be very close to it's capacitors and pins, because it is very low signals (getting noisy very quickly)
+- should be placed over a continuous ground plane
+- far away from high-speed signals

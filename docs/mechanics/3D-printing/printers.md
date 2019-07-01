@@ -25,6 +25,10 @@ __Note:__ The plug for the cable is on the top of the black box on the left.
 
 -> refer to [this pdf](./Firmware_upgrade_guide_EN.pdf)
 
+### Head thermistor replacement
+
+__Procedure:__ [https://manual.prusa3d.com/Guide/How+to+replace+thermistor+in+the+Extruder/496](https://manual.prusa3d.com/Guide/How+to+replace+thermistor+in+the+Extruder/496)
+
 ## Fixing under-extrusion problems and general maintenance
 
 Remove a blob: [https://www.youtube.com/watch?v=mSmJKjibMT0](https://www.youtube.com/watch?v=mSmJKjibMT0)

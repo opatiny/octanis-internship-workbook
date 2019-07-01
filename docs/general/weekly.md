@@ -68,3 +68,27 @@ To do next week?
 - priority 3 : continue fusion 360 parts for vacuum cleaner
 - priority 4 : investigate micro-fluidics application
   
+
+ ## 2019-07-01 11:00h
+
+ Recap of last weeks:
+ - made various tests with the 3D printer, tried printing other PLA filaments (glow in the dark, thermochrome) and encountered problems with adhesion
+ - cleaning the 3D printers after a fail disconnected the head temperature probe and the printer doesn't work anymore
+ - made laser cutter tests
+ - design of motor and distance boards
+ - tried assembly of computer board, saw how the pick and place works
+ - tried to understand transistor logic
+ - started looking for micro-fluidics application
+ - started programming environment setup
+
+WHAT NEXT?
+- __the goal__ would be to have a first prototype that can roll forwards in a few week
+- order the motor and distance sensing PCBs
+- assemble the necessary PCBs
+- start basic programming of STM32
+- start learning the theory about autonomous robots and their interaction with the environment -> follow courses
+- at some point, make first tests with __PDMS resin__: should we consider integrating sensors/heating inside the device?
+- if time: __FPGA__ -> for low level "programming", assign connection between and or and not gates to obtain some output
+
+
+

@@ -122,7 +122,7 @@ __Problem:__ I need something to measure angles (protractor).
 
 ### 2019.06.17 - w3
 
-- try printing thermochrome filament of Robox -> it could be used to make cases that change color in case something is heating up inside
+- try printing thermochrome filament of Robox -> it could be used to make cases that change color when something is heating up inside
 - upgraded MK3 printer firmware
 - moved things around with Sam (11-15), company business
 - continued electronics theory doc
@@ -195,4 +195,11 @@ TO DO:
 - continued watching KiCAD tutorial
 - finally managed exporting BOM for motor and distance boards (in octopart)
 - ran corner v15 3D print, which failed
+- started set up of programming environment on Windows
  
+### 2019.06.28 - w5
+
+- correct distance module mother board layout and learn exporting gerber files
+- continue Windows setup for programming
+- weekly meeting
+
