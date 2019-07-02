@@ -1,21 +1,25 @@
-# Read values of photo-diodes board 
+# Read values of photo-diodes board
 
 [Home](../../README.md)
 
-Setup environment to program STM32 on Windows: [https://wiki.octanis.org/stm32/vscode](https://wiki.octanis.org/stm32/vscode)
+**Goal:** Getting started with programming of the STM32. Generate a 10MH frequency for the photo-diodes board. Power that board and manage to retrieve data from the chip.
 
-__Goal:__ Getting started with programming of the STM32. Generate a 10MH frequency for the photo-diodes board. Power that board and manage to retrieve data from the chip.
+-> check out what **silicon die** is
+-> check out what **quantum efficiency** is
 
--> check out what __silicon die__ is
-
-## The board
+## The STM32 board
 
 The board that we are going to use is a NUCLEO-F303RE STM32.
 
+## Datasheets
+
+ADC chip datasheet: [DDC112](./ddc112.pdf)
+
+Photodiode datasheet: [BPW21R](bpw21r.pdf)
+
+STM32F303RE datasheet: [nucleo-stm32f303re-UM.pdf](./nucleo-stm32f303re-UM.pdf)
 
 ## Links
-
-Blink LED on nucleo-F303RE: [https://os.mbed.com/teams/ST/code/Nucleo_blink_led/](https://os.mbed.com/teams/ST/code/Nucleo_blink_led/)
 
 The chip converting photo-diodes output to value on 20 bits : [https://www.ti.com/product/DDC112](https://www.ti.com/product/DDC112)
 
