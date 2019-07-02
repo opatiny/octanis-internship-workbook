@@ -1,9 +1,11 @@
 # Robotics concepts necessary for the vacuum cleaner project and more
 
+[Home](../../README.md)
+
 We are going to follow two distinct courses of the Albert-Ludwigs-Universität Freiburg to acquire the necessary knowledge:
 
-- [Introduction to Mobile Robotic](http://ais.informatik.uni-freiburg.de/teaching/ss19/robotics/)
-- [Robot Mapping](http://ais.informatik.uni-freiburg.de/teaching/ws18/mapping/)
+- [__Introduction to Mobile Robotic__](http://ais.informatik.uni-freiburg.de/teaching/ss19/robotics/)
+- [__Robot Mapping__](http://ais.informatik.uni-freiburg.de/teaching/ws18/mapping/)
 
 ## Concepts
 
@@ -11,8 +13,8 @@ We are going to follow two distinct courses of the Albert-Ludwigs-Universität F
 
 ### Abbreviations
 
-- __ROS :__
-- __EKF :__
+- __ROS :__ Robot Operating System
+- __EKF :__ Extended Kalman Filter
 
 ## Links
 
