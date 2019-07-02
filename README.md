@@ -20,6 +20,8 @@ Various information that has been useful / doc produced:
 - [KiCAD cheatsheet](./docs/electronics/pcb/kicad.md)
   - [Rigid-flex PCB](./docs/electronics/pcb/rigid-flex.md)
 - [Electronics theory](./docs/electronics/theory/theory.md)
+- [Robotics theory](./docs/robotics/theory.md)
+- [Programming notes](./docs/programming/programming.md)
 - [Windows tips](./docs/windows.md)
 - [Useful webpages](./docs/links.md)
 

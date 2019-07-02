@@ -5,17 +5,17 @@
 ## June
 
 ### 2019.06.03 - w1
+
 - signed contract
 - setup computer
 - installed apps (Fusion360, KiCAD, Git, VS Code), problem with installing Terminal for Windows
-- __project to start working on:__ remake the Xiaomi vacuum cleaner robot using Octanis' technologies
+- **project to start working on:** remake the Xiaomi vacuum cleaner robot using Octanis' technologies
 
 - saw parts already available for vacuum cleaner
 - started getting used to Fusion 360
-- __Note:__ a big disadvantage od Fusion 360 )at least the free startup licence) is that you can't save the files on another support than AutoDesk -> no git (except for the exports)
+- **Note:** a big disadvantage od Fusion 360 )at least the free startup licence) is that you can't save the files on another support than AutoDesk -> no git (except for the exports)
 
-__Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is top-down: I must consider that all the electronics exist and work (-> abstraction!). It's different from all the other projects I have made where I prioritized a bottom-up approach. I could do that since I was working alone. Therefore, I have to learn __teamwork__.
-
+**Remarks:** The approach to the vacuum cleaner that Sam asked me to follow is top-down: I must consider that all the electronics exist and work (-> abstraction!). It's different from all the other projects I have made where I prioritized a bottom-up approach. I could do that since I was working alone. Therefore, I have to learn **teamwork**.
 
 ### 2019.06.04
 
@@ -39,7 +39,6 @@ __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is t
 - design top part
 - think better about how to fix outer PCBs
 
-
 ### 2019.06.05
 
 - modeled and printed second thread test (M5, M4, M3, M2, inner threads) -> they seem to work all fine and well fitted. However, the surface of the part is flawy.
@@ -49,7 +48,7 @@ __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is t
 
 - adapted small PCB box to the vacuum cleaner
 
-- weekly meeting
+- [weekly meeting](./weekly.md)
 
 ### 2019.06.06
 
@@ -61,7 +60,6 @@ __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is t
 
 - made 3D models based on the 2D models for face, top and bottom
 
-
 #### To do tomorrow
 
 - make dust collector / pump part in Fusion 360
@@ -72,9 +70,10 @@ __Remarks:__ The approach to the vacuum cleaner that Sam asked me to follow is t
 - How do I create folders in a Fusion 360 file?
 - learned to import designs from McMaster-Carr database in Fusion 360
 
-__Remark:__ We need to do things for the society's benefits and not always because they are fun.
+**Remark:** We need to do things for the society's benefits and not always because they are fun.
 
 ### 2019.06.11 - w2
+
 - tried fix both Prusa printers, which were under-extruding, resulting docs are [here](./apps/3D/prusa/prusaPrinters.md)
 - printers have been fixed but the prints still have strange little dots on the vertical surfaces
 - learned to make "folders" in Fusion 360 assemblies
@@ -82,15 +81,17 @@ __Remark:__ We need to do things for the society's benefits and not always becau
 
 - made 3D printed model of hinge and printed it out
 
-__Results:__ The hinge doesn't work in PLA. The plastic breaks instead of bending. This could be tried with some flexible material but isn't otherwise a good idea.
+**Results:** The hinge doesn't work in PLA. The plastic breaks instead of bending. This could be tried with some flexible material but isn't otherwise a good idea.
 
-__Problem:__ I need something to measure angles (protractor).
+**Problem:** I need something to measure angles (protractor).
 
 - thought to use only small PCB format but:
+
   1. all the boards just can't be in the small format (like the motherboard)
   2. the goal is to show both formats
 
   Notes to self:
+
   - making all the 3D printed parts for each component will be difficult because they have weird shapes, also, I will have to find a way to manage overhangs -> use supports
   - it would be good to get the main missing parts (lidar, screen, camera)
   - I should start making the missing PCBs, since they take a long time to arrive (1 week at least), I could continue to do things in the mean time
@@ -110,13 +111,13 @@ __Problem:__ I need something to measure angles (protractor).
 
 - made bottom clip : a part to keep the flap closed
 - after discussion with Raph : I should start working on the PCBs, especially the motor board (clone the project and create folder "rev2")
-- understand what __H-bridges__ are, what a __clamping diode__ is and what __breaking current__ does (current reflow due to motor free rotation)
+- understand what **H-bridges** are, what a **clamping diode** is and what **breaking current** does (current reflow due to motor free rotation)
 - printed hinge bent, clip and bottom clip
 
 ### 2019.06.14
 
 - cloned motor board project through https, didn't work otherwise (`git clone https://make.octanis.ch/oi/oibus-dc-motor-controller.git`)
-- in fact, this is how you __clone with ssh__: `git clone ssh://git@make.octanis.ch:2222/oi/oibus-dc-motor-controller.git`
+- in fact, this is how you **clone with ssh**: `git clone ssh://git@make.octanis.ch:2222/oi/oibus-dc-motor-controller.git`
 - discussed with Raph to understand general structure of the board and the enhancements to make
 - started reading paragraphs of "The Art of Electronics"
 
@@ -126,7 +127,8 @@ __Problem:__ I need something to measure angles (protractor).
 - upgraded MK3 printer firmware
 - moved things around with Sam (11-15), company business
 - continued electronics theory doc
-- 
+-
+
 ### 2019.06.18
 
 - debrief meeting with Raph and Quentin
@@ -143,6 +145,7 @@ __Problem:__ I need something to measure angles (protractor).
 - working on motor board (KiCAD)
 
 What next?
+
 - repair 3D printer
 - finish both pcbs (motor board and distance sensing board) and send for production
 - verify that we have all the components necessary to solder these boards, if not, order them
@@ -156,6 +159,7 @@ What next?
 - tried making logic gates using transistors
 
 TO DO:
+
 - watch this till the end! [https://www.autodesk.com/autodesk-university/class/Assemblies-Putting-It-Together-Fusion-360-2017#video](https://www.autodesk.com/autodesk-university/class/Assemblies-Putting-It-Together-Fusion-360-2017#video)
 
 ### 2019.06.21
@@ -196,10 +200,13 @@ TO DO:
 - finally managed exporting BOM for motor and distance boards (in octopart)
 - ran corner v15 3D print, which failed
 - started set up of programming environment on Windows
- 
-### 2019.06.28 - w5
+
+### 2019.07.01 - w5
 
 - correct distance module mother board layout and learn exporting gerber files
 - continue Windows setup for programming
-- weekly meeting
+- [weekly meeting](./weekly.md)
 
+### 2019.07.02
+
+- worked all day on the programming environment setup...
