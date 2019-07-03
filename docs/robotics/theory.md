@@ -4,17 +4,16 @@
 
 We are going to follow two distinct courses of the Albert-Ludwigs-Universität Freiburg to acquire the necessary knowledge:
 
-- [__Introduction to Mobile Robotic__](http://ais.informatik.uni-freiburg.de/teaching/ss19/robotics/)
-- [__Robot Mapping__](http://ais.informatik.uni-freiburg.de/teaching/ws18/mapping/)
-
-## Concepts
+- [**Introduction to Mobile Robotic**](http://ais.informatik.uni-freiburg.de/teaching/ss19/robotics/)
+- [**Robot Mapping**](http://ais.informatik.uni-freiburg.de/teaching/ws18/mapping/)
 
 ## Vocabulary
 
 ### Abbreviations
 
-- __ROS :__ Robot Operating System
-- __EKF :__ Extended Kalman Filter
+- **EKF :** Extended Kalman Filter
+- **ROS :** Robot Operating System
+- **SLAM :** simultaneous localization and mapping
 
 ## Links
 
