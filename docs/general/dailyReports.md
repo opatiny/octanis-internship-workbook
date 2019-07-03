@@ -216,4 +216,7 @@ TO DO:
 
 ### 2019.07.03
 
-
+- documented all process to be able to program an STM32
+- generated BOMs for distance module
+- started mobile robotics course w1
+- managed to generate 4MHz frequency on NUCLEO board
