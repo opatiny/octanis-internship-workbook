@@ -58,8 +58,18 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define CLOCK_TEST_Pin GPIO_PIN_0
+#define CLOCK_TEST_GPIO_Port GPIOA
 #define LD2_Pin GPIO_PIN_5
 #define LD2_GPIO_Port GPIOA
+#define CLK_Pin GPIO_PIN_11
+#define CLK_GPIO_Port GPIOB
+#define DCLK_Pin GPIO_PIN_12
+#define DCLK_GPIO_Port GPIOB
+#define DVALID_Pin GPIO_PIN_11
+#define DVALID_GPIO_Port GPIOA
+#define DOUT_Pin GPIO_PIN_12
+#define DOUT_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

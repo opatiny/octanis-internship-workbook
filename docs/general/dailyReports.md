@@ -201,6 +201,8 @@ TO DO:
 - ran corner v15 3D print, which failed
 - started set up of programming environment on Windows
 
+## July
+
 ### 2019.07.01 - w5
 
 - correct distance module mother board layout and learn exporting gerber files
@@ -210,3 +212,8 @@ TO DO:
 ### 2019.07.02
 
 - worked all day on the programming environment setup...
+- managed to blink a LED
+
+### 2019.07.03
+
+
