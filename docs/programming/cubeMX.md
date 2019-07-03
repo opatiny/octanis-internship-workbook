@@ -1,6 +1,6 @@
 # Starting a MC project from CubeMX
 
-[Home](../../README.md) | [Programming environment setup procedure](./environmentSetup.md)
+[Home](../../README.md) | [Programming environment setup procedure](./environmentSetup.md) | [C tips in VS Code](./c.md) | [Useful definitions](./vocabulary.md)
 
 STM32CubeMX is a microcontroller configuration generator for STM32. Practically, it is a graphical interface that allows you to define what your microcontroller pins will be used for, what clock you want it to use and other parameters. Then, you can generate a program skeleton with all this information.
 
@@ -63,9 +63,8 @@ Then, copy the `stm32f3.cfg` file from another project and paste it at the level
 
 Also, if flashing doesn't work, change the file extension from `.hex` to `.elf` in the flashing command that you copy pasted in the `MakeFile`.
 
-## Vocabulary
+## various issues
 
-- **HAL :** hardware abstraction layer -> functions that are linked to the internal peripherals of the microcontroller
-- **microcontroller :** processor + bunch of internal peripherals
-- **module :** it C code, a module is the combination of a `.c` (functions implementations) and a `.h` (functions declarations, what is visible from other files) file
-- **bare metal :** when writing code directly on a microcontroller, without and OS
+### this error message: makefile:108: \*\*\* missing separator. Stop.
+
+The MakeFile is the only one that CubeMX isn't really good at updating. So it is possible that they are two times the same commands in it. In that case, you will get this error. To fix it, go to the file and delete all extra commands.

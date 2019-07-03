@@ -1,6 +1,6 @@
 # Setting up a programming environment for STM32
 
-[Home](../../README.md) | [CubeMX procedure](./cubeMX.md)
+[Home](../../README.md) | [CubeMX procedure](./cubeMX.md) | [C tips in VS Code](./c.md) | [Useful definitions](./vocabulary.md)
 
 Setup environment to program STM32 on Windows: [https://wiki.octanis.org/stm32/vscode](https://wiki.octanis.org/stm32/vscode)
 
