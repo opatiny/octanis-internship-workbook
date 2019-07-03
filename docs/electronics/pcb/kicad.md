@@ -2,61 +2,60 @@
 
 [Home](../../../README.md) | [Rigid-flex PCB](./rigid-flex.md) | [Electronics theory](../theory/theory.md)
 
-
 ## Tutorials and links
+
 General introduction:
 [youtube.com/watch?v=zK3rDhJqMu0](youtube.com/watch?v=zK3rDhJqMu0)
 
 Whole KiCAD serie:
 [https://www.youtube.com/watch?v=vaCVh2SAZY4&t=313s](https://www.youtube.com/watch?v=vaCVh2SAZY4&t=313s)
 
-
 ## Shortcuts
 
-__? :__ for shortcuts help
+**? :** for shortcuts help
 
 ### Sketch
 
-__a :__ add component
-__e :__ see parameters of component
-__g :__ grab 
-__m :__ move
-__p :__ add power component
-__r :__ rotate
-__q :__ add a NC symbol
+**a :** add component
+**e :** see parameters of component
+**g :** grab
+**m :** move
+**p :** add power component
+**r :** rotate
+**q :** add a NC symbol
 
-
-- __no connect :__ blue cross on the right toolbar
+- **no connect :** blue cross on the right toolbar
 - edit the text at the bottom of a sketch: File -> Page Settings
-- add __power flags__ every time you have a tension difference at a connector
+- add **power flags** every time you have a tension difference at a connector
 - run debugger once schematic is finished -> you should correct all the errors
 - add MPN to a part: click on the Edit symbol fields icon in the schematic
 
 ### PCB
 
-__o :__ add component
-__x :__ trace
-__v :__ via while drawing a trace or change the fronting face
-__e :__ access properties of component
-__f :__ move component to the other face
-__d :__ move tracks according to design rules and nice angles
-__b :__ refill zones
-__u :__ select wire till next intersection
-__i :__ select whole wire
+**o :** add component
+**x :** trace
+**v :** via while drawing a trace or change the fronting face
+**e :** access properties of component
+**f :** move component to the other face
+**d :** move tracks according to design rules and nice angles
+**b :** refill zones
+**u :** select wire till next intersection
+**i :** select whole wire
 
+**Ctrl + d :** duplicate / copy
 
-__Ctrl + d :__ duplicate / copy
-
-- __copper zone:__ click on right layer -> add filled zone (right menu)
-- edit __zone priority level__: press "e" while on zone and modify "Zone priority level", the bigger the number, the higher the priority
-- __update copper zone :__ right-click on zone -> Zones... -> Fill
-- __edit design rules :__ 
-- __ratsnest :__ all of the airwires
-- __DRC :__ design rule checker (the ladybird)
-- __design rules :__ File -> Board setup -> Design rules
+- **copper zone:** click on right layer -> add filled zone (right menu)
+- edit **zone priority level**: press "e" while on zone and modify "Zone priority level", the bigger the number, the higher the priority
+- **update copper zone :** right-click on zone -> Zones... -> Fill
+- **edit design rules :**
+- **ratsnest :** all of the airwires
+- **DRC :** design rule checker (the ladybird)
+- **design rules :** File -> Board setup -> Design rules
 
 ## Import new footprints
-__DigiKey :__
+
+**DigiKey :**
+
 - go on DigiKey : [https://www.digikey.com/](https://www.digikey.com/)
 - search for your part by typing it's reference
 - chose the right category (i.e.: Sensors, Transducers)
@@ -65,9 +64,8 @@ __DigiKey :__
 - go under EDA / CAD Models and click on the part "by SnapEDA"
 - click on Download Symbol and Footprint -> KiCAD
 
-__Component search engine :__
+**Component search engine :**
 [http://componentsearchengine.com/](http://componentsearchengine.com/)
-
 
 ## Create new footprints
 
@@ -79,20 +77,19 @@ When opening a project, the symbol and footprint editors are in Preferences.
 
 ## Rules to apply for good PCBs
 
-- always rather __protect to much__ than not enough -> for instance power inputs, protect for inverted inputs
-- __avoid acute angles__, which make acid traps -> acid remains at these places after board finished and slowly eat the copper traces (not so mush this problem anymore). Yet other problems could occur with high frequencies signals: reflection -> interferences, magnetic fields induced
+- always rather **protect to much** than not enough -> for instance power inputs, protect for inverted inputs
+- **avoid acute angles**, which make acid traps -> acid remains at these places after board finished and slowly eat the copper traces (not so mush this problem anymore). Yet other problems could occur with high frequencies signals: reflection -> interferences, magnetic fields induced
 - use the 3D viewer after making the layout to be sure the labels are well visible
-- make thicker wires for power traces, all signal traces can be thin (leds, communication)
-- place capacitors next to the source of the signal you want to filter (inductances as well)
+- make **thicker wires for power traces**, all signal traces can be thin (leds, communication)
+- place **capacitors** next to the source of the signal you want to filter (inductances as well)
 - try to have no errors at all with the bug checker in the schematic
-
+- **attribute your pins** so that the routing is easier on the layout!!
 
 ## Create Gerber files
 
 On the board layout, go to File -> Plot
 
-Check Gerbers are good: Project page -> Tools ->Rub Gerbview
-
+Check Gerbers are good: Project page -> Tools ->Run Gerbview
 
 ## Creating BOM (bill of materials)
 
@@ -103,11 +100,12 @@ Two distinct BOMs are created. First, a complete BOM is generated based on the K
 Click on the export BOM icon on the schematics and chose the bom2grouped_csv plugin, then click generate.
 
 On Mac, use this command (link to adapt):
+
 ```
 python "/Users/raffael/Desktop/OctanisOÜ/Octanis Instruments/Engineering/KiCAD/BOM_tool/gistfile1.py" "%I" "%O_BOM.csv"
 ```
 
-Good to know: __MPN__ = manufacturer part number
+Good to know: **MPN** = manufacturer part number
 
 ## Various issues
 
@@ -119,7 +117,7 @@ This error appeared after I added MPN fields in the components description, clos
 
 ### library is charged without error but component doesn't appear (footprint)
 
-- always charge libraries using the __little folder icon__! This really helps
+- always charge libraries using the **little folder icon**! This really helps
 - check and re-check that the library is at the right emplacement
 
 ### 4 layers PCB

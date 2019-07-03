@@ -16,6 +16,25 @@ Voltage perpendicular to a current that can be measured when a magnetic field is
 - is different from the resistance when there is a frequency in the signal -> AC
 - $Z = R + jX$, where $R$ is the **resistance**, $j$ is the complex unit number and $X$ is the **reactance**
 
+### N and P type semiconductor
+
+**N type**
+N for negative, because the charge carriers are negative (electrons).
+
+Silicon (Si) crystal with added **phosphorus** (P). Phosphorus is the component next to silicon, which means that it has an additional electron. Therefore, the resulting crystals have extra electrons (not trapped by covalence), which move around freely.
+
+<img src="./pnsem.png" alt="n and p type covalent bonds" width="50%" class="center">
+
+**P type**
+
+P for positive, because the charge carriers ar holes, which are considered as positive charges.
+
+The semiconductor is made of silicon and **boron** (B), which has one electron less that silicon. Since the electrons are moving to always fill the left spaces, holes move around.
+
+### What happens in a diode
+
+[https://www.youtube.com/watch?v=TGUteH93xNo](https://www.youtube.com/watch?v=TGUteH93xNo)
+
 ## Electrical circuits and components
 
 ### EDS diode
@@ -36,7 +55,7 @@ You have to use zener diodes to clamp. Clamp basically means "take down to" (cla
 
 An H-bridge (half bridge) is an electrical circuit which allows to chose in which direction current is flowing. It can be used to control the spin direction of a motor. It basically consists of four transistors.
 
-<img src="./h-bridge.webp" alt="case assembly" width="50%" class="center">
+<img src="./h-bridge.webp" alt="h-bridge scheme" width="50%" class="center">
 
 ### Transistors
 
