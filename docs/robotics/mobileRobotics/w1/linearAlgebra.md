@@ -86,3 +86,5 @@ $Ax = b$
 ## Jacobian matrix
 
 A matrix that allows to make partial derivatives.
+
+- orientation of the __tangent plane__ to the vector valued function at a given point
