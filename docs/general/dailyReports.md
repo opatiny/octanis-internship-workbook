@@ -220,3 +220,12 @@ TO DO:
 - generated BOMs for distance module
 - started mobile robotics course w1
 - managed to generate 4MHz frequency on NUCLEO board
+
+### 2019.07.10 - w6 (wednesday)
+
+- tried repairing both Prusa printers
+  - bottom Prusa has mintemp error -> nozzle thermister not connected
+  - top Prusa: a part of filament god compressed and it's diameter augmented. It is stuck at the entry of the head. Not possible to load new filament
+- installed Ultimaker Cura to start printing corners, but the model is just too high -> the soft wouldn't slice
+- the repair of the bottom prusa failed because the temperature probe is stuck. I wasn't able to take it out after removing the necessary screws. I suppose it is caused by the plastic that is spread all over the head. I tried melting it using the heat gun for soldering, but it didn't work.
+- soldered 3 distance module mother boards
