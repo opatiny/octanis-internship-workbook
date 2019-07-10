@@ -48,6 +48,10 @@ Good tutorial: [http://www.emcu.eu/stm32-basic-timer/](http://www.emcu.eu/stm32-
 
 [https://electronics.stackexchange.com/questions/280473/stm32-clock-signal-generator-using-a-timer-stm32cubemx-generated-code](https://electronics.stackexchange.com/questions/280473/stm32-clock-signal-generator-using-a-timer-stm32cubemx-generated-code)
 
+However, these methods did not allow to get the 10MHz desired frequency. The external clock of the development board being at 8MHz, it appears that the maximal output frequency cannot be higher that 4MHz, as shown in the oscilloscope screenshot underneath.
+
+<img src="./maxFreqDevBoard.png" alt="case assembly" width="80%" class="center">
+
 ## Datasheets
 
 ADC chip datasheet (used for direct photosensor digitalization): [DDC112](./ddc112.pdf)
