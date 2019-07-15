@@ -127,7 +127,6 @@
 - upgraded MK3 printer firmware
 - moved things around with Sam (11-15), company business
 - continued electronics theory doc
--
 
 ### 2019.06.18
 
@@ -172,7 +171,7 @@ TO DO:
 
 ### 2019.06.24 - w4
 
-- tried to make made BOM for motor board (kicad and octopart) but encountered problems: the imported BOM parts were not recognized by octopart
+- tried to make BOM for motor board (kicad and octopart) but encountered problems: the imported BOM parts were not recognized by octopart
 - more problems in KiCAD with the motor board: cannot open schematic, error message ("error loading schematic file expected single character token in input source kicad")
 - continued distance board -> have to make daughter board for perpendicular sensor: use edge connectors or make a rigid-flex PCB?
 - quick explanation of Sam about the photo diodes and the micro-fluidics small projects
@@ -224,8 +223,15 @@ TO DO:
 ### 2019.07.10 - w6 (wednesday)
 
 - tried repairing both Prusa printers
-  - bottom Prusa has mintemp error -> nozzle thermister not connected
+  - bottom Prusa has **mintemp error** -> nozzle **thermister** not connected
   - top Prusa: a part of filament god compressed and it's diameter augmented. It is stuck at the entry of the head. Not possible to load new filament
-- installed Ultimaker Cura to start printing corners, but the model is just too high -> the soft wouldn't slice
+- installed Ultimaker Cura to start printing corners, but the model is just too high -> the software wouldn't slice
 - the repair of the bottom prusa failed because the temperature probe is stuck. I wasn't able to take it out after removing the necessary screws. I suppose it is caused by the plastic that is spread all over the head. I tried melting it using the heat gun for soldering, but it didn't work.
 - soldered 3 distance module mother boards
+
+### 2019.07.15 - w7
+
+- problem: How to verify the electrical connections of the distance sensors on the mother boards?
+- split corner part into two to print it on the Renkforce printers
+- tried printing corner 2parts on the black PLA Renkforce
+- update top, bottom and side in Fusion360 before laser cutting

@@ -75,3 +75,9 @@ If you get that error and have the nozzle temperature that is 0/0°, there proba
 
 The appropriate slicer for the Renkforce 3D printers is Ultimaker Cura:
 [https://ultimaker.com/en/blog/52831-simplify-3d-printing-with-ultimaker-cura-40](https://ultimaker.com/en/blog/52831-simplify-3d-printing-with-ultimaker-cura-40)
+
+## Cetus3D printer
+
+### Up Studio
+
+The slicer for the Cetus3D printer is called Up Studio:
