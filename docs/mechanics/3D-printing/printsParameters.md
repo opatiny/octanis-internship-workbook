@@ -117,10 +117,26 @@
 
 ### corner 2 parts v2 (with thread)
 
-Printed on the black PLA Rankforce 3D printer.
+- Date : 2019.07.15
+- Printer: black PLA Renkforce
+- Print settings: 0.2mm
+- Filament: PLA (black)
+- Infill: 20%
+
+-> print failed because the bed moved (one of the magnets unglued), so I glued the magnet in placed with hot glue and ran it again
+
+### corner 2 parts v2 (with thread)
 
 - Date : 2019.07.15
-- Printer: black PLA Rankforce
-- Print settings: 0.2mm QUALITY
+- Printer: black PLA Renkforce
+- Print settings: 0.2mm
 - Filament: PLA (black)
+- Infill: 20%
+
+### oibus104 lid
+
+- Date : 2019.07.15
+- Printer: Cetus3D
+- Print settings: 0.2mm Normal
+- Filament: Prusament PLA (grey)
 - Infill: 20%

@@ -81,3 +81,4 @@ The appropriate slicer for the Renkforce 3D printers is Ultimaker Cura:
 ### Up Studio
 
 The slicer for the Cetus3D printer is called Up Studio:
+[https://www.tiertime.com/up-studio/](https://www.tiertime.com/up-studio/)
