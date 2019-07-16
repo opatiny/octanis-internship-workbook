@@ -119,19 +119,24 @@
 
 - Date : 2019.07.15
 - Printer: black PLA Renkforce
-- Print settings: 0.2mm
+- Print settings: 0.2mm Draft
 - Filament: PLA (black)
 - Infill: 20%
 
 -> print failed because the bed moved (one of the magnets unglued), so I glued the magnet in placed with hot glue and ran it again
 
+**Problem:** on the contrary of the Prusa printers, the quality is not good enough for the M3 thread to work.
+
 ### corner 2 parts v2 (with thread)
 
 - Date : 2019.07.15
 - Printer: black PLA Renkforce
-- Print settings: 0.2mm
+- Print settings: 0.2mm Draft
 - Filament: PLA (black)
 - Infill: 20%
+
+-> print failed again: larger part did not stick to surface properly
+-> **solution:** add brim, in Cura, check the "adhesion" box
 
 ### oibus104 lid
 
@@ -140,3 +145,31 @@
 - Print settings: 0.2mm Normal
 - Filament: Prusament PLA (grey)
 - Infill: 20%
+
+-> print succeeded but the support is really hard to remove
+
+### corner 2 parts v2 (with thread)
+
+Sliced again to center parts on bed.
+
+- Date : 2019.07.16
+- Printer: black PLA Renkforce
+- Print settings: 0.15mm Normal
+- Filament: PLA (black)
+- Infill: 20%
+
+**Special:** support and adhesion boxes checked in Cura
+
+-> aborted print because support is totally unnecessary
+
+### corner 2 parts v2 (with thread)
+
+Sliced again to center parts on bed.
+
+- Date : 2019.07.16
+- Printer: black PLA Renkforce
+- Print settings: 0.15mm Draft
+- Filament: PLA (black)
+- Infill: 20%
+
+**Special:** adhesion box checked in Cura

@@ -238,3 +238,5 @@ TO DO:
 - tried to laser cut these parts, but had problem exporting good dxf files -> construction lines were exported and apparently, they can't be hidden in a sketch
 - installed Up Studio on the workspace Windows computer and ran print for Sam on the Cetus 3D printer
 - installed Inkscape and removed unnecessary construction lines from DXF files -> not a very good method...
+
+### 2019.07.16

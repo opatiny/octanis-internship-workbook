@@ -2,8 +2,8 @@
 
 [Home](../../../README.md)
 
-
 ## In model mode
+
 ### Mouse actions
 
 Left click: select surface
@@ -24,14 +24,14 @@ r: rectangle (corner-corner)
 c : center-diameter circle
 j: joint in assembly mode
 
-
 ### Various issues
 
-- __insert text__ is in sketch, you can chose the font and then extrude
-- [https://knowledge.autodesk.com/support/fusion-360/troubleshooting/caas/sfdcarticles/sfdcarticles/How-to-display-a-cross-section-of-a-Fusion-360-model.html](https://knowledge.autodesk.com/support/fusion-360/troubleshooting/caas/sfdcarticles/sfdcarticles/How-to-display-a-cross-section-of-a-Fusion-360-model.html) : how to __show cross-section__ of a part
+- **insert text** is in sketch, you can chose the font and then extrude
+- [https://knowledge.autodesk.com/support/fusion-360/troubleshooting/caas/sfdcarticles/sfdcarticles/How-to-display-a-cross-section-of-a-Fusion-360-model.html](https://knowledge.autodesk.com/support/fusion-360/troubleshooting/caas/sfdcarticles/sfdcarticles/How-to-display-a-cross-section-of-a-Fusion-360-model.html) : how to **show cross-section** of a part
 
-- [https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-76272551-3275-46C4-AE4D-10D58B408C20](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-76272551-3275-46C4-AE4D-10D58B408C20) : list of __math functions__ that can be used when defining parameters
-- if a __fillet on an edge__ goes the wrong way, check if they aren't two distinct bodies!!
+- [https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-76272551-3275-46C4-AE4D-10D58B408C20](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-76272551-3275-46C4-AE4D-10D58B408C20) : list of **math functions** that can be used when defining parameters
+- if a **fillet on an edge** goes the wrong way, check if they aren't two distinct bodies!!
+- go back to a **previous version of a file**: open the menu bar and browse to your file, click on the version roll-dow menu. There, you can "**Promote**" aversion, which will make a copy of the files state at that point and make a new version at the end of the history.
 
 ## Assemblies
 
@@ -43,7 +43,8 @@ j: joint in assembly mode
 - Ctrl + mouseover: to lock the entity type when placing origins on joints. This means that if you are on an edge, the proposition the soft makes are only going to be on that edge, same for faces.
 - Right-click on a body -> Ground: to define a "base" body
 - Update a component: right-click on body -> Get Latest
-- j : for joint
+- **j** : for joint
+- **v** : to show / hide a body
 
 ### Insert McMaster-Carr parts designs in assemblies
 
@@ -60,4 +61,4 @@ j: joint in assembly mode
 - click File -> New Drawing from Design
 - add view using Base view and Projected view
 - add dimensions using the Dimension tool
-- you can __modify a dimension text__ by double-clicking on it (to add tolenrance, or special symbol like diameter)
+- you can **modify a dimension text** by double-clicking on it (to add tolenrance, or special symbol like diameter)
