@@ -240,3 +240,8 @@ TO DO:
 - installed Inkscape and removed unnecessary construction lines from DXF files -> not a very good method...
 
 ### 2019.07.16
+
+- tried printing corner part 3 times, varying parameters
+- printed top, bottom and lid of the oibus104 case: had problems with removing the support of the parts
+- laser cut 9 faces for the xiaomi remake, the plexiglass available isn't big enough to cut top and bottom parts
+- worked on mobile robotics course w2 and w3

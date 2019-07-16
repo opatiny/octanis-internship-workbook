@@ -1,6 +1,6 @@
 # Robotics concepts necessary for the vacuum cleaner project and more
 
-[Home](../../README.md)
+[Home](../../README.md) | [Mobile Robotics](./mobileRobotics/mobileRobotics.md)
 
 We are going to follow two distinct courses of the Albert-Ludwigs-Universität Freiburg to acquire the necessary knowledge:
 

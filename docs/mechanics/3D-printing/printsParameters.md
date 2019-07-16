@@ -144,7 +144,7 @@
 - Printer: Cetus3D
 - Print settings: 0.2mm Normal
 - Filament: Prusament PLA (grey)
-- Infill: 20%
+- Infill:
 
 -> print succeeded but the support is really hard to remove
 
@@ -173,3 +173,21 @@ Sliced again to center parts on bed.
 - Infill: 20%
 
 **Special:** adhesion box checked in Cura
+
+-> print finally succeeded
+
+### oibus104 top
+
+- Date : 2019.07.16
+- Printer: Cetus3D
+- Print settings: 0.2mm Normal
+- Filament: Prusament PLA (grey)
+- Infill:
+
+### oibus104 bottom
+
+- Date : 2019.07.16
+- Printer: Cetus3D
+- Print settings: 0.2mm Normal
+- Filament: Prusament PLA (grey)
+- Infill:
