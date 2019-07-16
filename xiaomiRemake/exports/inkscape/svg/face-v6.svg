@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="793.700787402"
+   height="1122.51968504"
+   version="1.1"
+   id="svg5336"
+   sodipodi:docname="face-v6.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata5340">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     id="namedview5338"
+     showgrid="false"
+     inkscape:zoom="0.90509668"
+     inkscape:cx="468.60614"
+     inkscape:cy="361.33761"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g5334" />
+  <desc
+     id="desc4722">C:\Users\opatiny\git\opatiny\oceane.patiny\xiaomiRemake\exports\fusion360\2D\face-v6.dxf - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
+  <defs
+     id="defs4736">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0.0"
+       refY="0.0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5"
+         style="stroke:#000000; stroke-width:0.5"
+         id="path4724" />
+    </marker>
+    <pattern
+       height="8"
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path4727" />
+      <path
+         d="M6 2 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path4729" />
+      <path
+         d="M4 0 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path4731" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE" />
+    <symbol
+       id="*PAPER_SPACE" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="0"
+     id="g5334">
+    <path
+       d="M 0.000000,1103.622047 L 0.000000,725.669291 L 37.795276,725.669291 L 37.795276,706.771654 L 147.919691,706.771654 L 147.919691,725.669291 L 258.044107,725.669291 L 258.044107,706.771654 L 368.168523,706.771654 L 368.168523,725.669291 L 478.292938,725.669291 L 478.292938,706.771654 L 588.417354,706.771654 L 588.417354,725.669291 L 626.212630,725.669291 L 626.212630,1103.622047 L 588.417354,1103.622047 L 588.417354,1122.519685 L 478.292938,1122.519685 L 478.292938,1103.622047 L 368.168523,1103.622047 L 368.168523,1122.519685 L 258.044107,1122.519685 L 258.044107,1103.622047 L 147.919691,1103.622047 L 147.919691,1122.519685 L 37.795276,1122.519685 L 37.795276,1103.622047 L 0.000000,1103.622047 z"
+       style="stroke:#000000;fill:none"
+       id="path4738" />
+    <path
+       d="M 585.015779,788.661417 A 6.047244,6.047244 -0.000000 1 0 572.921291,788.661417 6.047244,6.047244 -0.000000 1 0 585.015779,788.661417 z"
+       style="stroke:#000000;fill:none"
+       id="path4740" />
+    <path
+       d="M 319.153559,797.480315 A 6.047244,6.047244 -0.000000 1 0 307.059071,797.480315 6.047244,6.047244 -0.000000 1 0 319.153559,797.480315 z"
+       style="stroke:#000000;fill:none"
+       id="path4744" />
+    <path
+       d="M 319.153559,1069.606299 A 6.047244,6.047244 -0.000000 1 0 307.059071,1069.606299 6.047244,6.047244 -0.000000 1 0 319.153559,1069.606299 z"
+       style="stroke:#000000;fill:none"
+       id="path4746" />
+    <path
+       d="M 53.291339,788.661417 A 6.047244,6.047244 -0.000000 1 0 41.196850,788.661417 6.047244,6.047244 -0.000000 1 0 53.291339,788.661417 z"
+       style="stroke:#000000;fill:none"
+       id="path4748" />
+    <path
+       d="M 585.015779,914.645669 A 6.047244,6.047244 -0.000000 1 0 572.921291,914.645669 6.047244,6.047244 -0.000000 1 0 585.015779,914.645669 z"
+       style="stroke:#000000;fill:none"
+       id="path4750" />
+    <path
+       d="M 53.291339,914.645669 A 6.047244,6.047244 -0.000000 1 0 41.196850,914.645669 6.047244,6.047244 -0.000000 1 0 53.291339,914.645669 z"
+       style="stroke:#000000;fill:none"
+       id="path4752" />
+    <path
+       d="M 585.015779,1040.629921 A 6.047244,6.047244 -0.000000 1 0 572.921291,1040.629921 6.047244,6.047244 -0.000000 1 0 585.015779,1040.629921 z"
+       style="stroke:#000000;fill:none"
+       id="path4754" />
+    <path
+       d="M 53.291339,1040.629921 A 6.047244,6.047244 -0.000000 1 0 41.196850,1040.629921 6.047244,6.047244 -0.000000 1 0 53.291339,1040.629921 z"
+       style="stroke:#000000;fill:none"
+       id="path4756" />
+    <path
+       d="M 352.791354,946.771654 L 273.421275,946.771654 L 273.421275,920.314961 L 352.791354,920.314961 L 352.791354,946.771654 z"
+       style="stroke:#000000;fill:none"
+       id="path4758" />
+  </g>
+</svg>
