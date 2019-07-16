@@ -45,4 +45,22 @@ Hinges are needed to make a door that allows easy access to the dust collector a
 
 A first try was made in PLA, but it did not work, for the part broke instead of bending. Afterwards, FlexiSMART filament was used, which worked perfectly (-> see [video](../xiaomiRemake/docs/pictures/flexHinge.mp4)).
 
+### Laser cutting the PMMA parts
+
+The laser cutter used is the [FabKit MI5](https://www.fabcreator.com/Fabkit) with the [LightBurn](https://lightburnsoftware.com/pages/trial-version-try-before-you-buy) software.
+
+The laser cutter maximal dimensions are
+
+The parts are cut in 5mm thick clear PMMA. The cut parameters used were:
+
+- speed: 6mm/s
+- max power: 100%
+- min power: not defined
+
+#### Parts dimensions
+
+- **face:** 165.685 x 110 mm
+- **top:** 427.526 x 427.526 mm
+- **bottom:** 427.526 x 427.526 mm
+
 ## Electronics
