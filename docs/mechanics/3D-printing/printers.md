@@ -82,3 +82,7 @@ The appropriate slicer for the Renkforce 3D printers is Ultimaker Cura:
 
 The slicer for the Cetus3D printer is called Up Studio:
 [https://www.tiertime.com/up-studio/](https://www.tiertime.com/up-studio/)
+
+### Support is really hard to remove
+
+Try lowering the temperature of the head by 5 deg Celcius.

@@ -144,7 +144,9 @@
 - Printer: Cetus3D
 - Print settings: 0.2mm Normal
 - Filament: Prusament PLA (grey)
-- Infill:
+- Infill: 15%
+
+**Special:** support and raft boxes checked in Up Studio (default)
 
 -> print succeeded but the support is really hard to remove
 
@@ -182,7 +184,9 @@ Sliced again to center parts on bed.
 - Printer: Cetus3D
 - Print settings: 0.2mm Normal
 - Filament: Prusament PLA (grey)
-- Infill:
+- Infill: 15%
+
+**Special:** support and raft boxes not checked in Up Studio (default)
 
 ### oibus104 bottom
 
@@ -190,4 +194,16 @@ Sliced again to center parts on bed.
 - Printer: Cetus3D
 - Print settings: 0.2mm Normal
 - Filament: Prusament PLA (grey)
-- Infill:
+- Infill: 15%
+
+**Special:** support and raft boxes not checked in Up Studio
+
+### oibus104 lid
+
+- Date : 2019.07.17
+- Printer: Cetus3D
+- Print settings: 0.2mm Normal
+- Filament: Prusament PLA (grey)
+- Infill: 20%
+
+**Special:** support box checked in Up Studio

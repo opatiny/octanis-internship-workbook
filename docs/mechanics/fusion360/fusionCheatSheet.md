@@ -32,6 +32,7 @@ j: joint in assembly mode
 - [https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-76272551-3275-46C4-AE4D-10D58B408C20](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-76272551-3275-46C4-AE4D-10D58B408C20) : list of **math functions** that can be used when defining parameters
 - if a **fillet on an edge** goes the wrong way, check if they aren't two distinct bodies!!
 - go back to a **previous version of a file**: open the menu bar and browse to your file, click on the version roll-dow menu. There, you can "**Promote**" aversion, which will make a copy of the files state at that point and make a new version at the end of the history.
+- make a **spiral**: create a Coil and change the Type to Spiral, chose the section type
 
 ## Assemblies
 
