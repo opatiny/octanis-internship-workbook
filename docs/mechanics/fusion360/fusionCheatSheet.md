@@ -33,6 +33,7 @@ j: joint in assembly mode
 - if a **fillet on an edge** goes the wrong way, check if they aren't two distinct bodies!!
 - go back to a **previous version of a file**: open the menu bar and browse to your file, click on the version roll-dow menu. There, you can "**Promote**" aversion, which will make a copy of the files state at that point and make a new version at the end of the history.
 - make a **spiral**: create a Coil and change the Type to Spiral, chose the section type
+- **redefine sketch plane**: [https://www.youtube.com/watch?v=gWQdDwsDhm0](https://www.youtube.com/watch?v=gWQdDwsDhm0)
 
 ## Assemblies
 

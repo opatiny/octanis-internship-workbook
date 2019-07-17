@@ -10,18 +10,26 @@
 
 [https://www.elveflow.com/microfluidic-tutorials/microfluidic-reviews-and-tutorials/flow-control-in-microfluidic-device/](https://www.elveflow.com/microfluidic-tutorials/microfluidic-reviews-and-tutorials/flow-control-in-microfluidic-device/)
 
+### Valves
+
 How could we make a valve?
 
 <img src="./valve.jpg" alt="PDMS sheet valve" width="70%" class="center">
 
-## Interesting points
+This requires a very thin and regular PDMS resin membrane. How could we easily make one?
 
-- Using PDMS resin allows to integrate things inside of the microfluidics chip (sensors, stirrers, heating, microcontrollers,...).
-- ABS can be 3D printed to get nearly any shape and then be dissolved using acetone
+- try using two parts of PMMA / glass that are squeezed together when some resin is placed between them
 
 ## Constrains
 
 - channels thickness: 1 mm wide and 0.5 mm high
+
+## PDMS resin and ABS approach
+
+- Using PDMS resin allows to integrate things inside of the microfluidics chip (sensors, stirrers, heating, microcontrollers,...).
+  - the resin is really stable, it is transparent and similar to rubber in consistency
+  - plasma can be used to make permanent bond between PDMS and glass
+- ABS can be 3D printed to get nearly any shape and then be dissolved using acetone
 
 ## Links
 
