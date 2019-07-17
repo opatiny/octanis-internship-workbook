@@ -245,3 +245,10 @@ TO DO:
 - printed top, bottom and lid of the oibus104 case: had problems with removing the support of the parts
 - laser cut 9 faces for the xiaomi remake, the plexiglass available isn't big enough to cut top and bottom parts
 - worked on mobile robotics course w2 and w3
+
+### 2019.07.17
+
+- started corner print
+- started oibus104 lid print
+- auto debrief (in weekly meetings)
+- weekly meeting with Sam
