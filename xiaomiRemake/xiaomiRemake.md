@@ -28,8 +28,8 @@ _Outer case assembled in Fusion 360_
 - 2 3D printed flexible hinges
 - 1 3D printed clip (to keep the flap in place)
 - 1 3D printed flexible bottom clip (to keep the flap in place)
-- 74 M3x12 screws
-- 58 M3 bolts
+- 74 M3x15 black nylon screws
+- 58 M3 black nylon bolts
 
 ### Not making holes for distance sensors
 
