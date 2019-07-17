@@ -30,3 +30,5 @@
 
 - 05.06.2019 : started at 8am
 - 17.06.2019 : finished at 7pm
+
+## Days to do

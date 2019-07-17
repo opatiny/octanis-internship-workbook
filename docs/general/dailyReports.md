@@ -252,3 +252,5 @@ TO DO:
 - started oibus104 lid print
 - auto debrief (in weekly meetings)
 - weekly meeting with Sam
+- designed a spiral microfluidics mixer in fusion
+- **Problem:** how to make a very thin and regular PDMS resin membrane?
