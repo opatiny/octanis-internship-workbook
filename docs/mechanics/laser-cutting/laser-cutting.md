@@ -9,6 +9,9 @@
 - **Software:** [LightBurn](https://lightburnsoftware.com/)
 - **File formats accepted:** DXF and SVG, however, DXF works a lot better
 
+**Materials that can be laser cut:**
+[http://atxhackerspace.org/wiki/Laser_Cutter_Materials](http://atxhackerspace.org/wiki/Laser_Cutter_Materials)
+
 ## FabKit MI5
 
 <img src="./fabkit-MI5-specs.png" alt="laser cutter specs" width="50%" class="center">

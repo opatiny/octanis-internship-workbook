@@ -254,3 +254,18 @@ TO DO:
 - weekly meeting with Sam
 - designed a spiral microfluidics mixer in fusion
 - **Problem:** how to make a very thin and regular PDMS resin membrane?
+- went to Obi to buy plexiglass for top and bottom parts (it costed 28.90 CHF)
+
+**To do tomorrow:**
+
+- [x] bring (and install?!) linux computer
+- [ ] laser cut top and bottom
+- [x] make the stlink hack as Raf said
+- [ ] design second microfluidics mixer
+- [ ] check the CNC file generation in Fusion
+
+### 2019.07.18
+
+- ran corner impression
+- made spreadsheet to manage work hours
+- reassembled robot wheel

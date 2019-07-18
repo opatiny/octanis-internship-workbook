@@ -26,3 +26,9 @@ They are a few things you need to install in order to be able to program an STM3
 - to be able to compile and flash, you absolutely need two commands: **make** and **make flash**, to get them, go on on [this page](https://sourceforge.net/projects/mingw-w64/files/External%20binary%20packages%20%28Win64%20hosted%29/make/) and download the files. Unzip. Place them in C:\VSARM\mingw\mingw32\bin. The commands should now be available from Command Prompt (name of the mingw app, kind of terminal)
 
 From there, you should be globally done with the environment. To start a new firmware project, follow the [CubeMX procedure](./cubeMX.md).
+
+## The physical debugger
+
+Tag connect are used on all our boards, however, the STLINK usb key is supposed to be wired to boards with jump wires. Therefore, the connector on the bought tag connect must be cut off to be soldered to the stlink.
+
+This is the pinout of the tag connect when looked at the pins. The colors of the corresponding cables are indicated.

@@ -18,8 +18,11 @@
 - 07.07.2019 : all day (EUCYS preparation)
 - 08.07.2019 : from 9h00 to 15h00 (theoretical driving licence and EUCYS preparation)
 - from 11 to 12.07.2019 : absent all day (holiday)
+- 18.07.2019 : from 9h00 to 10h00
 
 ### August
+
+- absent the whole month
 
 ### September
 
