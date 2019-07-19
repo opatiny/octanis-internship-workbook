@@ -259,7 +259,7 @@ TO DO:
 **To do tomorrow:**
 
 - [x] bring (and install?!) linux computer
-- [ ] laser cut top and bottom
+- [x] laser cut top and bottom
 - [x] make the stlink hack as Raf said
 - [ ] design second microfluidics mixer
 - [ ] check the CNC file generation in Fusion
@@ -269,3 +269,13 @@ TO DO:
 - ran corner impression
 - made spreadsheet to manage work hours
 - reassembled robot wheel
+- laser cut top and bottom parts of the case out of PS
+- worked on microfluidics with Thomas -> investigating the literature for mixers -> Coanda mixer (general shape traced in SVG in Inkscape)
+
+### 2019.07.19
+
+- ran print of 2 top corners (last one to get all the 8 corners)
+- started case assembly. Issues:
+  - the front wheel is too high -> it prevents the brush to touch the ground
+  - the metal threads (melted in the corner parts) fill up with plastic and only one or two rotations with the screw are possible, which makes a very unreliable connection
+  - the horizontal holes on the corners are flatten out during printing, which makes them to small to let the screws through (I had to drill though them). These holes should be made bigger.

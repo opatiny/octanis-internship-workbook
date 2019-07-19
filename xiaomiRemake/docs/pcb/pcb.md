@@ -26,6 +26,8 @@ One of the problems to solve is that the board does not manage **encoders** of t
 
 ### VNH7040AYTR (H-bridge)
 
+The component allows to have a lot of current that can flow in both directions, depending on the input. The problem with this component is that it sometimes dissapears from the market -> it might be good to replace it someday.
+
 ### TCS40DPR (Hall sensor, encoder of the wheels)
 
 Datasheet: [**TCS40DPR**](../datasheets/hallSensor/TCS40DPR_hall_sensor.pdf)
@@ -40,7 +42,7 @@ Datasheet: [**TCS40DPR**](../datasheets/hallSensor/TCS40DPR_hall_sensor.pdf)
 
 After running tests using the oscilloscope, we observed that a 2.2k$\Omega$ pull-up resistor works fine. The chip works when alimented in 3.5V. The signal drops to GND when a magnetic field over a certain value is measured. The fastest the motor spins, the highest the frequency is (see figure underneath).
 
-<img src="../pictures/electronics/enc2.png" alt="wheels encoder output" width="50%" class="center">
+<img src="../pictures/electronics/encoder-output/enc2.png" alt="wheels encoder output" width="80%" class="center">
 
 Wheels reverse engineered electric scheme:
 
@@ -64,7 +66,7 @@ Snap switch (endstop): [https://www.digikey.com/product-detail/en/zf-electronics
 
 Board to board connector: [https://www.digikey.com/en/product-highlight/a/amphenol-fci/minitek-connectors](https://www.digikey.com/en/product-highlight/a/amphenol-fci/minitek-connectors)
 
-AVX board-to-board connector spec for male layout:
+AVX board-to-board (BTB) connector spec for male layout:
 <img src="../datasheets/avx-connector/avx-btb-conn-6pos-male-layout.jpg" alt="avx btb conn 6pos male layout"  rotate="180" width="80%" class="center">
 
 ### VL53L0X (distance sensor)

@@ -1,6 +1,6 @@
 # Introduction to Mobile Robotics - Albert-Ludwigs-Universität Freiburg course
 
-[Home](../../../README.md) | [Robotics general](../theory.md)
+[Home](../../../README.md) | [Robotics general theory](../theory.md)
 
 Link to the course:
 
@@ -11,4 +11,4 @@ Link to the course:
 - [Introduction](./w1/introduction.md)
 - [Linear algebra](./w1/linear-algebra.md)
 - [Robot control paradigms](./w2/control-paradigms.md)
-- [LWheeled locomotion](./w3/wheeled-locomotion.md)
+- [Wheeled locomotion](./w3/wheeled-locomotion.md)
