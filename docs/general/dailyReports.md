@@ -275,7 +275,14 @@ TO DO:
 ### 2019.07.19
 
 - ran print of 2 top corners (last one to get all the 8 corners)
-- started case assembly. Issues:
+- started case assembly. **Issues:**
   - the front wheel is too high -> it prevents the brush to touch the ground
   - the metal threads (melted in the corner parts) fill up with plastic and only one or two rotations with the screw are possible, which makes a very unreliable connection
   - the horizontal holes on the corners are flatten out during printing, which makes them to small to let the screws through (I had to drill though them). These holes should be made bigger.
+- made wave and coanda mixers for microfluidics in fusion360
+- continued assembly, they are a few things that fit nicely:
+  - the screen
+  - the lidar
+  - the front wheel (even though it a bit to far away from the border)
+  - the front wheel
+- finished mobile robotics w3 theory

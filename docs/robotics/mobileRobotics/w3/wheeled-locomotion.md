@@ -41,3 +41,19 @@ A robot with three wheels, generally circular, all wheels have the same forward 
 ## XR4000 drive
 
 A robot with four wheels that can all be turned separately. Constraint: all the wheels must move on a circle around the ICC. In certain conditions, this kind of robot can turn on the spot.
+
+## Mecanum wheels
+
+Kind of wheels that allows the robot to move sideways. They work by having "rolls" all around the wheels. The rolls on the front and back wheels are placed in opposite directions. If the four wheel move forward, nothing happens. If the front wheels got forward and the back wheels tgo backwards, the robot moves sideways.
+
+## Holonomy
+
+Non-Holonomic constraints apply to robots that cannot realize all movements/ follow all existing trajectories.
+
+For instance, a car has non-holonomic contrains.
+
+Mecanum drive do not ave non-holonomic contrains.
+
+**Dead reckoning:** deducing the position of a robot by calculating the theoretical position of the robot after some commands were given to it.
+
+**Odometry:** figuring out where the robot is using information about the environment that is sensed.
