@@ -294,3 +294,4 @@ TO DO:
 - ran oibus104 lid print with lower head temperature -> hoping support will not stick
 - made clean distance module [mother and daughter boards BOM in drive](https://docs.google.com/spreadsheets/d/1pxoK0e-CQp6b5M1Pq0CEsW51kXmuiHIKJI44d73KfLo/edit?usp=sharing)
 - soldered 3 distance module daughter boards
+- made dual boot Windows/Xenial and started installing useful things on the Ubuntu (npm, kicad, curl, cubemx, anaconda, vscode)
