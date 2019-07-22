@@ -9,7 +9,7 @@ STM32CubeMX is a microcontroller configuration generator for STM32. Practically,
 - open STM32CubeMX
 - click on **"Access to MCU selector"**
 - chose the right MCU you are using for your project
-- in the **Pinout and Configuratio**n tab
+- in the **Pinout and Configuration**n tab
   - define all the pins you are going to need for your project
   - customize the pins labels
   - add pull-ups, pull-downs or other pins properties

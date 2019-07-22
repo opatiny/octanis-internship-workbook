@@ -141,3 +141,13 @@ WHAT NEXT?
   - microwave? -> [https://www.youtube.com/watch?v=fMUemBZ0k5Q](https://www.youtube.com/watch?v=fMUemBZ0k5Q)
   - [http://2018.igem.org/Team:Madrid-OLM/HardawareMicrofluidics#workflowPDMS](http://2018.igem.org/Team:Madrid-OLM/HardawareMicrofluidics#workflowPDMS)
   - channels thickness: 1 mm wide and 0.5 mm high
+
+## 2019-07-22 11:00h
+
+- once the robot is assembled, focus on ROS, model it in ROS
+- need to make the dual boot on my computer
+- once the robot will be working, how should it interact with the users?
+  - add a microphone?
+  - add LEDs to show that it's "thinking" about the next move?
+  - what should the screen be showing at different moments?
+- model part that would go on top of mechanical endstop

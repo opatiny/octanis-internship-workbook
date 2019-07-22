@@ -286,3 +286,11 @@ TO DO:
   - the front wheel (even though it a bit to far away from the border)
   - the front wheel
 - finished mobile robotics w3 theory
+
+### 2019.07.22 - w8
+
+- daughter board of distance module arrived
+- made spreadsheet to follow progress
+- ran oibus104 lid print with lower head temperature -> hoping support will not stick
+- made clean distance module [mother and daughter boards BOM in drive](https://docs.google.com/spreadsheets/d/1pxoK0e-CQp6b5M1Pq0CEsW51kXmuiHIKJI44d73KfLo/edit?usp=sharing)
+- soldered 3 distance module daughter boards
