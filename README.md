@@ -6,6 +6,10 @@ Documentation resulting of my 20 weeks internship at Octanis Instruments.
 
 [Absences](./docs/general/absences.md)
 
+A detailed document following the work hours made can be found [here](https://docs.google.com/spreadsheets/d/1_l2dqrJrQ-v7qfd-l_EuGI3AZ5O0yJDEYIXwj1KPvaY/edit?usp=sharing).
+
+An [auto-evaluation](https://docs.google.com/spreadsheets/d/1lY56Y4fPrlJRqQMzHWMoeDCFBBWHa7X-nrasgqzNMNE/edit?usp=sharing) has also been made during the whole internship to follow the progress.
+
 To have global insight of what has been done during the internship:
 
 - [Daily reports](./docs/general/dailyReports.md)
@@ -24,12 +28,19 @@ Various information that has been useful / doc produced:
 - [KiCAD cheatsheet](./docs/electronics/pcb/kicad.md)
   - [Rigid-flex PCB](./docs/electronics/pcb/rigid-flex.md)
 - [Electronics theory](./docs/electronics/theory/theory.md)
-- [Robotics theory](./docs/robotics/theory.md)
 
 **Programming:**
 
 - [Programming environment setup procedure](./docs/programming/environmentSetup.md)
 - [CubeMX procedure](./docs/programming/cubeMX.md)
+- [Useful vocabulary](./docs/programming/vocabulary.md)
+- [C tips](./docs/programming/c.md)
+
+**Robotics:**
+
+- [Robotics theory](./docs/robotics/theory.md)
+- [ROS](./docs/robotics/ros.md)
+- [Mobile Robotics course notes](./docs/robotics/mobileRobotics/mobileRobotics.md)
 
 **Others:**
 

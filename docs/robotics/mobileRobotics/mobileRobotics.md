@@ -2,9 +2,7 @@
 
 [Home](../../../README.md) | [Robotics general theory](../theory.md)
 
-Link to the course:
-
-[**Introduction to Mobile Robotic**](http://ais.informatik.uni-freiburg.de/teaching/ss19/robotics/)
+Link to the course: [**Introduction to Mobile Robotics**](http://ais.informatik.uni-freiburg.de/teaching/ss19/robotics/)
 
 ## TOC
 
