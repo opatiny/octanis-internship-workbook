@@ -34,6 +34,14 @@ Otherwise, use the following command:
 
 **Be very careful how you name your files**: some names are  used for functions the user has not access to and using them can lead to weird error messages.
 
+### reproducible random (numpy)
+
+When using random array generators, you sometimes want that the array you generate remains the same every time you execute your script. To do that with numpy, simply set the `random.seed` function to a given int.
+
+```python
+    mp.random.seed(42)
+```  
+
 ## Useful links
 
 - plots commands : [https://matplotlib.org/2.0.2/api/pyplot_summary.html](https://matplotlib.org/2.0.2/api/pyplot_summary.html)
