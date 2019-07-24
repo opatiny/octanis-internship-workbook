@@ -90,3 +90,8 @@ For more precise information about the electronics, click [here](./docs/pcb/pcb.
 ### Power supply
 
 Three packs in serie of four 18x680 batteries in parallel are used as a power supply. This results in a voltage of 11.1V and a power of
+
+## Things to consider
+
+- we could place a robotic arm on the robot if it supported the weight ([AR2](https://www.youtube.com/watch?v=CCgI4R1TEzI)) + adaptive gripper? [https://www.thingiverse.com/thing:2527079](https://www.thingiverse.com/thing:2527079)
+- add leds or a microphone for user interface

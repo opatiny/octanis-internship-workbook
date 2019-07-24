@@ -10,3 +10,7 @@ Link to the course: [**Introduction to Mobile Robotics**](http://ais.informatik.
 - [Linear algebra](./w1/linear-algebra.md)
 - [Robot control paradigms](./w2/control-paradigms.md)
 - [Wheeled locomotion](./w3/wheeled-locomotion.md)
+
+## Exercices
+
+The Python exercises are in their own Git repository: [https://github.com/opatiny/mobile-robotics](https://github.com/opatiny/mobile-robotics).

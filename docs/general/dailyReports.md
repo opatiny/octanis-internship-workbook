@@ -304,3 +304,8 @@ TO DO:
 - watched Mobile Robotics w4
 - started looking up at Robot Mapping course
 - finished MR w1 sheet0
+
+### 2019.07.24
+
+- spent all day programming in python and solving Mobile Robotics w1 sheet1
+

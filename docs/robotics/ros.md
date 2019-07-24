@@ -18,6 +18,3 @@ Many ROS tutorials for beginners: [http://wiki.ros.org/ROS/Tutorials](http://wik
 
 [https://wiki.ros.org/urdf/Tutorials/Building%20a%20Visual%20Robot%20Model%20with%20URDF%20from%20Scratch](https://wiki.ros.org/urdf/Tutorials/Building%20a%20Visual%20Robot%20Model%20with%20URDF%20from%20Scratch)
 
-## ROS for beginners: course
-
-[https://www.udemy.com/ros-navigation/?couponCode=ROSNAVTUTORIALS](https://www.udemy.com/ros-navigation/?couponCode=ROSNAVTUTORIALS)
