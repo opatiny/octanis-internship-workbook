@@ -186,7 +186,7 @@ Sliced again to center parts on bed.
 - Filament: Prusament PLA (grey)
 - Infill: 15%
 
-**Special:** support and raft boxes not checked in Up Studio (default)
+**Special:** support and raft boxes added in Up Studio (default)
 
 ### oibus104 bottom
 
@@ -196,7 +196,7 @@ Sliced again to center parts on bed.
 - Filament: Prusament PLA (grey)
 - Infill: 15%
 
-**Special:** support and raft boxes not checked in Up Studio
+**Special:** support and raft boxes added in Up Studio
 
 ### oibus104 lid
 
@@ -206,4 +206,29 @@ Sliced again to center parts on bed.
 - Filament: Prusament PLA (grey)
 - Infill: 20%
 
-**Special:** support box checked in Up Studio
+**Special:** support added in Up Studio
+
+### 2 small PCB cases for distance module
+
+- Date : 2019.07.25
+- Printer: Cetus3D
+- Print settings: 0.2mm Normal
+- Filament: Prusament PLA (grey)
+- Infill: 20%
+
+**Special:** support added in Up Studio
+
+**Problem :** parts did not stick to bed
+-> **Solution :** calibrate the printer
+
+### 2 small PCB cases for distance module
+
+- Date : 2019.07.25
+- Printer: Cetus3D
+- Print settings: 0.2mm Normal
+- Filament: Prusament PLA (grey)
+- Infill: 20%
+
+**Special:** support added in Up Studio
+
+Prints succeeded.

@@ -83,6 +83,30 @@ The appropriate slicer for the Renkforce 3D printers is Ultimaker Cura:
 The slicer for the Cetus3D printer is called Up Studio:
 [https://www.tiertime.com/up-studio/](https://www.tiertime.com/up-studio/)
 
+Install the software directly on a computer connected to the printer. You can slice and print without going through an SD card.
+
 ### Support is really hard to remove
 
-Try lowering the temperature of the head by 5 deg Celcius.
+Try lowering the temperature of the head by 5 deg Celcius. This still does not work really well...
+
+### Part sticks to bed to well
+
+- be sure that the bed is cold
+- use a spatula to gently lift it
+
+### Part doesn't stick to bed
+
+Try calibrating the printer.
+
+### Calibrate a Cetus3D printer
+
+- click on the calibrate icon (right-angle ruler)
+- to check if the calibration is good, place a piece of paper on the bed and move the head to the same height as the "Nozzle Height": if the nozzle doesn't press against the paper, the printer is not calibrated well
+- in that case, click on the "Manual" button
+- place a piece of paper on the bed and click on the top-left position (they are 9 points to do)
+  - use the arrows to move the head up or down
+  - the nozzle should press on the paper so that there is resistance when you draw on it
+  - click on the circular symbol next to the arrows to move to the next point
+  - repeat for all 9 points
+  - Confirm
+- you should see that the "Nozzle Height" has changed
