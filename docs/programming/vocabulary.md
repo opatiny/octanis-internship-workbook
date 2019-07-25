@@ -4,5 +4,6 @@
 
 - **bare metal :** when writing code directly on a microcontroller, without and OS
 - **HAL :** hardware abstraction layer -> functions that are linked to the internal peripherals of the microcontroller
+- **FSM :** Final State Machine
 - **microcontroller :** processor + bunch of internal peripherals
 - **module :** it C code, a module is the combination of a `.c` (functions implementations) and a `.h` (functions declarations, what is visible from other files) file

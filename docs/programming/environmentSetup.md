@@ -2,6 +2,8 @@
 
 [Home](../../README.md) | [CubeMX procedure](./cubeMX.md) | [C tips in VS Code](./c.md) | [Useful definitions](./vocabulary.md)
 
+## Windows
+
 Setup environment to program STM32 on Windows: [https://wiki.octanis.org/stm32/vscode](https://wiki.octanis.org/stm32/vscode)
 
 To help with the registers definition, use the **STM32CubeMX** software.
@@ -26,6 +28,54 @@ They are a few things you need to install in order to be able to program an STM3
 - to be able to compile and flash, you absolutely need two commands: **make** and **make flash**, to get them, go on on [this page](https://sourceforge.net/projects/mingw-w64/files/External%20binary%20packages%20%28Win64%20hosted%29/make/) and download the files. Unzip. Place them in C:\VSARM\mingw\mingw32\bin. The commands should now be available from Command Prompt (name of the mingw app, kind of terminal)
 
 From there, you should be globally done with the environment. To start a new firmware project, follow the [CubeMX procedure](./cubeMX.md).
+
+## Linux
+
+Follow this tutorial: [https://www.instructables.com/id/Build-a-Program-for-STM32-MCU-Under-Linux/](https://www.instructables.com/id/Build-a-Program-for-STM32-MCU-Under-Linux/)
+
+### CubeMX
+- you can have troubles installing CubeMX, in my case it was because I didn't had java. To install it, simply run
+  ```bash
+  sudo apt install default-jdk
+  ```
+- then, go to the folder where you extracted the CubeMX files and type `ls -l` to check file execution rights
+- if necessary, change the rights of the .linux file using `chmod 777 file.linux`
+- run the .linux file with `./file.linux`
+- follow the wizard
+
+### Packages needed to have the `make` and `make flash` commands
+A useful command in general which allows you to see if a package exists using keywords (replace `stlink` by your keyword):
+```bash
+sudo apt-cache search stlink
+```
+- arm
+
+#### openocd
+
+```bash
+sudo apt-cache search openocd
+sudo apt install openocd
+openocd
+```
+
+#### stlink
+Clone the GitHub repository:
+```bash
+git clone https://github.com/texane/stlink.git
+```
+Install necessary package:
+```bash
+sudo apt install p7zip mingw-w64
+```
+Then: 
+
+```bash
+make release
+cd build/Release; sudo make install
+exit
+```
+
+ldconfig??
 
 ## The physical debugger
 

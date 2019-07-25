@@ -319,3 +319,8 @@ TO DO (till 31.07.3019):
 - start setting up ROS
 - (continue working on Mobile Robotics)
   
+
+Did:
+- print small PCB case on Cetus3D, two first prints failed because of bad calibration
+- setup programming environment for stm32 on Ubuntu
+- blinked LEDs on distance module
