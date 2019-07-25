@@ -309,3 +309,13 @@ TO DO:
 
 - spent all day programming in python and solving Mobile Robotics w1 sheet1
 
+### 2019.07.25
+
+TO DO (till 31.07.3019):
+- install programming environment of STM32 on Ubuntu
+- find a way to fix wheels on the robot (hardware)
+- solder motor boards or wait for Raph to do that?
+- print cases for the distance sensing boards
+- start setting up ROS
+- (continue working on Mobile Robotics)
+  
