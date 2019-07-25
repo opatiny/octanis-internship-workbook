@@ -294,3 +294,28 @@ TO DO:
 - ran oibus104 lid print with lower head temperature -> hoping support will not stick
 - made clean distance module [mother and daughter boards BOM in drive](https://docs.google.com/spreadsheets/d/1pxoK0e-CQp6b5M1Pq0CEsW51kXmuiHIKJI44d73KfLo/edit?usp=sharing)
 - soldered 3 distance module daughter boards
+- made dual boot Windows/Xenial and started installing useful things on the Ubuntu (npm, kicad, curl, cubemx, anaconda, vscode)
+
+### 2019.07.23
+
+- synced VScode settings on Ubuntu
+- tried using python
+- installed ROS
+- watched Mobile Robotics w4
+- started looking up at Robot Mapping course
+- finished MR w1 sheet0
+
+### 2019.07.24
+
+- spent all day programming in python and solving Mobile Robotics w1 sheet1
+
+### 2019.07.25
+
+TO DO (till 31.07.3019):
+- install programming environment of STM32 on Ubuntu
+- find a way to fix wheels on the robot (hardware)
+- solder motor boards or wait for Raph to do that?
+- print cases for the distance sensing boards
+- start setting up ROS
+- (continue working on Mobile Robotics)
+  

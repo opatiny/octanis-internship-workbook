@@ -5,9 +5,11 @@
 We are going to follow two distinct courses of the Albert-Ludwigs-Universität Freiburg to acquire the necessary knowledge:
 
 - [**Introduction to Mobile Robotic**](http://ais.informatik.uni-freiburg.de/teaching/ss19/robotics/)
-- [**Robot Mapping**](http://ais.informatik.uni-freiburg.de/teaching/ws18/mapping/)
+- [**Introduction to Robot Mapping**](http://ais.informatik.uni-freiburg.de/teaching/ws18/mapping/)
 
 ## Vocabulary
+
+- taxonomy : a scheme of classification
 
 ### Abbreviations
 
