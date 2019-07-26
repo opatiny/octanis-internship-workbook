@@ -35,7 +35,7 @@ STM32CubeMX is a microcontroller configuration generator for STM32. Practically,
 /* USER CODE END blabla */
 ```
 
-If you have FreeRTOS on your device, insert your code in the `freertos-fw.c` file.
+If you have FreeRTOS on your device, insert your code in the `freertos.c` file.
 
 ### make command
 

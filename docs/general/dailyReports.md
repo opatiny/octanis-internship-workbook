@@ -324,3 +324,10 @@ Did:
 - print small PCB case on Cetus3D, two first prints failed because of bad calibration
 - setup programming environment for stm32 on Ubuntu
 - blinked LEDs on distance module
+
+### 2019.07.25
+
+- tried to run small PCB case print, but Cetus3D was under-extruding
+- fixed the Cetus3D printer
+- wrote doc about programming environment for STM32 on Ubuntu
+- read about FreeRTOS

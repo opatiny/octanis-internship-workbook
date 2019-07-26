@@ -31,6 +31,8 @@ From there, you should be globally done with the environment. To start a new fir
 
 ## Linux
 
+**Disclaimer:** Doc is probably not complete
+
 I partly followed this tutorial: [https://www.instructables.com/id/Build-a-Program-for-STM32-MCU-Under-Linux/](https://www.instructables.com/id/Build-a-Program-for-STM32-MCU-Under-Linux/)
 
 ### CubeMX
