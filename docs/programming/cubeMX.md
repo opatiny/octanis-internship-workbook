@@ -35,6 +35,8 @@ STM32CubeMX is a microcontroller configuration generator for STM32. Practically,
 /* USER CODE END blabla */
 ```
 
+If you have FreeRTOS on your device, insert your code in the `freertos-fw.c` file.
+
 ### make command
 
 In the bash, just type `make` + Enter.
@@ -61,7 +63,7 @@ flash:
 
 Then, copy the `stm32f3.cfg` file from another project and paste it at the level of the `MakeFile`.
 
-Also, if flashing doesn't work, change the file extension from `.hex` to `.elf` in the flashing command that you copy pasted in the `MakeFile`.
+Also, if flashing doesn't work, change the file extension from `.hex` to `.elf` in the flashing command that you copy pasted in the `MakeFile` (it might happen that one of the two executable files is not generated compiled properly).
 
 ## various issues
 

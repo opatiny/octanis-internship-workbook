@@ -208,20 +208,20 @@ Sliced again to center parts on bed.
 
 **Special:** support added in Up Studio
 
-### 2 small PCB cases for distance module
+### 2 small PCB cases for distance module (v7)
 
 - Date : 2019.07.25
 - Printer: Cetus3D
 - Print settings: 0.2mm Normal
 - Filament: Prusament PLA (grey)
-- Infill: 20%
+- Infill: 13%
 
 **Special:** support added in Up Studio
 
 **Problem :** parts did not stick to bed
 -> **Solution :** calibrate the printer
 
-### 2 small PCB cases for distance module
+### 2 small PCB cases for distance module (v7)
 
 - Date : 2019.07.25
 - Printer: Cetus3D
@@ -231,4 +231,17 @@ Sliced again to center parts on bed.
 
 **Special:** support added in Up Studio
 
-Prints succeeded.
+Prints succeeded. When tested, the plastic was too stiff and the case broke -> new design
+
+### 2 small PCB cases for distance module (v8)
+
+- Date : 2019.07.26
+- Printer: Cetus3D
+- Print settings: 0.2mm Normal
+- Filament: Prusament PLA (grey)
+- Infill: 20%
+
+**Special:** support added in Up Studio
+
+**Problem:** Print failed because printer is under-extruding.
+-> **Solution:** Open where gears are, clean up, use needle to clean nozzle and re-calibrate printer.

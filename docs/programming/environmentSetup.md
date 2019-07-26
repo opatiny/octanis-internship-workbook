@@ -31,7 +31,7 @@ From there, you should be globally done with the environment. To start a new fir
 
 ## Linux
 
-Follow this tutorial: [https://www.instructables.com/id/Build-a-Program-for-STM32-MCU-Under-Linux/](https://www.instructables.com/id/Build-a-Program-for-STM32-MCU-Under-Linux/)
+I partly followed this tutorial: [https://www.instructables.com/id/Build-a-Program-for-STM32-MCU-Under-Linux/](https://www.instructables.com/id/Build-a-Program-for-STM32-MCU-Under-Linux/)
 
 ### CubeMX
 - you can have troubles installing CubeMX, in my case it was because I didn't had java. To install it, simply run
@@ -44,11 +44,49 @@ Follow this tutorial: [https://www.instructables.com/id/Build-a-Program-for-STM3
 - follow the wizard
 
 ### Packages needed to have the `make` and `make flash` commands
+
 A useful command in general which allows you to see if a package exists using keywords (replace `stlink` by your keyword):
 ```bash
 sudo apt-cache search stlink
 ```
-- arm
+
+Also, it can happen that the packages that you install using `apt-get install` on Ubuntu are outdated. I that happens to you, start by deleting the outdated package using `sudo appt remove`. Then, you have to download the package and add the binaries manually to the PATH, which is defined in the `.bashrc` file (in your home directory). After adding manually to this file, you have to reboot!
+
+
+#### arm-none-eabi
+
+Using `apt-get install` installed an outdated version. You can check this with:
+```bash
+arm-none-eabi-gcc --version
+```
+
+If outdated, remove the package:
+```bash
+sudo apt remove gcc-arm-none-eabi
+```
+
+Download latest stable version of package:
+[developer.arm.com](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
+
+Go to your Download folder and extract the files:
+```bash
+tar xvf gcc-arm-none-eabi-8-2019-q3-update-linux.tar.bz2 
+```
+(don't just copy this, be sure to extract the right compressed folder)
+
+Move the toolchain to somewhere you like (I put it in the home directory).
+Add the executable to your `.bashrc` file (in your home directory).
+```bash
+#ARM toolchain
+export PATH="/home/opatiny/arm-toolchain/bin:$PATH"
+```
+Then open a new terminal for the changes to take effect.
+
+Check that the package version is now correct:
+```bash
+arm-none-eabi-gcc --version
+```
+
 
 #### openocd
 
@@ -59,6 +97,7 @@ openocd
 ```
 
 #### stlink
+
 Clone the GitHub repository:
 ```bash
 git clone https://github.com/texane/stlink.git
@@ -76,6 +115,12 @@ exit
 ```
 
 ldconfig??
+
+
+### UAVCAN
+
+Install UAVCAN to see packages on the network, procedure is [here](./uavcan.md).
+
 
 ## The physical debugger
 

@@ -110,3 +110,16 @@ Try calibrating the printer.
   - repeat for all 9 points
   - Confirm
 - you should see that the "Nozzle Height" has changed
+
+### Under-extrusion
+
+If the printer starts under-extruding after being calibrated, it might be that the nozzle has been set to be too close to the bed, which causes it to get clogged. If that happens, proceed as follow:
+- withdraw filament (if is gets stuck at the gears level, get access to the gears and cut the part of filament causing troubles)
+- open the gears part
+- clean any residuals of plastic on the gears
+- heat up the head by pressing "Withdraw" again
+- use acupuncture needle to clean nozzle
+- close gears part
+- re-insert filament
+- check that extrusion is good
+- manually calibrate the printer again (take care not to be too close to the bed again...)
