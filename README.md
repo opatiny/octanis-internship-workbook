@@ -19,28 +19,34 @@ Various information that has been useful / doc produced:
 
 **Mechanics:**
 
-- [Fusion 360 cheat sheet](./docs/apps/3D/fusion360/fusion360CheatSheet.md)
-- [Prusa printers doc](./docs/apps/3D/3D-printing/printers.md)
-  - [Prusa slicer parameters of all prints](./docs/apps/3D/3D-printing/printsParameters.md)
+- [Fusion 360 cheat sheet](./docs/mechanics/fusion360/fusion360CheatSheet.md)
+- [3D printers doc](./docs/mechanics/3D-printing/printers.md)
+  - [Slicers parameters of all prints](./docs/mechanics/3D-printing/printsParameters.md)
+- [Laser cutting doc](./docs/mechanics/laser-cutting/laser-cutting.md)
 
 **Electronics:**
 
+- [Electronics theory](./docs/electronics/theory/theory.md)
 - [KiCAD cheatsheet](./docs/electronics/pcb/kicad.md)
   - [Rigid-flex PCB](./docs/electronics/pcb/rigid-flex.md)
-- [Electronics theory](./docs/electronics/theory/theory.md)
 
-**Programming:**
 
+**Programming and IT:**
+- [Setup a dual boot Windows / Xenial (Ubuntu)](./docs/programming/dualBoot.md)
 - [Programming environment setup procedure](./docs/programming/environmentSetup.md)
+- [Useful theory and definitions](./docs/programming/theory.md)
 - [CubeMX procedure](./docs/programming/cubeMX.md)
-- [Useful vocabulary](./docs/programming/vocabulary.md)
 - [C tips](./docs/programming/c.md)
+- [FreeRTOS basic notions](./docs/programming/freertos.md)
+- [UAVCAN GUI Tools tips](./docs/programming/uavcan.md)
+- [Python tips](./docs/programming/python/python.md)
 
 **Robotics:**
 
 - [Robotics theory](./docs/robotics/theory.md)
 - [ROS](./docs/robotics/ros.md)
 - [Mobile Robotics course notes](./docs/robotics/mobileRobotics/mobileRobotics.md)
+- [Robot Mapping course notes](./docs/robotics/robotMapping/robotMapping.md)
 
 **Others:**
 

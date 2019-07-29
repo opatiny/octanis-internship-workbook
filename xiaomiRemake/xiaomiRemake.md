@@ -1,6 +1,6 @@
 # Vacuum cleaner robot
 
-[Home](../README.md) | [Links / references](./docs/refs.md) | [Project PCBs doc](./docs/pcd/pcb.md)
+[Home](../README.md) | [Links / References](./docs/refs.md) | [Project PCBs doc](./docs/pcd/pcb.md)
 
 ## Goal
 

@@ -318,16 +318,17 @@ TO DO (till 31.07.3019):
 - print cases for the distance sensing boards
 - start setting up ROS
 - (continue working on Mobile Robotics)
-  
 
 Did:
 - print small PCB case on Cetus3D, two first prints failed because of bad calibration
 - setup programming environment for stm32 on Ubuntu
 - blinked LEDs on distance module
 
-### 2019.07.25
+### 2019.07.26
 
 - tried to run small PCB case print, but Cetus3D was under-extruding
 - fixed the Cetus3D printer
 - wrote doc about programming environment for STM32 on Ubuntu
-- read about FreeRTOS
+- read and documented about FreeRTOS
+
+### 2019.07.29 - w9

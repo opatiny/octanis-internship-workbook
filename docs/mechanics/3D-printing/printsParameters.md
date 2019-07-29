@@ -267,3 +267,15 @@ Print succeeded, but design not good.
 - Infill: 20%
 
 **Special:** support added in Up Studio
+
+### 4 small PCB cases for distance module (v10)
+
+- Date : 2019.07.26
+- Printer: Cetus3D
+- Print settings: 0.2mm Normal
+- Filament: Prusament PLA (grey)
+- Infill: 20%
+
+**Special:** support added in Up Studio
+
+-> "production", prints succeeded
