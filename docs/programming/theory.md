@@ -22,9 +22,10 @@
 
 ## Acronyms
 
-- **EEPROM :** electrically erasable programmable read-only memory
-- **HAL :** hardware abstraction layer -> functions that are linked to the internal peripherals of the microcontroller
+- **EEPROM :** Electrically Erasable Programmable Read-Only Memory
+- **HAL :** Hardware Abstraction Layer -> functions that are linked to the internal peripherals of the microcontroller
 - **FSM :** Final State Machine
--** OS :** Operating System
+- **NVIC :** Nested Vector Interrupt Control
+- **OS :** Operating System
 - **RAM :** Random Access Memory, volatile
 - **ROM :** Read Only Memory

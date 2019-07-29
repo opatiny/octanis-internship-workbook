@@ -29,7 +29,45 @@ void vApplicationIdleHook( void );
 This function is often used to put the microcontroller in a sleep / low poser mode.
 
 ## Co-routines
+
 - fundamentally similar to tasks
 - all co-routines chare the same stack -> reduces the amount of RAM
 - the variables can be shared between/ accessed by various co-routines
 - not used often nowadays
+
+## Queues
+
+- allow tasks to communicate -> variables can be send from task to task
+- a queue is a set of empty spaces that can be filled with "**messages**" of different types (-> the type allows to read the data)
+- the queue is **FIFO**
+- many tasks can write or read to a queue
+- in freertos, you can either directly put the **data** in a message, or you can put a **pointer** if the data is too big
+- Blocking :
+  - a task that reads from an empty queue is put in Blocked state for a certain block time (or till new messages arrive)
+  - a task that tries to write to a full queue is put in Blocked state for a certain block time (or till there's space in the queue)
+
+## Binary semaphore
+
+- something like a one box queue -> it is either full or empty (binary)
+- for example, you can sync a task with an interrupt:
+  - the interrupt fills the semaphore every X time
+  - the task is blocked while the semaphore is empty
+  - the task unblocks when the semaphore is full and it empties the semaphore again
+- many tasks can wait for the same semaphore -> you have a priority order
+- good to implement synchronisation
+
+## Counting semaphore
+
+- can be seen as a queue of length greater than one (but what is in the messages doesn't matter)
+- two typical applications:
+  - **count events** : semaphore incremented every time an event occurs and decremented every time a task processes an event (should be initialized with value 0)
+  - **manage resources** : the semaphore indicates the number of available resources, it is decremented when a task uses a resource and incremented when the task is finished with it (should be initialized at the initial number of resources)
+
+## Mutexes
+
+- binary semaphore with **priority inheritance mechanism**
+- good to implement MUTual EXclusion of tasks
+- like a token that can only be used by one task at a time -> you are sure that the tasks cannot run "simultaneously"
+- **priority inheritance mechanism** : if a low priority task uses a token that blocks a higher priority task, the task using the token is temporarily raised to the same priority level as the higher priority one
+- mutexes **should not be used with interrupts**!
+- recursive mutexes must be given back five times by a task that has taken it five times before it can be used by another task
