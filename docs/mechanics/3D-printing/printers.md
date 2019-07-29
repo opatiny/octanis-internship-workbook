@@ -103,7 +103,7 @@ Try calibrating the printer.
 - click on the calibrate icon (right-angle ruler)
 - to check if the calibration is good, place a piece of paper on the bed and move the head to the same height as the "Nozzle Height": if the nozzle doesn't press against the paper, the printer is not calibrated well
 - in that case, click on the "Manual" button
-- place a piece of paper on the bed and click on the top-left position (they are 9 points to do)
+- place a piece of paper (can be folded in two) on the bed and click on the top-left position (they are 9 points to do)
   - use the arrows to move the head up or down
   - the nozzle should press on the paper so that there is resistance when you draw on it
   - click on the circular symbol next to the arrows to move to the next point
@@ -123,3 +123,18 @@ If the printer starts under-extruding after being calibrated, it might be that t
 - re-insert filament
 - check that extrusion is good
 - manually calibrate the printer again (take care not to be too close to the bed again...)
+
+### nozzle touches the bed and scratches glue layer
+
+- it seems that the printer is not calibrated well, so you have to re-calibrate it but first:
+- if the glue layer is really damaged, you might want to remove it
+- unscrew the three screws in the middle of the bed
+- take the bed off
+- pour some acetone on the bed and use a scraper to remove all the glue
+- once the bed is clean use spray glue to make a new layer of glue (it can be really thin and hardly visible)
+- screw the bed back in place, make sure that it is fixed well enough not to be able to rotate
+- calibrate the printer again
+
+### printer makes weird ticking noises while calibrating
+
+When calibrating, the printer goes to the end of each axis, where it bumps into something. This generates a spike in the stepper motors power consumption, which allows to set the origin of the axis. Along the Y axis, the head bumps into a screw, which tends to loosen itself. Therefore, the bump is not detected and the head moves up and down repeatedly. To fix this, tighten the screw a bit.

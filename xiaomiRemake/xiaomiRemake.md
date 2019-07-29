@@ -4,7 +4,7 @@
 
 ## Goal
 
-Make a vacuum cleaning robot applying the technologies developped at Octanis Instruments. The robot will use some of the same components as the Xiaomi Mi Roborock (already existing vacuum cleaner robot). Yet, all the user interface, the electronics and the sensors will be new.
+Make a vacuum cleaning robot applying the technologies developed at Octanis Instruments. The robot will use some of the same components as the Xiaomi Mi Roborock (already existing vacuum cleaner robot). Yet, all the user interface, the electronics and the sensors will be new.
 
 ## Mechanics
 
@@ -96,3 +96,8 @@ Three packs in serie of four 18x680 batteries in parallel are used as a power su
 - we could place a robotic arm on the robot if it supported the weight ([AR2](https://www.youtube.com/watch?v=CCgI4R1TEzI))
 - adaptive gripper? [https://www.thingiverse.com/thing:2527079](https://www.thingiverse.com/thing:2527079) and [https://www.youtube.com/watch?v=x9KWuQXTURI](https://www.youtube.com/watch?v=x9KWuQXTURI)
 - add LEDs or a microphone for user interface
+
+## Software / Firmware
+
+### UAVCAN
+the message type to use for the distance sensor output: [https://github.com/UAVCAN/public_regulated_data_types/blob/master/uavcan/equipment/range_sensor/1050.Measurement.uavcan](https://github.com/UAVCAN/public_regulated_data_types/blob/master/uavcan/equipment/range_sensor/1050.Measurement.uavcan)

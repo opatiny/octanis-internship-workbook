@@ -328,7 +328,17 @@ Did:
 
 - tried to run small PCB case print, but Cetus3D was under-extruding
 - fixed the Cetus3D printer
+- printed 5 small PCB cases
 - wrote doc about programming environment for STM32 on Ubuntu
 - read and documented about FreeRTOS
 
 ### 2019.07.29 - w9
+
+- tried to print 4 cases for small PCB again, but print failed many times
+- spent a lot of time repairing Cetus3D printer: made new glue layer on bed, calibrated a few times, ...
+- continue reading FreeRTOS documentation
+- started reading article for CO2 extraction from seas
+- none of the small PCB cases prints succeded -> did not stick to bed well
+- started programming distance module: implemented bumper functionality
+
+
