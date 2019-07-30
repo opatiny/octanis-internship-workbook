@@ -341,4 +341,11 @@ Did:
 - none of the small PCB cases prints succeded -> did not stick to bed well
 - started programming distance module: implemented bumper functionality
 
+### 2019.07.30
+
+- tried printing small PCB case and had problems again with adhesion
+- repaired bottom Prusa with Sam!!! (hotend replacement)
+- programmed STM32 and managed to have it appearing on the UAVCAN GUI Tools
+- had libcanard partly explained by Sam
+
 

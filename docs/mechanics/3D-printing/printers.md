@@ -61,6 +61,10 @@ Clean a clogged nozzle: [https://www.youtube.com/watch?v=g8uvh6kvr54](https://ww
 
 - print a part to check if all the things you did were at all useful...
 
+## Extruder disassembly
+
+[https://manual.prusa3d.com/Guide/2.+Extruder+disassembly/1059](https://manual.prusa3d.com/Guide/2.+Extruder+disassembly/1059)
+
 ## Errors
 
 ### MINTEMP
