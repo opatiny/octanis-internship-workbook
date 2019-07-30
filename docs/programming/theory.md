@@ -22,6 +22,7 @@
 
 ## Acronyms
 
+- **ACK :** ACKnowledgment
 - **EEPROM :** Electrically Erasable Programmable Read-Only Memory
 - **HAL :** Hardware Abstraction Layer -> functions that are linked to the internal peripherals of the microcontroller
 - **FSM :** Final State Machine

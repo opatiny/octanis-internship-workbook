@@ -70,3 +70,13 @@ Also, if flashing doesn't work, change the file extension from `.hex` to `.elf` 
 ### this error message: makefile:108: \*\*\* missing separator. Stop.
 
 The MakeFile is the only one that CubeMX isn't really good at updating. So it is possible that they are two times the same commands in it. In that case, you will get this error. To fix it, go to the file and delete all extra commands.
+
+## things that can be configured in CubeMX
+
+### interrupts
+
+- To setup an interrupt on a pin, click on the pin and choose the `GPIO_EXTIx` type.
+- Click on the pin in the GPIO tab and set the **GPIO mode** : what is going to trigger the interrupt?
+- Go to the `NVIC` tab, find your interrupt in the list and be sure that "Enabled" and "Uses FreeRTOS functions" Boxes are checked
+- Generate the code.
+
