@@ -1,5 +1,7 @@
 # Programming in Python
 
+[Home](../../../README.md) | [Programming theory](./theory.md)
+
 ## Setting up Anaconda and Conda
 
 Anaconda is and environment and package manager. It is what we will use to program in python. To install it, follow this tutorial:

@@ -1,6 +1,6 @@
 # Setting up a programming environment for STM32
 
-[Home](../../README.md) | [CubeMX procedure](./cubeMX.md) | [C tips in VS Code](./c.md) | [Useful definitions](./vocabulary.md)
+[Home](../../README.md) | [Useful definitions](../general/theory.md) | [FreeRTOS](./freertos.md) | [CubeMX procedure](./cubeMX.md) | [C tips in VS Code](./c.md)
 
 ## Windows
 

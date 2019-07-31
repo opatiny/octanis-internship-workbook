@@ -32,13 +32,13 @@ Various information that has been useful / doc produced:
 
 
 **Programming and IT:**
-- [Setup a dual boot Windows / Xenial (Ubuntu)](./docs/programming/dualBoot.md)
-- [Programming environment setup procedure](./docs/programming/environmentSetup.md)
-- [Useful theory and definitions](./docs/programming/theory.md)
-- [CubeMX procedure](./docs/programming/cubeMX.md)
-- [C tips](./docs/programming/c.md)
-- [FreeRTOS basic notions](./docs/programming/freertos.md)
-- [UAVCAN GUI Tools tips](./docs/programming/uavcan.md)
+- [Setup a dual boot Windows / Xenial (Ubuntu)](./docs/programming/general/dualBoot.md)
+- [Useful theory and definitions](./docs/programming/general/theory.md)
+- [Programming environment setup procedure](./docs/programming/stm32Programming/environmentSetup.md)
+- [CubeMX procedure](./docs/programming/stm32Programming/cubeMX.md)
+- [C tips](./docs/stm32Programming/programming/stm32Programming/c.md)
+- [FreeRTOS basic notions](./docs/programming/stm32Programming/freertos.md)
+- [UAVCAN GUI Tools tips](./docs/programming/uavcan/uavcan.md)
 - [Python tips](./docs/programming/python/python.md)
 
 **Robotics:**

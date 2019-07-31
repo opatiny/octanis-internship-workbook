@@ -348,4 +348,7 @@ Did:
 - programmed STM32 and managed to have it appearing on the UAVCAN GUI Tools
 - had libcanard partly explained by Sam
 
+### 2019.07.31
 
+
+## August : HOLIDAYS

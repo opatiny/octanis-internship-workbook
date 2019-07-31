@@ -1,5 +1,7 @@
 # Installing Xenial in parallel with a Windows (dual boot)
 
+[Home](../../../README.md) | [Programming theory](./theory.md)
+
 ## Required
 
 You need a USB stick with a capacity of at least 2Gb and nothing important on it (tried with an SSD, but didn't work).

@@ -1,5 +1,7 @@
 # Programming in C in VS Code
 
+[Home](../../README.md) | [Useful definitions used in IT](../general/theory.md) | [Programming environment setup procedure](./environmentSetup.md) | [C tips in VS Code](./c.md) | [FreeRTOS](./freertos.md)
+
 ## Theory
 
 - FreeRTOS: [https://www.freertos.org/taskandcr.html](https://www.freertos.org/taskandcr.html), TO READ:

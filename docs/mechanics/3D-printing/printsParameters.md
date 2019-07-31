@@ -270,7 +270,7 @@ Print succeeded, but design not good.
 
 ### 4 small PCB cases for distance module (v10)
 
-- Date : 2019.07.26
+- Date : 2019.07.29 and 2019.07.30
 - Printer: Cetus3D
 - Print settings: 0.2mm Normal
 - Filament: Prusament PLA (grey)
@@ -279,3 +279,17 @@ Print succeeded, but design not good.
 **Special:** support added in Up Studio
 
 -> "production", prints succeeded
+
+### small PCB cases for distance module (v10)
+
+Tried to print the case many times, but it always failed because of adhesion and calibration that were bad.
+
+### runes v3
+
+- Date : 2019.07.31
+- Printer: bottom Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: Prusament PLA (grey)
+- Infill: 20%
+
+Problem: The filament spool wasn't unwinding correctly and it fell off the printer, breaking the filament. The printer started beeping when there was nearly no filament left and asked to unload filament. I unloaded the filament and loaded it again and the print resumed.
