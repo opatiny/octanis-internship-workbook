@@ -62,6 +62,7 @@ Clean a clogged nozzle: [https://www.youtube.com/watch?v=g8uvh6kvr54](https://ww
 - print a part to check if all the things you did were at all useful...
 
 ## Extruder disassembly
+Follow this upgrade tutorial, but skip the steps that are not necessary to access the hotend. The whole thing took us (Sam and me) about 1h30. Use a box with compartments to place the screws in, otherwise, it really gets messy.
 
 [https://manual.prusa3d.com/Guide/2.+Extruder+disassembly/1059](https://manual.prusa3d.com/Guide/2.+Extruder+disassembly/1059)
 

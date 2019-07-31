@@ -151,3 +151,17 @@ WHAT NEXT?
   - add LEDs to show that it's "thinking" about the next move?
   - what should the screen be showing at different moments?
 - model part that would go on top of mechanical endstop
+
+## 2019-07-31 17:00h
+
+- when I come back, move to assembly!
+- test PCB, order more
+- solder all PCB so they are available for:
+  - sniffer
+  - robot
+  - bio-reactor
+- work on software a lot
+- order some PCB myself
+- use the pick and place independently
+
+

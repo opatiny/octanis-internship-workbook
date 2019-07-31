@@ -347,8 +347,14 @@ Did:
 - repaired bottom Prusa with Sam!!! (hotend replacement)
 - programmed STM32 and managed to have it appearing on the UAVCAN GUI Tools
 - had libcanard partly explained by Sam
+- **lesson learned today: NEVER leave batteries in a battery pack unattended!** I nearly started a fire at the office today, because a battery was left in the battery packs Sam gave me for the rover (18x650 batteries). One of the cables of the battery pack touched a contact of for another battery and made a short-circuit: the thing started smoking and all the contact got red in seconds...
 
 ### 2019.07.31
-
-
+- tried working on code and especially I2C communication, but had no results
+- repaired top Prusa printer
+- printed 2 missing small PCB cases on bottom Prusa
+- weekly meeting
+- 
 ## August : HOLIDAYS
+
+## September

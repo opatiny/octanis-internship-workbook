@@ -4,13 +4,7 @@
 
 ## Concepts
 
-### Communication system abstraction layers stack (OSI model)
 
-This stack is composed of four layers that are important for us:
-- **Application :** what we are developing
-- **Transport :** How the data is formatted. In our case: **UAVCAN -> `libcanard`**.
-- **Network :** Describes how the communication is going to be working, using the physical layer available. In our case : **CAN**.
-- **Physical layer :** What are the physical entities implied in the communication. In our case: the **CAN Tranceiver** and the **CAN Controller**.
 
 ### FSM
 

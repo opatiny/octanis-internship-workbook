@@ -83,8 +83,22 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 ```
 This function must be defined in user code. Be careful not to compute complex things inside the interrupt, because it blocks all the other tasks! Try just changing the state of some variables that you will then access from tasks.
 
+### the `->` syntax
+
+The `->` syntax is used to act on a property of an instance of a `struct`. (like calling a property on an object in javascript)
+
 
 ## Various tips
 
 - **CTRL + click**: to check if a function exists
 - **interrupts** are setup in CubeMX
+
+### Get an easy programming environment for C: Jupyter
+
+We already use Jupyter to program in python, there is a package that allows to get a C notebook. To install it, run the following in a terminal:
+```bash
+pip install jupyter-c-kernel
+sudo /home/opatiny/anaconda3/bin/install_c_kernel
+jupyter notebook
+```
+To open the C notebook, click on New -> Notebook -> C.
