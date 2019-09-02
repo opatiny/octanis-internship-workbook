@@ -312,6 +312,7 @@ TO DO:
 ### 2019.07.25
 
 TO DO (till 31.07.3019):
+
 - install programming environment of STM32 on Ubuntu
 - find a way to fix wheels on the robot (hardware)
 - solder motor boards or wait for Raph to do that?
@@ -320,6 +321,7 @@ TO DO (till 31.07.3019):
 - (continue working on Mobile Robotics)
 
 Did:
+
 - print small PCB case on Cetus3D, two first prints failed because of bad calibration
 - setup programming environment for stm32 on Ubuntu
 - blinked LEDs on distance module
@@ -350,11 +352,18 @@ Did:
 - **lesson learned today: NEVER leave batteries in a battery pack unattended!** I nearly started a fire at the office today, because a battery was left in the battery packs Sam gave me for the rover (18x650 batteries). One of the cables of the battery pack touched a contact of for another battery and made a short-circuit: the thing started smoking and all the contact got red in seconds...
 
 ### 2019.07.31
+
 - tried working on code and especially I2C communication, but had no results
 - repaired top Prusa printer
 - printed 2 missing small PCB cases on bottom Prusa
 - weekly meeting
-- 
+
 ## August : HOLIDAYS
 
 ## September
+
+### 2019.09.02 - w10
+
+- modeling in Fusion part for gaz bottle (for the bioreactor) -> tricky because the thread is not standard...
+- modeled new version of the front wheel part
+-

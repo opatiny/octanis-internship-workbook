@@ -26,12 +26,11 @@
 
 ### September
 
+- 05.09.2019 : absent all day (EUCYS preparatory workshop)
 - 13.09.2019 : all day (EUCYS)
 - from 16 to 18.09.2019 : all day (EUCYS)
 
-## Hours made before 9am or after 6pm
+## Hours made before 9am or after 6pm (extra hours)
 
 - 05.06.2019 : started at 8am
 - 17.06.2019 : finished at 7pm
-
-## Days to do
