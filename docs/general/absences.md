@@ -22,13 +22,14 @@
 
 ### August
 
-- absent the whole month
+- absent the whole month (holidays)
 
 ### September
 
-- 05.09.2019 : absent all day (EUCYS preparatory workshop)
+- 05.09.2019 : all day (EUCYS preparatory workshop)
 - 13.09.2019 : all day (EUCYS)
 - from 16 to 18.09.2019 : all day (EUCYS)
+- 19.09.2019 : all day (spectrophotometer workshop at ETHZ)
 
 ## Hours made before 9am or after 6pm (extra hours)
 

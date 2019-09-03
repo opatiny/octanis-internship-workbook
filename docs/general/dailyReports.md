@@ -366,4 +366,10 @@ Did:
 
 - modeling in Fusion part for gaz bottle (for the bioreactor) -> tricky because the thread is not standard...
 - modeled new version of the front wheel part
--
+
+### 2019.09.03
+
+- tried modeling custom thread in Fusion 360
+- printed thread: too tight, but the profile seems good -> too try again tomorrow
+- tried printing front wheel part twice but print failed
+- assembled top face of three dc motor boards
