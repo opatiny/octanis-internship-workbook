@@ -373,3 +373,18 @@ Did:
 - printed thread: too tight, but the profile seems good -> too try again tomorrow
 - tried printing front wheel part twice but print failed
 - assembled top face of three dc motor boards
+
+### 2019.09.04
+
+- rework the dc motor pcbs
+- enhance gaz bottle custom thread
+- print custom thread again -> it fits!
+- incorporate custom thread to the interface part and print it
+- start designing bioreactor lid
+
+### 2019.09.06
+
+- finished bioreactor lid design
+- assembled lid in Fusion
+- 3D printed gas bottle adapter after fixing minor design problems
+- tried to laser cut lid in grey MDF

@@ -30,8 +30,8 @@ Various information that has been useful / doc produced:
 - [KiCAD cheatsheet](./docs/electronics/pcb/kicad.md)
   - [Rigid-flex PCB](./docs/electronics/pcb/rigid-flex.md)
 
-
 **Programming and IT:**
+
 - [Setup a dual boot Windows / Xenial (Ubuntu)](./docs/programming/general/dualBoot.md)
 - [Useful theory and definitions](./docs/programming/general/theory.md)
 - [Programming environment setup procedure](./docs/programming/stm32Programming/environmentSetup.md)
@@ -60,8 +60,9 @@ First project that has been realized: an autonomous vacuum cleaner robot that us
 - [Useful links related to the project](./xiaomiRemake/docs/refs.md)
 - [The different PCBs used in the project](./xiaomiRemake/docs/pcb/pcb.md)
 
-Other small projects that have been worked on:
+Other small projects that have been worked on (aka small contributions):
 
 - [Transistors logic gates](./smallProjects/logic_gates/logic_gates.md)
 - [Micro-fluidics application](./smallProjects/microFluidics/microFluidics.md)
 - [Making the photo-diodes board work](./smallProjects/photoDiodes/photoDiodes.md)
+- [Bioreactor case](./smallProjects/bioreactor/bioreactor.md)
