@@ -386,5 +386,9 @@ Did:
 
 - finished bioreactor lid design
 - assembled lid in Fusion
-- 3D printed gas bottle adapter after fixing minor design problems
-- tried to laser cut lid in grey MDF
+- 3D printed gas bottle adapter after fixing minor design problems -> tried it on full co2 can and didn't work
+- tried to laser cut lid in grey MDF -> fail: unable to cut through the material
+- laser cut lid in 6mm MDF and glued the case together
+- spray painted lid in black (aesthetics and humidity protection)
+- upgraded MK3 Prusa printer firmware
+- started a print of the new front wheel part

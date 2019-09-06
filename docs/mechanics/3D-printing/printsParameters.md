@@ -301,3 +301,23 @@ Tried to print the case many times, but it always failed because of adhesion and
 - Infill: 20%
 
 **Problem:** The filament spool wasn't unwinding correctly and it fell off the printer, breaking the filament. The printer started beeping when there was nearly no filament left and asked to unload filament. I unloaded the filament and loaded it again and the print resumed.
+
+### front wheel fix 2 (v4)
+
+- Date : 2019.09.03
+- Printer: bottom Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: Prusament PLA (black)
+- Infill: 15%
+
+**Problem :** tried printing part twice, both failed, error message: crash detected
+
+### various test prints for the gaz bottle thread
+
+- Date : 2019.09.04
+- Printer: bottom Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: Prusament PLA (black)
+- Infill: 15%
+
+Prints astonishingly succeeded -> despite the consistent overhang
