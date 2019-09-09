@@ -164,4 +164,9 @@ WHAT NEXT?
 - order some PCB myself
 - use the pick and place independently
 
+## 2019-09-09 10:00h
 
+- I have to work on software/firmware
+- this week is dedicated to getting a finished bioreactor case -> must be finished on thursday!
+- we have special plexiglass glue
+-

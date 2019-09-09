@@ -312,7 +312,7 @@ Tried to print the case many times, but it always failed because of adhesion and
 
 **Problem :** tried printing part twice, both failed, error message: crash detected
 
-### various test prints for the gaz bottle thread
+### various test prints for the gas bottle thread
 
 - Date : 2019.09.04
 - Printer: bottom Prusa
@@ -321,3 +321,14 @@ Tried to print the case many times, but it always failed because of adhesion and
 - Infill: 15%
 
 Prints astonishingly succeeded -> despite the consistent overhang
+
+### frontWheelFix2
+
+- Date : 2019.09.08
+- Printer: bottom Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: Prusament PLA (black)
+- Infill: 15%
+
+The print didn't come out really well -> stripes visible on the part -> under-extrusion?
+Also, the 15% filling was not enough -> the center cylinder broke when trying to remove the wheel

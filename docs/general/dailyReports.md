@@ -392,3 +392,13 @@ Did:
 - spray painted lid in black (aesthetics and humidity protection)
 - upgraded MK3 Prusa printer firmware
 - started a print of the new front wheel part
+
+### 2019.09.09 - w11
+
+- managed to print the front wheel part rev2 -> with 15% filling it broke. Also, the bottom Prusa under-extruded which doesn't allow the wheel to get nicely in place
+- work on bioreactor lid air channel in Fusion
+- start 12h30 print of main air channel part
+- weekly meeting with Sam
+- printed small PCB case for bioreactor
+- modeled main part of bioreactor case in Fusion360
+- started modeling base for bioreactor case
