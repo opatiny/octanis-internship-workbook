@@ -402,3 +402,12 @@ Did:
 - printed small PCB case for bioreactor
 - modeled main part of bioreactor case in Fusion360
 - started modeling base for bioreactor case
+
+### 2019.09.10
+
+- bioreactor air channel print succeeded!
+- print small pcb case
+- print air selector
+- adapt lid to fit air channel part
+- model base of bioreactor case
+- soldered leds on a motor board
