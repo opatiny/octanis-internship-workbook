@@ -27,6 +27,8 @@
 ### September
 
 - 05.09.2019 : all day (EUCYS preparatory workshop)
+- 11.09.2019 : from 14:20 till 18:00 (sick)
+- 12.09.2019 : all day (sick)
 - 13.09.2019 : all day (EUCYS)
 - from 16 to 18.09.2019 : all day (EUCYS)
 - 19.09.2019 : all day (spectrophotometer workshop at ETHZ)

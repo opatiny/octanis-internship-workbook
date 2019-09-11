@@ -411,3 +411,11 @@ Did:
 - adapt lid to fit air channel part
 - model base of bioreactor case
 - soldered leds on a motor board
+
+### 2019.09.11
+
+- fixed bugs on main and base models of bioreactor case
+- laser cut base (v18) and main (v6) -> problems again with origin -> frame does not correspond to the place where it cuts
+- assembled base and main
+- fixed minor bugs on the models (base and main)
+- was sick so went home
