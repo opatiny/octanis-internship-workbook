@@ -4,6 +4,8 @@
 
 Link to the course: [**Introduction to Mobile Robotics**](http://ais.informatik.uni-freiburg.de/teaching/ss19/robotics/)
 
+Link to the course [on NextCloud](https://ikea.octanis.ch/index.php/apps/files/?dir=/Octanis%20Instruments/Engineering/Courses/1%20Intro%20to%20Mobile%20Robotics&fileid=84560).
+
 ## TOC
 
 - [Introduction](./w1/introduction.md)

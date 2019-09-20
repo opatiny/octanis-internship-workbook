@@ -4,7 +4,7 @@
 
 ## Setting up Anaconda and Conda
 
-Anaconda is and environment and package manager. It is what we will use to program in python. To install it, follow this tutorial:
+Anaconda is an environment and package manager. It is what we will use to program in python. To install it, follow this tutorial:
 
 [https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart](https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart)
 
@@ -14,6 +14,12 @@ It will also show you how to create a new environment.
 Other reference : [https://www.youtube.com/watch?v=23aQdrS58e0](https://www.youtube.com/watch?v=23aQdrS58e0)
 
 For more about Conda, refer to the [cheat sheet](./conda-cheatsheet).
+
+### Run a Python script
+
+```bash
+    python yourScript.py
+```  
 
 ## Jupyter
 

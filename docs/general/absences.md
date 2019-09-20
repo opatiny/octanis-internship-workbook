@@ -32,6 +32,20 @@
 - 13.09.2019 : all day (EUCYS)
 - from 16 to 18.09.2019 : all day (EUCYS)
 - 19.09.2019 : all day (spectrophotometer workshop at ETHZ)
+- 
+
+### October
+
+- 31.10.2019 : all day (Science on Stage festival)
+
+### November
+
+- 01.11.2019 : all day (Science on Stage festival)
+- 08.11.2019 : all day? (meeting the president of the confederation)
+
+### December
+
+
 
 ## Hours made before 9am or after 6pm (extra hours)
 

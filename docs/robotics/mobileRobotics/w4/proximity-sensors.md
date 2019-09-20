@@ -13,7 +13,7 @@ They are two kinds of distance sensors:
 
 ## ultrasound
 
-- ToF
+- ToF (Time of Flight)
 - the larger the emitter, the better the angular resolution)
 - bad resolution, crosstalk
 - the speed of sound can be too slow for some applications
