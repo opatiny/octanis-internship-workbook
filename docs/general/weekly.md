@@ -169,4 +169,11 @@ WHAT NEXT?
 - I have to work on software/firmware
 - this week is dedicated to getting a finished bioreactor case -> must be finished on thursday!
 - we have special plexiglass glue
--
+
+## 2019-09-23 15h00
+
+- they are a few problems with the bioreactor case that should be fixed following Sam's feedback
+- it is time to move to firmware in general, but for this it would be necessary to have a possibly moving first prototype of the VACROB -> design the 3D parts to fix the wheels and fix them! Add holes if necessary. If it's too messy, just cutout another bottom out of mdf. Also, print new corner parts with the Prusas!
+- In the scope of intership, it is written that I should learn some React -> this might be done on the screen of the VACROB, but it is not a priority
+- start working on the sourcing of parts: make an alibaba account and try working on the order of cables for the gas particles sensor
+- 

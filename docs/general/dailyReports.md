@@ -420,7 +420,13 @@ Did:
 - fixed minor bugs on the models (base and main)
 - was sick so went home
 
-### 2019.09.20
+### 2019.09.20 - w12
 - listen to Raffael's meeting
 - continue working on MR course, worked on the python exercises of w1 and w2
+
+### 2019.09.23 - w13
+- continue working on MR course weeks 3 and 4
+- try understanding a bit of probabilistic theory
+- weekly meeting with sam
+- make alibaba account
 
