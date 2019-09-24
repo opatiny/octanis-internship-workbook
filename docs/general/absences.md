@@ -15,8 +15,8 @@
 
 - 04.07.2019 : all day (EUCYS preparation)
 - 05.07.2019 : from 9h00 to 14h00 (EUCYS preparation)
-- 07.07.2019 : all day (EUCYS preparation)
-- 08.07.2019 : from 9h00 to 15h00 (theoretical driving licence and EUCYS preparation)
+- 08.07.2019 : all day (EUCYS preparation)
+- 09.07.2019 : from 9h00 to 15h00 (theoretical driving licence and EUCYS preparation)
 - from 11 to 12.07.2019 : absent all day (holiday)
 - 18.07.2019 : from 9h00 to 10h00
 
@@ -32,7 +32,7 @@
 - 13.09.2019 : all day (EUCYS)
 - from 16 to 18.09.2019 : all day (EUCYS)
 - 19.09.2019 : all day (spectrophotometer workshop at ETHZ)
-- 
+-
 
 ### October
 
@@ -44,8 +44,6 @@
 - 08.11.2019 : all day? (meeting the president of the confederation)
 
 ### December
-
-
 
 ## Hours made before 9am or after 6pm (extra hours)
 

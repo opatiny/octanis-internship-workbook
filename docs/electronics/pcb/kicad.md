@@ -64,6 +64,8 @@ Whole KiCAD serie:
 - go under EDA / CAD Models and click on the part "by SnapEDA"
 - click on Download Symbol and Footprint -> KiCAD
 
+You can also directly look for your pard on [SnapEDA](https://www.snapeda.com/home/).
+
 **Component search engine :**
 [http://componentsearchengine.com/](http://componentsearchengine.com/)
 

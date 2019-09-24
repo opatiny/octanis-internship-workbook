@@ -332,3 +332,31 @@ Prints astonishingly succeeded -> despite the consistent overhang
 
 The print didn't come out really well -> stripes visible on the part -> under-extrusion?
 Also, the 15% filling was not enough -> the center cylinder broke when trying to remove the wheel
+
+### corner v20 (4x)
+
+- Date : 2019.09.23
+- Printer: top Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: Prusament PLA (black)
+- Infill: 25%
+
+Print came out perfect.
+
+### wheelFix v6
+
+- Date : 2019.09.24
+- Printer: bottom Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: Prusament PLA (grey)
+- Infill: 15% (test print)
+
+### corner v20 (4x)
+
+- Date : 2019.09.24
+- Printer: top Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: Prusament PLA (black)
+- Infill: 25%
+
+Print came out perfect.

@@ -421,12 +421,26 @@ Did:
 - was sick so went home
 
 ### 2019.09.20 - w12
+
 - listen to Raffael's meeting
 - continue working on MR course, worked on the python exercises of w1 and w2
 
 ### 2019.09.23 - w13
+
 - continue working on MR course weeks 3 and 4
 - try understanding a bit of probabilistic theory
 - weekly meeting with sam
 - make alibaba account
+- ran a print of 4 corners for the vacrob using the top prusa
 
+### 2019.09.24
+
+- corners print succeeded, so ran another print (to get the 8 corners)
+- work on vacrob main wheels fix part.
+  - made a picture of the part and imported it in Fusion as a canvas
+  - used the picture to get a general shape/sketch
+  - exported the general shape as a dxf and laser-cut it to see how accurate it is
+  - made 2 laser-cutting tests
+  - started making the 3D model, exported it as STL and 3D-printed it
+- checked the alibaba answers for the cables
+- wrote doc and managed work hours (drive)
