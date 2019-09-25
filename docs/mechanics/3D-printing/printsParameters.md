@@ -2,6 +2,8 @@
 
 [Home](../../../README.md) | [3D printing cheatsheet](./printers.md)
 
+Top Prusa (black) : MK3S
+
 ### front wheel v4
 
 - Date : 2019.06.04
@@ -351,6 +353,8 @@ Print came out perfect.
 - Filament: Prusament PLA (grey)
 - Infill: 15% (test print)
 
+Print is good, minor design problems.
+
 ### corner v20 (4x)
 
 - Date : 2019.09.24
@@ -359,4 +363,10 @@ Print came out perfect.
 - Filament: Prusament PLA (black)
 - Infill: 25%
 
-Print came out perfect.
+### wheelFix v10
+
+- Date : 2019.09.25
+- Printer: bottom Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: Prusament PLA (grey)
+- Infill: 15% (test print)

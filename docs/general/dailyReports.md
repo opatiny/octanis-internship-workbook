@@ -444,3 +444,19 @@ Did:
   - started making the 3D model, exported it as STL and 3D-printed it
 - checked the alibaba answers for the cables
 - wrote doc and managed work hours (drive)
+
+### 2019.09.25
+
+- updated wheelFix after looking at the problems of the first print
+- updated firmware or both Prusa printers
+- started print of updated wheelFix (v10)
+- checked alibaba
+- worked on dust-collector / pump part in fusion360 -> having problems with the maximal part size
+  - tried to minimize the amount of material necessary
+  - I had problems with realizing a loft and had to make many hacks
+  - imported an image of the pump as a canvas -> this works quite well
+- Idea: I could try taking pictures of the PCBs of Octanis Instruments -> stuff to put on the web page
+- made drawing of new custom cable needed and sent to manufacturer
+- started print of the dust collector / pump part
+- start one more print of wheelFix, after making a few modifications
+- updated the assembly
