@@ -370,3 +370,23 @@ Print is good, minor design problems.
 - Print settings: 0.2mm QUALITY
 - Filament: Prusament PLA (grey)
 - Infill: 15% (test print)
+
+### wheelFix v11
+
+- Date : 2019.09.25
+- Printer: bottom Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: Prusament PLA (grey)
+- Infill: 15%
+
+Note: 15% filling is enough for large parts. It seems resistant enough.
+
+### dustCollector-pump v16
+
+- Date : 2019.09.25
+- Printer: top Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: Prusament PLA (black)
+- Infill: 15%
+
+The print lasts 20 hours! Also, the part is so big that the head is sometimes out of the restricted ares. PrusaSlicer slices anyway and the printer agrees to print it. In this case, it is best to have the "excess" on the front, because the head can access it anyway (when purging).

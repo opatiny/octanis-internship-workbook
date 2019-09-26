@@ -460,3 +460,8 @@ Did:
 - started print of the dust collector / pump part
 - start one more print of wheelFix, after making a few modifications
 - updated the assembly
+
+### 2019.09.26
+
+- start print of mirrored wheelFix v11
+- wrote documentation about bioreactor case
