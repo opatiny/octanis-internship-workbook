@@ -32,7 +32,8 @@
 - 13.09.2019 : all day (EUCYS)
 - from 16 to 18.09.2019 : all day (EUCYS)
 - 19.09.2019 : all day (spectrophotometer workshop at ETHZ)
--
+- 27.09.2019 : from 14:00 till 18:00 (Klimastreik)
+- 30.09.2019 : from 9:00 till 10:00
 
 ### October
 
@@ -41,7 +42,7 @@
 ### November
 
 - 01.11.2019 : all day (Science on Stage festival)
-- 08.11.2019 : all day? (meeting the president of the confederation)
+- 28.11.2019 : all day? (meeting the president of the confederation)
 
 ### December
 

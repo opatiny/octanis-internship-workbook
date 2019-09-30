@@ -463,5 +463,15 @@ Did:
 
 ### 2019.09.26
 
+- went to obi to buy 5mm thick MDF
 - start print of mirrored wheelFix v11
 - wrote documentation about bioreactor case
+- laser cut bottom of vacrob in 5mm MDF (had usual problems with the laser cutter -> frame is not where it cuts and cut stops in the middle)
+- started assembling wheels and all the rest -> many holes were misplaced
+
+### 2019.09.26 - w14
+
+- check Alibaba for custom cable (still...)
+- laser-cut bottom v17 (taught Laurence how to use the laser cutter)
+- assembled vacrob again
+- start print of frontWheelFix2 v8
