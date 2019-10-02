@@ -420,7 +420,7 @@ Did:
 - fixed minor bugs on the models (base and main)
 - was sick so went home
 
-### 2019.09.20 - w12
+### 2019.09.20 - w12 (Friday)
 
 - listen to Raffael's meeting
 - continue working on MR course, worked on the python exercises of w1 and w2
@@ -429,8 +429,8 @@ Did:
 
 - continue working on MR course weeks 3 and 4
 - try understanding a bit of probabilistic theory
-- weekly meeting with sam
-- make alibaba account
+- weekly meeting with Sam
+- created alibaba account
 - ran a print of 4 corners for the vacrob using the top prusa
 
 ### 2019.09.24
@@ -448,7 +448,7 @@ Did:
 ### 2019.09.25
 
 - updated wheelFix after looking at the problems of the first print
-- updated firmware or both Prusa printers
+- updated firmware of both Prusa printers
 - started print of updated wheelFix (v10)
 - checked alibaba
 - worked on dust-collector / pump part in fusion360 -> having problems with the maximal part size
@@ -463,15 +463,35 @@ Did:
 
 ### 2019.09.26
 
+- print of dust collector pump part astonishingly succeeded, the supports were quite difficult to take off
+
+### 2019.09.27
+
 - went to obi to buy 5mm thick MDF
 - start print of mirrored wheelFix v11
 - wrote documentation about bioreactor case
 - laser cut bottom of vacrob in 5mm MDF (had usual problems with the laser cutter -> frame is not where it cuts and cut stops in the middle)
 - started assembling wheels and all the rest -> many holes were misplaced
 
-### 2019.09.26 - w14
+### 2019.09.30 - w14
 
 - check Alibaba for custom cable (still...)
 - laser-cut bottom v17 (taught Laurence how to use the laser cutter)
 - assembled vacrob again
 - start print of frontWheelFix2 v8
+
+## October
+
+### 2019.10.01
+
+- worked on documentation of vacrob
+- checked alibaba for custom cable
+- tried finding appropriate card edge connector for vacrob big wheels
+- assembled electronics of vacrob
+
+### 2019.10.02
+
+- continue assembly of vacrob
+- made the four DC motors work with Sam -> they were problems with the control (couldn't go forwards then backwards)
+- checked alibaba for custom cable
+- worked on MR course w5

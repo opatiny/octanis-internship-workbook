@@ -53,12 +53,16 @@ Various information that has been useful / doc produced:
 - [Windows tips](./docs/windows.md)
 - [Useful webpages](./docs/links.md)
 
+### VACROB
+
 First project that has been realized: an autonomous vacuum cleaner robot that uses the technologies developed at Octanis Instuments.
 
 [**Vacuum cleaner robot project**](./xiaomiRemake/xiaomiRemake.md)
 
 - [Useful links related to the project](./xiaomiRemake/docs/refs.md)
 - [The different PCBs used in the project](./xiaomiRemake/docs/pcb/pcb.md)
+
+### Small projects
 
 Other small projects that have been worked on (aka small contributions):
 

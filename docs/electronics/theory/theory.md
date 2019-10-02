@@ -115,6 +115,7 @@ To check : [https://electronics.stackexchange.com/questions/292140/why-is-a-resi
 - **NC:** Not Connected
 - **open-load :**
 - **open drain or open collector output :**
+- **SSL :** Solid State Lighting (for connectors)
 
 ## Tools tips
 
