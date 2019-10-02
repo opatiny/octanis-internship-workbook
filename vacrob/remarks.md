@@ -1,6 +1,6 @@
-# Observations made as the project evolved
+# Observations made after assemblies
 
-## After assembling the case for the first time
+## First assembly (2019.07.19)
 
 ### Things to enhance
 
@@ -19,3 +19,35 @@
 - the flap closing system works -> flexible hinges were a good idea
 - lidar fits
 - side brush fits
+
+## Second assembly (2019.09.30)
+
+### Modifications following first assembly
+
+- add screw holes for
+  - big PCB stack
+  - main brush
+  - side brush
+  - wheels fix (3D printed)
+  - dust collector / pump part (3D printed)
+- rearranged components to fit
+- enhanced wheels holes shapes / position
+- new design for front wheel fixation
+- printed new corners on the Prusa printer -> 3D printed threads worked very well
+
+### Things to enhance
+
+- position of screw holes of
+  - big PCB stack
+  - side brush
+- take the flap on top more towards the middle -> dust collector can't be taken out as it is
+  - move lidar and screen towards the border
+- replace front wheel fix so that there is no friction anymore
+- cut top in plexiglass
+- correct alignment of dust collector / pump part and main brush part!
+
+### Things that are good
+
+- height of the wheels compared to the brushes -> the brushes are in contact with the floor
+- wheels fit nicely
+- the robot is heavy enough to have the big wheels "squeezed"
