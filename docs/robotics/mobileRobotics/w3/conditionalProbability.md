@@ -1,7 +1,8 @@
 # Conditional probability
 
-## Definition 
-Probability of an event occurring given that another event has occured (Wikipedia). It is a field of Probability Theory
+## Definition
+
+Probability of an event occurring given that another event has occurred (Wikipedia). It is a field of Probability Theory
 
 ## Notation
 
@@ -31,7 +32,7 @@ $P(A | B) = P(B | A)$
 
 This theorem describes the probability of an event based on prior knowledge of conditions that might be related to the event. It is stated as follows:
 
-$P(A | B) = \frac{P(B | A) P(A)}{P(B)}$
+<img src="https://tex.cheminfo.org/?tex=P(A%20%7C%20B)%20%3D%20%5Cfrac%7BP(B%20%7C%20A)%20P(A)%7D%7BP(B)%7D"/>
 
 Where $A$ and $B$ are events and $P(B) \neq 0$.
 
