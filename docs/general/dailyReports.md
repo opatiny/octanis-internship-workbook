@@ -495,3 +495,9 @@ Did:
 - made the four DC motors work with Sam -> they were problems with the control (couldn't go forwards then backwards)
 - checked alibaba for custom cable
 - worked on MR course w5
+- designed pump output part: supposed to lead the air out of the robot -> flexible filament
+
+### 2019.10.03
+
+- start print of pump output in FlexiSmart -> there's a problem with the bottom Prusa: auto-load filament doesn't work
+- enhance pump face in Fusion and update assembly of vacrob
