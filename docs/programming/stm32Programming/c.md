@@ -1,8 +1,10 @@
-# Programming in C in VS Code
+# Programming in C
 
 [Home](../../README.md) | [Useful definitions used in IT](../general/theory.md) | [Programming environment setup procedure](./environmentSetup.md) | [C tips in VS Code](./c.md) | [FreeRTOS](./freertos.md)
 
 ## Theory
+
+### FreeRTOS
 
 - FreeRTOS: [https://www.freertos.org/taskandcr.html](https://www.freertos.org/taskandcr.html), TO READ:
   - About FreeRTOS
@@ -10,14 +12,19 @@
   - More about tasks
   - Queues, mutexes, semaphores...
 
+### Linked lists
+
+Very good page: [https://www.learn-c.org/en/Linked_lists](https://www.learn-c.org/en/Linked_lists)
+
+- Basically an array of items.
+- items can be removed from anywhere in the list
+- you don't have to define an initial size
+- larger overhead then arrays
+- no "random" access -> have to iterate over all the items before you get to the one you want
+
+Each node of the linked list contains a **value** and a **pointer to the next node**. -> chain of nodes
 
 ## Various functions and useful code bits
-
-### malloc()
-
-Allocate some memory.
-
-[https://www.tutorialspoint.com/c_standard_library/c_function_malloc](https://www.tutorialspoint.com/c_standard_library/c_function_malloc)
 
 ### empty loop
 
@@ -27,6 +34,64 @@ In C, an empty loop acts as a `while(True)`.
 for(;;) {
   // code
 }
+```
+
+### interrupt
+
+First, the interrupt pin must be setup in CubeMX (-> refer to the [CubeMX documentation](./cubeMX.md)).
+
+In the code, there is one function that is called whenever an interrupt occurs: `HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)`. Then, you have to specify what must be executed by the function for each interrupt by checking what pin fired it (i this example, the interrupt is on the pin of a bumper):
+
+```C
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+ if(GPIO_Pin == BUMP_Pin)
+  {
+      // code to execute, keep it short and fast!!
+  }
+}
+```
+This function must be defined in user code. Be careful not to compute complex things inside the interrupt, because it blocks all the other tasks! Try just changing the state of some variables that you will then access from tasks.
+
+### malloc()
+
+Allocate some memory.
+
+[https://www.tutorialspoint.com/c_standard_library/c_function_malloc](https://www.tutorialspoint.com/c_standard_library/c_function_malloc)
+
+### printf()
+
+This function allows to print variables or text. The careful, the buffer for printf() is only emptied when there is a \n. Also, you have to specify the type of the variable that you want to print.
+
+```C
+printf("%d\n", length);
+```
+
+A few codes:
+- d : decimal integer
+- s : string
+- c : character
+- p : pointer address
+
+
+### `static`
+
+The `static` keyword put in front of a variable declaration will make that the variable value is kept when calling the function many times. So, you can remember the value of a variable as it was the last time you called it. It acts as a memory for variables.
+
+Be careful, though, when you use it, because it is quite tricky.
+
+```C
+static uint32_t time;
+```
+### recursive struct definition
+
+In C, it is possible to define a struct recursively, like this:
+
+```C
+typedef struct node {
+    int val;
+    struct node * next;
+} node_t;
 ```
 
 ### task function skeleton
@@ -49,43 +114,15 @@ This should be the base for all task functions:
         vTaskDelete( NULL );
     }
 ```
+### the `->` syntax
 
-### `static`
-
-The `static` keyword put in front of a variable declaration will make that the variable value is kept when calling the function many times. So, you can remember the value of a variable as it was the last time you called it. It acts as a memory for variables.
-
-Be careful, though, when you use it, because it is quite tricky.
-
-```C
-static uint32_t time;
-```
+The `->` syntax is used to act on a property of an instance of a `struct`. (like calling a property on an object in javascript)
 
 ### time since boot in ms
 
 ```C
 uint32_t time = HAL_GetTick();
 ```
-
-### interrupt
-
-First, the interrupt pin must be setup in CubeMX (-> refer to the [CubeMX documentation](./cubeMX.md)).
-
-In the code, there is one function that is called whenever an interrupt occurs: `HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)`. Then, you have to specify what must be executed by the function for each interrupt by checking what pin fired it (i this example, the interrupt is on the pin of a bumper):
-
-```C
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
-{
- if(GPIO_Pin == BUMP_Pin)
-  {
-      // code to execute, keep it short and fast!!
-  }
-}
-```
-This function must be defined in user code. Be careful not to compute complex things inside the interrupt, because it blocks all the other tasks! Try just changing the state of some variables that you will then access from tasks.
-
-### the `->` syntax
-
-The `->` syntax is used to act on a property of an instance of a `struct`. (like calling a property on an object in javascript)
 
 
 ## Various tips
@@ -96,6 +133,7 @@ The `->` syntax is used to act on a property of an instance of a `struct`. (like
 ### Get an easy programming environment for C: Jupyter
 
 We already use Jupyter to program in python, there is a package that allows to get a C notebook. To install it, run the following in a terminal:
+
 ```bash
 pip install jupyter-c-kernel
 sudo /home/opatiny/anaconda3/bin/install_c_kernel

@@ -501,3 +501,12 @@ Did:
 
 - start print of pump output in FlexiSmart -> there's a problem with the bottom Prusa: auto-load filament doesn't work
 - enhance pump face in Fusion and update assembly of vacrob
+- installed programming environment with debug on ubuntu
+- learned about control theory
+- started familiarizing with the c syntax and linked list specifically
+
+TODO:
+- [x] install CubeMX on Xenial
+- [ ] try to get distance sensor output using bare metal code
+- [ ] find a way to have exact time on microcontroller in CubeMX -> be able to execute a task every 12 hours
+- [ ] make pump output part 6mm longer

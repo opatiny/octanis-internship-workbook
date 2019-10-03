@@ -37,6 +37,7 @@
 
 ### October
 
+- 04.10.2019 : from 9:00 to approx 11:00
 - 31.10.2019 : all day (Science on Stage festival)
 
 ### November

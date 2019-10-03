@@ -65,13 +65,19 @@ Then, copy the `stm32f3.cfg` file from another project and paste it at the level
 
 Also, if flashing doesn't work, change the file extension from `.hex` to `.elf` in the flashing command that you copy pasted in the `MakeFile` (it might happen that one of the two executable files is not generated compiled properly).
 
-## various issues
+## Acronyms
+
+- **GPIO:** Global Purpose Input Output
+- **NVIC:** Nested Vector Interrupt Control
+- **RTC:** Reat-Time Clock
+- **DAC:** Digital Analog Convertor
+- **ADC:** Analog Digital Convertor
+
+## Various issues
 
 ### this error message: makefile:108: \*\*\* missing separator. Stop.
 
 The MakeFile is the only one that CubeMX isn't really good at updating. So it is possible that they are two times the same commands in it. In that case, you will get this error. To fix it, go to the file and delete all extra commands.
-
-## things that can be configured in CubeMX
 
 ### interrupts
 
@@ -80,3 +86,13 @@ The MakeFile is the only one that CubeMX isn't really good at updating. So it is
 - Go to the `NVIC` tab, find your interrupt in the list and be sure that "Enabled" and "Uses FreeRTOS functions" Boxes are checked
 - Generate the code.
 
+## real-time clock
+
+- Go under Timers tab
+- click on RTC
+- check "Activate Clock Source"
+- check "Activate Calendar"
+
+
+Could be interesting:
+- [https://www.st.com/en/embedded-software/x-cube-rtc.html](https://www.st.com/en/embedded-software/x-cube-rtc.html)

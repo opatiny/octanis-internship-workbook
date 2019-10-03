@@ -2,6 +2,8 @@
 
 [Home](../../README.md) | [Useful definitions](../general/theory.md) | [FreeRTOS](./freertos.md) | [CubeMX procedure](./cubeMX.md) | [C tips in VS Code](./c.md)
 
+The actual environment that was used in the end is documented in [this file](./envWithDebug-linux.md).
+
 ## Windows
 
 Setup environment to program STM32 on Windows: [https://wiki.octanis.org/stm32/vscode](https://wiki.octanis.org/stm32/vscode)
@@ -29,7 +31,7 @@ They are a few things you need to install in order to be able to program an STM3
 
 From there, you should be globally done with the environment. To start a new firmware project, follow the [CubeMX procedure](./cubeMX.md).
 
-## Linux
+## Linux (without proper debug)
 
 **Disclaimer:** Doc is probably not complete
 
@@ -88,7 +90,6 @@ Check that the package version is now correct:
 ```bash
 arm-none-eabi-gcc --version
 ```
-
 
 #### openocd
 
