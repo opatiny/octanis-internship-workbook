@@ -1,6 +1,6 @@
 # Setting up a good programming environment for STM32 on Linuy
 
-[Home](../../README.md) | [Useful definitions](../general/theory.md) | [FreeRTOS](./freertos.md) | [CubeMX procedure](./cubeMX.md) | [C tips in VS Code](./c.md)
+[Home](../../README.md) | [Useful definitions](../general/theory.md) | [FreeRTOS](./freertos.md) | [CubeMX procedure](./cubeMX.md) | [C tips](../C/c.md)
 
 The procedure followed: [https://docs.octanis.ch/display/PUB/VSCode+STM32+Firmware+development](https://docs.octanis.ch/display/PUB/VSCode+STM32+Firmware+development)
 

@@ -1,6 +1,6 @@
 # Setting up a programming environment for STM32
 
-[Home](../../README.md) | [Useful definitions](../general/theory.md) | [FreeRTOS](./freertos.md) | [CubeMX procedure](./cubeMX.md) | [C tips in VS Code](./c.md)
+[Home](../../README.md) | [Useful definitions](../general/theory.md) | [FreeRTOS](./freertos.md) | [CubeMX procedure](./cubeMX.md) | [C tips](../C/c.md)
 
 The actual environment that was used in the end is documented in [this file](./envWithDebug-linux.md).
 

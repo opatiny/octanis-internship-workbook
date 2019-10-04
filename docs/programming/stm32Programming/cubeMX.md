@@ -1,6 +1,6 @@
 # Starting a MC project from CubeMX
 
-[Home](../../README.md) | [Useful definitions used in IT](../general/theory.md) | [FreeRTOS](./freertos.md) | [Programming environment setup procedure](./environmentSetup.md) | [C tips in VS Code](./c.md)
+[Home](../../README.md) | [Useful definitions used in IT](../general/theory.md) | [FreeRTOS](./freertos.md) | [Programming environment setup procedure](./environmentSetup.md) | [C tips](../C/c.md)
 
 STM32CubeMX is a microcontroller configuration generator for STM32. Practically, it is a graphical interface that allows you to define what your microcontroller pins will be used for, what clock you want it to use and other parameters. Then, you can generate a program skeleton with all this information.
 

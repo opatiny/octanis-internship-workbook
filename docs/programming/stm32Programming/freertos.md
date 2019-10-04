@@ -1,6 +1,6 @@
 # FreeRTOS
 
-[Home](../../README.md) | [Useful definitions used in IT](../general/theory.md) | [CubeMX](./cubeMX.md) | [Programming environment setup procedure](./environmentSetup.md) | [C tips in VS Code](./c.md)
+[Home](../../README.md) | [Useful definitions used in IT](../general/theory.md) | [CubeMX](./cubeMX.md) | [Programming environment setup procedure](./environmentSetup.md) | [C tips](../C/c.md)
 
 FreeRTOS documentation: [https://www.freertos.org/taskandcr.html](https://www.freertos.org/taskandcr.html)
 
