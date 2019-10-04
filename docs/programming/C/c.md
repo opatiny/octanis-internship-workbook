@@ -1,6 +1,6 @@
 # Programming in C
 
-[Home](../../README.md) | [Useful definitions used in IT](../general/theory.md) | [Programming environment setup procedure](./environmentSetup.md) | [C tips in VS Code](./c.md) | [FreeRTOS](./freertos.md)
+[Home](../../README.md) | [Useful definitions used in IT](../general/theory.md) | [Programming environment setup procedure](../stm32programming/environmentSetup.md) | [FreeRTOS](../stm32programming/freertos.md)
 
 ## Theory
 
@@ -69,6 +69,7 @@ printf("%d\n", length);
 
 A few codes:
 - d : decimal integer
+- f : float
 - s : string
 - c : character
 - p : pointer address
@@ -124,11 +125,25 @@ The `->` syntax is used to act on a property of an instance of a `struct`. (like
 uint32_t time = HAL_GetTick();
 ```
 
-
 ## Various tips
 
 - **CTRL + click**: to check if a function exists
 - **interrupts** are setup in CubeMX
+- Good tutorials: [https://zestedesavoir.com/tutoriels/755/le-langage-c-1/](https://zestedesavoir.com/tutoriels/755/le-langage-c-1/)
+
+### compile and execute a C code in vscode
+
+Be sure to have a C extension installed (gcc compiler).
+
+```bash
+gcc -o file.out file.c
+./file.out
+```
+If using the math library, you have to add the -lm function at the end of the command. Indeed, math is not really a standard library. Example:
+
+```bash
+gcc -o  drawPrime.out drawPrime.c -lm
+```
 
 ### Get an easy programming environment for C: Jupyter
 
