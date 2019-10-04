@@ -506,7 +506,14 @@ Did:
 - started familiarizing with the c syntax and linked list specifically
 
 TODO:
+
 - [x] install CubeMX on Xenial
 - [ ] try to get distance sensor output using bare metal code
 - [ ] find a way to have exact time on microcontroller in CubeMX -> be able to execute a task every 12 hours
-- [ ] make pump output part 6mm longer
+- [x] make pump output part 6mm longer
+
+### 2019.10.04
+
+- start print of hinge bent for vacrob flap
+- laser-cut pump face in plexiglass
+- modify design of pump output part

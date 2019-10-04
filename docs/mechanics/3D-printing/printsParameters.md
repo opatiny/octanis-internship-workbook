@@ -379,7 +379,7 @@ Print is good, minor design problems.
 - Filament: Prusament PLA (grey)
 - Infill: 15%
 
-Note: 15% filling is enough for large parts. It seems resistant enough.
+**Note:** 15% filling is enough for large parts. It seems resistant enough. Threads are not really good, but using a metal screw to form them the first time is sufficient to use nylon screws afterwards.
 
 ### dustCollector-pump v16
 
@@ -390,3 +390,23 @@ Note: 15% filling is enough for large parts. It seems resistant enough.
 - Infill: 15%
 
 The print lasts 20 hours! Also, the part is so big that the head is sometimes out of the restricted ares. PrusaSlicer slices anyway and the printer agrees to print it. In this case, it is best to have the "excess" on the front, because the head can access it anyway (when purging).
+
+### pump output v2
+
+- Date : 2019.10.03
+- Printer: bottom Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: FlexiSMART FFF world (ice blue)
+- Infill: 25%
+
+**Note:** auto-load filament doesn't work! Otherwise, print quality is very good. To fit in vacrob, part should be 6mm longer.
+
+### hinge bent v5
+
+- Date : 2019.10.03
+- Printer: bottom Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: FlexiSMART FFF world (ice blue)
+- Infill: 25%
+
+**Note:** printer is crashing all the time and asks to unload and reload filament.
