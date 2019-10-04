@@ -410,3 +410,20 @@ The print lasts 20 hours! Also, the part is so big that the head is sometimes ou
 - Infill: 25%
 
 **Note:** printer is crashing all the time and asks to unload and reload filament.
+
+### hinge bent v5
+
+- Date : 2019.10.04
+- Printer: top Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: FlexiSMART FFF world (ice blue)
+- Infill: 25%
+
+
+### pump output v2
+
+- Date : 2019.10.04
+- Printer: top Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: FlexiSMART FFF world (ice blue)
+- Infill: 25%

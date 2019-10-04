@@ -517,3 +517,6 @@ TODO:
 - start print of hinge bent for vacrob flap
 - laser-cut pump face in plexiglass
 - modify design of pump output part
+- learn C programming
+
+
