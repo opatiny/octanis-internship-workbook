@@ -4,6 +4,8 @@
 
 ## Theory
 
+For complete theory, refer to the [EPFL course on C programming](https://ikea.octanis.ch/index.php/apps/files/?dir=/Octanis%20Instruments/Engineering/Courses/R%20Boulic%20EPFL%20C%20Programming&fileid=89737)
+
 ### FreeRTOS
 
 - FreeRTOS: [https://www.freertos.org/taskandcr.html](https://www.freertos.org/taskandcr.html), TO READ:
@@ -11,6 +13,30 @@
   - Tasks and Co-routines
   - More about tasks
   - Queues, mutexes, semaphores...
+
+### Code structure
+
+In C code, they are at least three types of files that are required:
+- `.c` : files in which all the functions are written
+- `.h` : files that contain all the includes of standard libraries and from other files. They must list all the prototypes of the user-accessible functions. There must be one `.h` file per `.c` file. They can be circular includes
+- `.out` or `.o` : output files. The compiled code.
+
+Additionally, a Makefile should be used, which contains all the includes of the module and the type of compiler that you want to use. The Makefile is executed using the `make` command. It should be on the first level of the module. The first time that the `make` command is run, all the files are compiles. Afterwards, only the modified files are (optimized).
+
+All the `.c` files should be contained in a `Src` folder. All the `.h` files should be contained in a `Inc` folder. The main file of a module must be called `xxx-main.c`, where `xxx` is an identifier that should be put at the beginning of all the files of a module.
+
+### Module
+
+Module = Interface + Implementation
+
+- **Interface:** What the user has access to -> `.h` file
+- **Implementation:** The source code with all the functions necessary for it to work -> `.c`
+
+One interface can have many possible implementations.
+
+### Makefile
+
+Theory: [Serie 15 - Chapitre 6](https://ikea.octanis.ch/index.php/apps/files/?dir=/Octanis%20Instruments/Engineering/Courses/R%20Boulic%20EPFL%20C%20Programming&fileid=89737#pdfviewer)
 
 ### Linked lists
 
