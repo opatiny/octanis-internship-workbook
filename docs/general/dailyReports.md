@@ -520,3 +520,10 @@ TODO:
 - learn C programming
 
 
+### 2019.10.07 - w15
+
+- continue learning C programming
+- wrote bash script to compile and execute C scripts
+- start learning how to use Makefile
+- check alibaba for card edge connector (really bad results) and grove cable
+- weekly meeting with Sam

@@ -9,4 +9,4 @@ The procedure followed: [https://docs.octanis.ch/display/PUB/VSCode+STM32+Firmwa
 [https://docs.docker.com/install/linux/docker-ce/ubuntu/](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
 - you first have to install the repository in which there is the last version of docker
-- then you can install the necessary packages and test your install
+- then you can install the necessary packages and test your install (pretty straightforward)

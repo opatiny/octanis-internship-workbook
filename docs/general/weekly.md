@@ -176,4 +176,16 @@ WHAT NEXT?
 - it is time to move to firmware in general, but for this it would be necessary to have a possibly moving first prototype of the VACROB -> design the 3D parts to fix the wheels and fix them! Add holes if necessary. If it's too messy, just cutout another bottom out of mdf. Also, print new corner parts with the Prusas!
 - In the scope of intership, it is written that I should learn some React -> this might be done on the screen of the VACROB, but it is not a priority
 - start working on the sourcing of parts: make an alibaba account and try working on the order of cables for the gas particles sensor
-- 
+
+## 2019-10-07 15h00
+
+- point on the vacrob hardware -> dust collector and main brush not aligned, dust collector can't be taken out -> swap lidar and flap
+- for the C programming, check Boulic's course for structure and syntax
+- learn how to make a Makefile and use the `make` command
+- try getting the calendar to work on the distance board
+  - set it up properly in CubeMX
+  - find the callback function that will act on the alarm
+  - it is supposed to be on EXT line 17
+- check [HAL documentation](https://ikea.octanis.ch/index.php/apps/files/?dir=/Octanis%20Instruments/Engineering/STM32_fw&fileid=83148) for the necessary functions (on the Drive)
+- Urgent: get these Grove cables!
+- use Alexa as a microphone for bump swearing?

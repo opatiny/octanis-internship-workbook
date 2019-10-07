@@ -72,6 +72,7 @@ Also, if flashing doesn't work, change the file extension from `.hex` to `.elf` 
 - **RTC:** Reat-Time Clock
 - **DAC:** Digital Analog Convertor
 - **ADC:** Analog Digital Convertor
+- **HAL:** Hardware Abstraction Layer -> all the functions that allow you to act on the hardware microcontroller
 
 ## Various issues
 
@@ -86,13 +87,16 @@ The MakeFile is the only one that CubeMX isn't really good at updating. So it is
 - Go to the `NVIC` tab, find your interrupt in the list and be sure that "Enabled" and "Uses FreeRTOS functions" Boxes are checked
 - Generate the code.
 
-## real-time clock
+## real-time clock (RTC)
 
 - Go under Timers tab
 - click on RTC
 - check "Activate Clock Source"
 - check "Activate Calendar"
+- Under "Alarm A", select "Internal Alarm A"
+- In Configuration -> Parameter Settings : set Alarm A to happen every X time
+- Check the enable box in Configuration -> NVIC (Nested Vector Interrupt Control) settings
 
+-> the RTC is set on EXTI line 17: it's an EXTernal Interrupt. You have to find the callback function in the HAL documentation ([on the drive](https://ikea.octanis.ch/index.php/apps/files/?dir=/Octanis%20Instruments/Engineering/STM32_fw&fileid=83148)).
 
-Could be interesting:
-- [https://www.st.com/en/embedded-software/x-cube-rtc.html](https://www.st.com/en/embedded-software/x-cube-rtc.html)
+**Tampers:** two pins that you can set to register changes in input.
