@@ -1,28 +1,29 @@
-/// based on http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
+# based on http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
 
-IDIR =../Inc
+INC_DIR =./Inc
+SRC_DIR = ./Src
 CC=gcc
-CFLAGS=-I$(IDIR)
+CFLAGS=-I$(INC_DIR)
 
-ODIR=build
-LDIR =../lib
+BUILD_DIR=build
+LIB_DIR =./Lib
 
 LIBS=-lm
 
 _DEPS = ll-func.h
-DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
+DEPS = $(patsubst %,$(INC_DIR)/%,$(_DEPS))
 
-_OBJ = ll-func.out ll-main.out 
-OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
+_OBJ = ll-func.o ll-main.o 
+OBJ = $(patsubst %,$(BUILD_DIR)/%,$(_OBJ))
 
 
-$(ODIR)/%.out: %.c $(DEPS)
+$(BUILD_DIR)/%.o: $(SRC_DIR)/%.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-hellomake: $(OBJ)
+all : $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS) $(LIBS)
 
 .PHONY: clean
 
 clean:
-	rm -f $(ODIR)/*.o *~ core $(INCDIR)/*~ 
+	rm -f $(BUILD_DIR)/*.o

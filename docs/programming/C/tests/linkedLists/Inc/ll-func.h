@@ -5,8 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "../Src/ll-func.c"
-
+// recursive definition of a type
 typedef struct Node {
     int val;
     struct Node * next;
