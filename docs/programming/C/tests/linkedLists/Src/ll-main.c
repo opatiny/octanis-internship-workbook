@@ -17,13 +17,26 @@ int main() {
     
     int length = sizeof(Node_t);
     
-    
     printList(head);
     
     printf("\n");
     
-    push(head, 2);
+    pushEnd(head, 2);
     printList(head);
-    
+
+    printf("\n");
+
+    pushStart(&head, 3);
+    printList(head);
+
+    printf("\n");
+
+    printNode(head, 0);
+
+    printf("\n");
+
+    removeFirst(&head);
+    printList(head);
+
     return 0;
 }
