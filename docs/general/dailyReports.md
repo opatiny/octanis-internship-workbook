@@ -527,3 +527,12 @@ TODO:
 - start learning how to use Makefile
 - check alibaba for card edge connector (really bad results) and grove cable
 - weekly meeting with Sam
+
+### 2019.10.08
+
+- update work hours management -> 1 hour incoherence...
+- try understanding makefiles
+- finally managed to manipulate h files
+- worked on linked lists in C
+  
+
