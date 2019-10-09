@@ -11,6 +11,14 @@ typedef struct Node {
     struct Node * next;
 } Node_t;
 
+// we write p_head every time we need the pointer on
+// the head of the list -> to avoid confusions
+
+
+// creates new list of one node with value val and
+// returns the head of the list
+Node_t * newList(int val);
+
 // print value of all nodes
 void printList(Node_t * head);
 
@@ -24,14 +32,20 @@ int getNode(Node_t * head, int index);
 void pushEnd(Node_t * head, int val);
 
 // add a new node with value val at the beginning of the list
-void pushStart(Node_t ** head, int val);
+void pushStart(Node_t ** p_head, int val);
 
 // remove last element of the list
 void removeLast(Node_t * head);
 
 // remove first element of the list
-void removeFirst(Node_t ** head);
+void removeFirst(Node_t ** p_head);
+
+// returns number of nodes in the list
+int getLength(Node_t * head);
+
+// return a copy of list with head1
+Node_t * makeCopy(Node_t * head);
 
 // merge two lists into one, keeping the head of the first one
-void mergeLists(Node_t * head1, Node_t * head2);
+void mergeLists(Node_t * head1, Node_t ** p_head2);
 #endif

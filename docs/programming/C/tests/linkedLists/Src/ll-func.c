@@ -7,11 +7,22 @@ void checkMalloc(Node_t * node);
 
 // functionalities of the linked lists module
 
+Node_t * newList(int val) {
+    Node_t * head = NULL;
+    head = malloc(sizeof(Node_t));
+    checkMalloc(head);
+
+    head->val = val;
+    head->next = NULL;
+
+    return head;
+}
+
 void printList(Node_t * head) {
     Node_t * current = head;
 
     while (current != NULL) {
-        printf("%d\n", current->val);
+        printf("%d ", current->val);
         current = current->next;
     }
 }
@@ -57,18 +68,17 @@ void pushEnd(Node_t * head, int val) {
     current->next->next = NULL;
 }
 
-void pushStart(Node_t ** head, int val) {
+void pushStart(Node_t ** p_head, int val) {
     Node_t * newNode = NULL;
     newNode = malloc(sizeof(Node_t));
     checkMalloc(newNode);
 
     newNode->val = val;
-    newNode->next = *head;
+    newNode->next = *p_head;
 
-    *head = newNode;
+    *p_head = newNode;
 }
 
-// remove last element of the list
 void removeLast(Node_t * head) {
     
     if (head->next == NULL) {
@@ -84,19 +94,54 @@ void removeLast(Node_t * head) {
     current->next = NULL;
 }
 
-// remove first element of the list (list must be at least two nodes long)
-void removeFirst(Node_t ** head) {
+void removeFirst(Node_t ** p_head) {
     Node_t * newHead = NULL;
 
-    if ((*head)->next == NULL) {
-        free(*head);
+    if ((*p_head)->next == NULL) {
+        free(*p_head);
         return;
     }
 
-    newHead = (*head)->next;
-    free(*head);
-    *head = newHead;
+    newHead = (*p_head)->next;
+    free(*p_head);
+    *p_head = newHead;
 }
+
+int getLength(Node_t * head) {
+    Node_t * current = head;
+    int counter = 0;
+
+    while (current != NULL) {
+        current = current->next;
+        counter++;
+    }
+
+    return counter;
+}
+
+Node_t * makeCopy(Node_t * head) {
+    Node_t * current = head;
+    Node_t * head2 = newList(current->val);
+
+    int headLength = getLength(head);
+
+    while (current->next != NULL) {
+        current = current->next;
+        pushEnd(head2, current->val);
+    }
+
+    return head2;
+}
+
+void mergeLists(Node_t * head1, Node_t ** p_head2) {
+    Node_t * current = head1;
+
+    while (current->next != NULL) {
+        current = current->next;
+    }
+    current->next = *p_head2;
+}
+
 
 /****** ERROR MESSAGES ******/
 
