@@ -6,6 +6,7 @@
 
 - [https://webmail.gandi.net/roundcube/?_task=mail&_mbox=INBOX](https://webmail.gandi.net/roundcube/?_task=mail&_mbox=INBOX) : email
 - [https://ikea.octanis.ch/index.php/apps/files/?dir=/&fileid=83347](https://ikea.octanis.ch/index.php/apps/files/?dir=/&fileid=83347) : drive
+- page to have latex equations as image in md: [cheminfo](https://www.cheminfo.org/?viewURL=https%3A%2F%2Fcouch.cheminfo.org%2Fcheminfo-public%2F12c971bb3f9d5f93dfbf82f27e089d35%2Fview.json&loadversion=true&fillsearch=Convert+tex+latex+for+github)
 
 ## CAD
 

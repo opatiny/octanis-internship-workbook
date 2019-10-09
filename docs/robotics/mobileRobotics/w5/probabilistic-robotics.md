@@ -2,7 +2,7 @@
 
 [Home](../../../../README.md) | [Mobile Robotics](../mobileRobotics.md)
 
-"Explicit representation of uncertainty"
+Goal: Get an "explicit representation of uncertainty"
 
 ## Axioms of Probability Theory
 
@@ -93,14 +93,69 @@ $$P(x,y|z) = P(x|z)P(y|z)$$
 
 -> if we have additional information about the environment -> new measurements adding up ($z_i$) -> what is the probability that the door is open given my current measurement and all the previous ones
 
-Careful!!! The previous measurement is a predictor for the current one! -> Walls are continuous, so a sensor will have only small variations if the robot moves slightly
+**Careful!!!** The previous measurement is a predictor for the current one in a normal world! -> Walls are continuous, so a sensor will have only small variations if the robot moves slightly -> dependence between the measurements!
 
 <img src="https://tex.cheminfo.org/?tex=P(x%7Cz_1%2C%20...%2C%20z_n)%20%3D%20%5Cfrac%7BP(z_n%7Cx%2C%20z_1%2C%20...%2C%20z_%7Bn-1%7D)P(x%7Cz_1%2C%20...%2C%20z_%7Bn-1%7D)%7D%7BP(z_n%7Cz_1%2C%20...%2C%20z_%7Bn-1%7D)%7D"/>
 
-**Markov assumption :** $z_n$ is independent of $z_1, ..., z_{n-1}$ **if we know $x$**
+**Markov assumption :** $z_n$ (measurement n) is independent of $z_1, ..., z_{n-1}$ (all the previous measurements) **if we know $x_n$** (the actual state of the robot).
 
 Given this independence assumption, $P(z_n|x, z_1, ..., z_{n-1}) = P(z_n|x)$.
 
 By replacing and simplifying, we get:
 
 <img src="https://tex.cheminfo.org/?tex=P(x%7Cz_1%2C%20...%2C%20z_n)%20%3D%20%5Ceta_%7B1...n%7D%20%5CBig%5B%5Cprod_%7Bi%3D1...n%7DP(z_i%7Cx)%20%5CBig%5D%20P(x)"/>
+
+## Actions
+
+- the world is dynamic -> it changes (sometimes the robot acts on the environment) -> that must be taken into account
+- actions carried out by the robot are never perfect -> they increase the uncertainty (**non-deterministic / stochastic system**)
+- we use a likelihood function: what is the probability that I will end up with a certain state $x$ given that I executed a certain action $u$ and that I was previously in state $x'$. -> $P(x|u, x')$ (Action model)
+
+### Law of Total Probability: Integrating the outcome of actions
+
+Discrete case : 
+$$P(x|u) = \Sigma P(x|u, x')P(x' | u) = \Sigma P(x|u, x')P(x')$$ 
+
+Continuous case : 
+$$p(x) = \int p(x|u, x')p(x' | u) dx' = \int p(x|u, x')p(x') dx'$$
+
+In both case, we can remove the $u$ because the action gives no information on the prior state.
+
+## Recursive Bayesian Filtering
+
+### Context
+
+Given:
+
+- Alternation of actions $u$ and measurements/observations $z$: $d_t = {u_1, z_1, ..., u_t, y_t}$ ($d$ like data?)
+- Sensor model: $P(x|z)$ (actual state given measurements)
+- Action model: $P(x|u, x')$ (state given action was made and initial state)
+- Prior probability of the system state: $P(x)$
+
+Wanted:
+
+- Estimate the state $x$ of a dynamical system
+- Posterior of the state: **Belief**
+  $$Bel(x_t) = P(x_t|u_1, z_1, ..., u_t, z_t)$$
+
+### Markov (Independence) assumptions
+
+We assume that $z_t$ is independent from all the measurements, actions and previous states if we know $x_t$.
+
+### Bayes Filters
+ 
+[Bayes Filters Demonstration](./bayes-filters-demo)
+
+$y$ = observation, $x$ = state, $u$ = action
+
+Definition:
+
+$$Bel(x_t) = P(x_t|u_1, z_1, ..., u_t, z_t)$$
+
+Bayes Filters Discrete case:
+$$Bel(x_t) = \eta P(z_t| x_t) \Sigma P(x_t|u_t, x_{t-1}) Bel(x_{t-1})$$
+
+Bayes Filter Continuous case:
+$$Bel(x_t) = \eta P(z_t| x_t) \int P(x_t|u_t, x_{t-1}) Bel(x_{t-1}) dx_{t-1}$$
+
+Finish part 3!!

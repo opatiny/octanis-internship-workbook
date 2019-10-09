@@ -534,5 +534,11 @@ TODO:
 - try understanding makefiles
 - finally managed to manipulate h files
 - worked on linked lists in C
-  
+
+### 2019.10.09
+
+- check alibaba for grove cable, still
+- finished linked lists module
+- laser-cut spectro case for Sam
+- worked on MR w5
 

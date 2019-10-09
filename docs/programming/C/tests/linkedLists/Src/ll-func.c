@@ -146,7 +146,7 @@ void mergeLists(Node_t * head1, Node_t ** p_head2) {
 /****** ERROR MESSAGES ******/
 
 void checkMalloc(Node_t * node) {
-    if (node == NULL) {
+    if (!node) { // because NULL is false
         printf("No more memory for node");
         exit(EXIT_FAILURE);
     }
