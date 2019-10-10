@@ -542,3 +542,9 @@ TODO:
 - laser-cut spectro case for Sam
 - worked on MR w5
 
+### 2019.10.10
+
+- check alibaba for custom cable and update issue on gitlab
+- work on MR course theory w5 and w6
+- work on MR course exercises w4
+
