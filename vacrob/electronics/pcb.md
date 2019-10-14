@@ -71,8 +71,16 @@ AVX board-to-board (BTB) connector spec for male layout:
 
 ### VL53L0X (distance sensor)
 
-- ToF (time-of-flight) module
+- **ToF** (time-of-flight) module
 - **940 nm** VCSEL emitter
+- **I2C**, 1 address: **0X52**
+- Field Of View (FOV): **25 degrees C**
+- Max distance measurement: 
+  - normal mode: about 1.2 m
+  - long-range mode: about 2.2 m
+- Class 1 laser safety limits
+- temperature shouldn't get over 260 deg C
+- Single Photon Avalanche Diodes (**SPADs**)
 
 ### MPN of a few components
 

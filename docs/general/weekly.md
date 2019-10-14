@@ -189,3 +189,13 @@ WHAT NEXT?
 - check [HAL documentation](https://ikea.octanis.ch/index.php/apps/files/?dir=/Octanis%20Instruments/Engineering/STM32_fw&fileid=83148) for the necessary functions (on the Drive)
 - Urgent: get these Grove cables!
 - use Alexa as a microphone for bump swearing?
+
+## 2019-10-14 10h00
+
+- resumed last week:
+  - learning C programming
+  - finished mini linked list module in C
+  - worked on MR course weeks 4 to 6
+- spoke about moving forwards: start with hardware programming
+  - firmware for distance module
+  - firmware for dc motor board encoders

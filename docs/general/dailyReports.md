@@ -548,3 +548,20 @@ TODO:
 - work on MR course theory w5 and w6
 - work on MR course exercises w4
 
+### 2019.10.11
+
+- work on MR course exercises w4
+- talk with Guillaume about micro-controllers and C programming
+
+### 2019.10.14 - w16
+
+**Goal of the day:** start programming the robot 
+- work on distance board firmware -> retrieve values of distance sensor
+- work on dc motor board firmware -> implement encoder reading
+
+- weekly meeting with Sam
+- debugged hardware of distance board
+- working on distance board firmware -> distance sensor
+  - I have to base myself on this project for the I2C: [https://make.octanis.ch/oi/oibus-mini-mikrobus/blob/master/mikrobus-freertos-firmware](https://make.octanis.ch/oi/oibus-mini-mikrobus/blob/master/mikrobus-freertos-firmware)
+  - download the sensor API and find out what are the functions that I'll need to use
+- started reading VL53L API user manual

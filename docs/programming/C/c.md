@@ -2,6 +2,8 @@
 
 [Home](../../README.md) | [Useful definitions used in IT](../general/theory.md) | [Programming environment setup procedure](../stm32programming/environmentSetup.md) | [FreeRTOS](../stm32programming/freertos.md)
 
+Learning to use C programming language: [https://github.com/opatiny/C-testing](https://github.com/opatiny/C-testing)
+
 ## Theory
 
 For complete theory, refer to the [EPFL course on C programming](https://ikea.octanis.ch/index.php/apps/files/?dir=/Octanis%20Instruments/Engineering/Courses/R%20Boulic%20EPFL%20C%20Programming&fileid=89737)

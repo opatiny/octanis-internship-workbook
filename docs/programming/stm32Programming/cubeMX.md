@@ -67,12 +67,13 @@ Also, if flashing doesn't work, change the file extension from `.hex` to `.elf` 
 
 ## Acronyms
 
-- **GPIO:** Global Purpose Input Output
-- **NVIC:** Nested Vector Interrupt Control
-- **RTC:** Reat-Time Clock
-- **DAC:** Digital Analog Convertor
 - **ADC:** Analog Digital Convertor
+- **DAC:** Digital Analog Convertor
+- **GPIO:** Global Purpose Input Output
 - **HAL:** Hardware Abstraction Layer -> all the functions that allow you to act on the hardware microcontroller
+- **NVIC:** Nested Vector Interrupt Control
+- **RCC :** Reset and Clock Controller
+- **RTC:** Real-Time Clock
 
 ## Various issues
 

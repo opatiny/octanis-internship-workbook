@@ -1,4 +1,4 @@
-# Some theory and definitions useful in programming
+# Some theory and definitions useful in C programming
 
 [Home](../../../README.md) | [Programming environment setup procedure](../stm32Programming/environmentSetup.md) | [C tips in VS Code](../stm32Programming/c.md) | [CubeMX procedure](../stm32Programming/cubeMX.md)
 
@@ -32,3 +32,4 @@
 - **OS :** Operating System
 - **RAM :** Random Access Memory, volatile
 - **ROM :** Read Only Memory
+- **RCC :** Reset and Clock Controller
