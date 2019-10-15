@@ -40,7 +40,13 @@ One interface can have many possible implementations.
 
 Theory from EPFL course: [Serie 15 - Chapitre 6](https://ikea.octanis.ch/index.php/apps/files/?dir=/Octanis%20Instruments/Engineering/Courses/R%20Boulic%20EPFL%20C%20Programming&fileid=89737#pdfviewer)
 
-Full documentation about `make` and `Makefiles`: [https://www.gnu.org/software/make/manual/make.html#Running](https://www.gnu.org/software/make/manual/make.html#Running)
+In general, the Makefile is a file that is going to handle all the includes of the headers and c files. Also, it smartly recompiles the code. -> Only recompiles what has changed.
+
+Full documentation about `make` and `Makefiles`: [https://www.gnu.org/software/make/manual/make.html#Running](https://www.gnu.org/software/make/manual/make.html#Running).
+
+### c_cpp_properties.json (in .vscode)
+
+This file contains the paths to all the files that are included in the Makefile. It is the one that allows the auto-completion (intellisense). Restart vscode every time you modify this file.
 
 ### Linked lists
 

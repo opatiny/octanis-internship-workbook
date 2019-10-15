@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+    {
+        "type": "cortex-debug",
+        "request": "launch",
+        "servertype": "openocd",
+        "cwd": "${workspaceRoot}",
+        "executable": "./build/oibus-mini-adc-dac-freertos-fw.elf",
+        "name": "Debug (openocd)",
+        "svdFile": "${workspaceRoot}/STM32F303.svd",
+        "overrideGDBServerStartedRegex": "Info\\s:\\s([^\\n\\.]*)\\.cpu([^\\n]*)",
+        "configFiles": [
+            "/usr/local/share/openocd/scripts/interface/stlink.cfg",
+            "/usr/local/share/openocd/scripts/target/stm32f3x.cfg"
+        ]
+    }]
+}

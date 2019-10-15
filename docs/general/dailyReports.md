@@ -565,3 +565,16 @@ TODO:
   - I have to base myself on this project for the I2C: [https://make.octanis.ch/oi/oibus-mini-mikrobus/blob/master/mikrobus-freertos-firmware](https://make.octanis.ch/oi/oibus-mini-mikrobus/blob/master/mikrobus-freertos-firmware)
   - download the sensor API and find out what are the functions that I'll need to use
 - started reading VL53L API user manual
+
+### 2019.10.15
+
+- read VL53L API user manual
+- continue trying to understand how to get the distance
+- got working debug
+
+**Goal:** Rewrite the driver for the I2C communications that is going to be used by the distance sensor API. -> Base myself on the file `vl53l0x_i2c_win_serial_comms.c` (in the VL53L API -> platform). I have to reimplement all these functions using the HAL functions.
+
+**First reflex to have in this situation:** go on Github and look if other people didn't do it already by looking for the function names.
+
+Tomorrow: Look into the hal I2C file and read the doc -> use these functions in the vl53l0x_stm32f303.c file.
+

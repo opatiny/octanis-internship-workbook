@@ -8,5 +8,20 @@ The procedure followed: [https://docs.octanis.ch/display/PUB/VSCode+STM32+Firmwa
 
 [https://docs.docker.com/install/linux/docker-ce/ubuntu/](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
-- you first have to install the repository in which there is the last version of docker
-- then you can install the necessary packages and test your install (pretty straightforward)
+You have to install the repository in which there is the last version of docker -> it is not something you can make with apt-get because it the repositories of apt-get are not necessarily upt-to-date with the last version of Docker
+
+## In VSCode
+
+Install these extensions:
+- Remote Development -> Microsoft
+- Docker -> Microsoft
+- Restart vscode
+
+## To do every time
+
+In the firmware of your project:
+
+- Create a `.devcontainer` folder and copy `devcontainer.json` and `Dockerfile` to it (ther's acopy of these files in `./envFiles/`)
+- Copy `launch.json` and `c_cpp_properties.json` to your `.vscode` folder
+- Click on the green icon at the bottom-left of the vscode window and pick "Reopen Folder in container"
+- Copy the `STM32F303.svd` file to the root of the project

@@ -19,24 +19,78 @@ The message type to use for the distance sensor output: [https://github.com/UAVC
 
 The sensor measurements are based on Single Photon Avalanche Diodes (**SPADs**).
 
-#### Initializing the distance sensors
+#### Initializing the distance sensors (initial calibration)
 
-Functions to run at the beginning to get the device working (from the [API UM](./vl53l0x-api-description.pdf)). **To execute after every reset!**
+Functions to run at the beginning to get the device working (from the [API UM](./vl53l0x-api-description.pdf)). **To do once for each use setting!**
 
 ```C
 // device initialization
 VL53L0X_DataInit(); 
 // loading settings
 VL53L0X_StaticInit();
-// SPADs callibration, to do in case of cover glass -> returns number and type of spads to be used (2 values to store!)
+// SPADs calibration, to do in case of cover glass -> returns number and type of spads to be used (2 values to store!)
 VL53L0X_PerformRefSpadManagement();
 //adjustment of the device sensitivity when temperature varies (to make every time temperature varies from more than 8 degrees C)
-VL53L0X_PerformRefCalibration(); 
+VL53L0X_PerformRefCalibration();
 // can be necessary in case of cover glass
 // run the function with device at 100mm from white reflective surface, in the dark
 // returns the offset value in micrometers
-VL53L0X_PerformOffsetCalibration();
+VL53L0X_PerformOffsetCalibration();;
 
 // in case of cover glass, cross-talk calibration might also be needed -> quite complicated
+// VL53L0X_PerformXTalkCalibration()
+```
 
+#### Initialization and calibration
+
+**To execute once after every reset!**
+
+```C
+// device initialization (to cal once and only once after reboot)
+VL53L0X_DataInit(); 
+// loading settings
+VL53L0X_StaticInit();
+// get type and number of SPADs stored on host
+VL53L0X_GetReferenceSpads();
+// set the type and number of spads to the right values
+VL53L0X_SetReferenceSpads();
+// load calibration parameters
+VL53L0X_SetRefCalibration();
+// load offset from host memory
+VL53L0X_SetOffsetCalibrationDataMicroMeter();
+
+// enable cross-talk calibration and load data
+VL53L0X_SetXTalkCompensationEnable();
+VL53L0X_SetXTalkCompensationRateMegaCps();
+
+// select one of the three ranging modes (continuous, single, continuous timed)
+VL53L0X_SetDeviceMode();
+
+// configures the system interrupt mode
+VL53L0X_SetGPIOConfig();
+```
+
+#### Ranging
+
+Setting up the type of measurements and how to retrieve the data.
+
+```C
+// for timed continuous ranging
+VL53L0X_SetInterMeasurementPeriodMilliSeconds();
+// set ranging time -> the longer, the more accurate the measurement, standard is 33 miliseconds
+VL53L0X_SetMeasurementTimingBudgetMicroSeconds();
+// start measurement with chosen mode
+VL53L0X_StartMeasurement();
+// get a status on the ongoing measurement
+VL53L0X_GetMeasurementDataReady();
+
+// get measurement, first value is range in mm
+VL53L0X_GetRangingMeasurementData();
+// get error status -> should be 0 if data is valid
+VL53L0X_GetRangeStatusString();
+```
+
+Apparently, the firmware can be used to change the device I2C address!
+```C
+VL53L0X_SetDeviceAddress();
 ```
