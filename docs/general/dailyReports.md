@@ -578,3 +578,7 @@ TODO:
 
 Tomorrow: Look into the hal I2C file and read the doc -> use these functions in the vl53l0x_stm32f303.c file.
 
+### 2019.10.16
+
+- Programming: I have to cut it down in little pieces -> start by programming an I2C bus scanner!
+- an existing project with I2C bus scanner: [https://github.com/ProjectsByJRP/stm32_hal_i2c_bus_scan/blob/master/Src/main.c](https://github.com/ProjectsByJRP/stm32_hal_i2c_bus_scan/blob/master/Src/main.c)

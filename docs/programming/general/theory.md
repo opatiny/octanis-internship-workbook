@@ -33,3 +33,4 @@
 - **RAM :** Random Access Memory, volatile
 - **ROM :** Read Only Memory
 - **RCC :** Reset and Clock Controller
+- **UART :** Universal Asynchronous Receiver Transmitter (Rx/Tx). A UART is a physical peripheral. It transforms parallel data (bus -> from CPU, for example), into serial data (all bits on only one cable). Asynchronous means there is no clock.

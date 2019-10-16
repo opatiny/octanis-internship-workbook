@@ -125,8 +125,16 @@ To check : [https://electronics.stackexchange.com/questions/292140/why-is-a-resi
 
 ### Oscilloscope
 
-- use trigger on edge (abrupt voltage change)
+<img src="./oscilloscope.jpg" alt="oscilloscope image" width="60%" class="center">
+
+- use trigger on edge (abrupt voltage change) -> the trigger is the menu on the right. The round button allows to move the trigger threshold
 - trigger has 3 modes: normal (keeps last event), single (keeps first event) and auto (refreshes every new event)
+- decode I2C:
+  - click on VERTICAL -> MATH
+  - Chose decode 1 or 2
+  - Chose Decoder -> I2C
+  - Select the right clock channel
+  - Select the right data channel
 
 ### Multimeter (BM235)
 
