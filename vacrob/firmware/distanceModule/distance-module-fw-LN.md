@@ -1,4 +1,4 @@
-# Distance modules firmware writing- Lab Notebook
+# Distance modules firmware writing - Lab Notebook
 
 ## Bumper
 
@@ -101,10 +101,27 @@ Problem: The existing API for the VL53L has to be adapted to the STM32 at the le
 
 We use HAL functions to communicate in I2C with the sensor. The first test that needs to be run is to check if the sensor is responding on the I2C bus. To do that, we used the `HAL_I2C_IsDeviceReady(&hi2c1, (uint16_t)(address<<1)`, 2, 2); function.
 
+```c
+HAL_I2C_IsDeviceReady(&hi2c1, (uint16_t)(address<<1), 2, 2);
+```
+
 The best way to see if the sensor is actually responding is to use the oscilloscope and to connect it on the I2C bus (-> the middle header on the board). Then, the I2C bus cn be decoded. In our case, we got `W:34 W:34`. This is the hexadecimal value for 52, which shows that the sensor is responding to the message sent by the microcontroller.
 
-<img src="./distance-module-oscilloscope.jpg" alt="oscilloscope setup" width="50%" class="center">
+<img src="./distance-module-oscilloscope.jpg" alt="oscilloscope setup" width="40%" class="center">
+
 Setup for the I2C bus decoding.
 
-<img src="./firmware-state-machine-dist-sensor.png" alt="firmware state machine distance sensor" width="50%" class="center">
+<img src="./firmware-state-machine-dist-sensor.png" alt="firmware state machine distance sensor" width="40%" class="center">
+
 Result of the decoder
+
+## Retrieving the value of a register
+
+A second step in communicating with the sensor, as well as learning how the HAL I2C functions work is to try retrieving the value of one of the registers. We want to try to get the serial number.
+
+First, we have to check the VL53L datasheet to know in which register it might be.
+
+<img src="./ref-registers.png" alt="VL53L reference registers" width="50%" class="center">
+
+In the datasheet, there is no register for the serial number. So we will try to retrieve the value of register 0xC1, which should have value 0xAA (=170).
+

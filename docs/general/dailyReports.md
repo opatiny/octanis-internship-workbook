@@ -589,3 +589,14 @@ Tomorrow: Look into the hal I2C file and read the doc -> use these functions in 
 
 - finished MR course exercises w4
 - finished MR course exercises w3
+- discussion with Sam about how to write firmware
+- try retrieving a register from the distance sensor an failed -> realized that the message seen on the oscilloscope is sent by the mcu and no ack is coming back... #sad
+
+TO DO:
+- as an exercise:
+  - use some HAL functions to communicate with the distance sensor directly
+  - try retrieving the serial number, for example
+- then:
+  - implement all the hicgh level functions that have to be called to calibrate the sensor and retrieve a measurement
+  - first abstract (leave empty) the low-level I2C bus functions that are needed
+  - then try writing the missing functions -> once you know exactly what is needed

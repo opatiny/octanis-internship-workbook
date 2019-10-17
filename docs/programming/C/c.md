@@ -95,6 +95,14 @@ Allocate some memory.
 
 [https://www.tutorialspoint.com/c_standard_library/c_function_malloc](https://www.tutorialspoint.com/c_standard_library/c_function_malloc)
 
+### macros
+
+A macro is basically when you define an alias name for some code. The alias is then replaced by the corresponding code (at every occurrence) ba the precompiler. They are defined as follows:
+
+```c
+#define MY_MACRO  1
+```
+
 ### printf()
 
 This function allows to print variables or text. The careful, the buffer for printf() is only emptied when there is a \n. Also, you have to specify the type of the variable that you want to print.
