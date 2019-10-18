@@ -603,3 +603,11 @@ TO DO:
 
 ### 2019.10.18
 
+- continued working on distance module firmware
+- read VL53L datasheet about I2C
+- realized that the hardware is false -> SDA and SCL inverted
+- hacked the boards to fix the I2C bus (and destroyed one)
+- on the advice of Gigi, started using the Analog Discovery 2
+  - install software
+  - use it to decode I2C bus
+- finally managed to communicate with VL53L and to get an acknowledge bit! (the problem was with the boot sequence -> toggle XSHUT1)

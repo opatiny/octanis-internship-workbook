@@ -142,3 +142,15 @@ To check : [https://electronics.stackexchange.com/questions/292140/why-is-a-resi
 - on resistance analysis mode, click on Select to switch from one mode to the other
 - mode 1: beeps when direct electric connection (null resistance)
 - mode 2: indicates resistance
+
+### Analog discovery 2 - Diligent
+
+**Definition:** USB oscilloscope, logic analyzer, variable power supply, and multi-function instrument
+
+To install the software (WaveForms), you first have to install this (Adept 2): [https://reference.digilentinc.com/reference/software/adept/start?redirect=1#software_downloads](https://reference.digilentinc.com/reference/software/adept/start?redirect=1#software_downloads)
+
+Then, install WaveForms: [https://resources.digilentinc.com/waveforms-download-64-bit-linux-deb/](https://resources.digilentinc.com/waveforms-download-64-bit-linux-deb/)
+
+#### Decode I2C -> logic analyzer
+
+[Documentation on the logic analyser of WaveForms](https://reference.digilentinc.com/learn/instrumentation/tutorials/ad2-logic-analyzer/start)

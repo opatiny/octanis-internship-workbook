@@ -11,3 +11,5 @@ THe Hardware Abstraction Layer (HAL) contains all the functions necessary to int
 ## Debugging
 
 When you are writing really low level code, the only way to debug is to use the oscilloscope and see what are the bits that are being sent. You should not trust the debugger in Vscode because it is only interpreting what is going on -> not showing you what is actually happening at bits level.
+
+However, to make it work, you have to make sure to remove the `-oG` option in the `Makefile`. Otherwise, the code is optimized and the debugger is not able to access the registers values.
