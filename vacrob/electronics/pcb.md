@@ -73,7 +73,7 @@ AVX board-to-board (BTB) connector spec for male layout:
 
 - **ToF** (time-of-flight) module
 - **940 nm** VCSEL emitter
-- **I2C**, 1 address: **0X52**
+- **I2C**, 1 address (but programmable?!): **0X52**
 - Field Of View (FOV): **25 degrees C**
 - Max distance measurement: 
   - normal mode: about 1.2 m

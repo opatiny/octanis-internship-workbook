@@ -600,3 +600,6 @@ TO DO:
   - implement all the hicgh level functions that have to be called to calibrate the sensor and retrieve a measurement
   - first abstract (leave empty) the low-level I2C bus functions that are needed
   - then try writing the missing functions -> once you know exactly what is needed
+
+### 2019.10.18
+

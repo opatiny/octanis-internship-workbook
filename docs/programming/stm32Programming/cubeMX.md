@@ -67,19 +67,14 @@ Also, if flashing doesn't work, change the file extension from `.hex` to `.elf` 
 
 ## Acronyms
 
-- **ADC:** Analog ;
-  }
-
-  /* USER CODE END StartDefaultTask */
-}
-
-/* Private applicatioDigital Convertor
+- **ADC:** Analog Digital Convertor
 - **DAC:** Digital Analog Convertor
 - **GPIO:** Global Purpose Input Output
 - **HAL:** Hardware Abstraction Layer -> all the functions that allow you to act on the hardware microcontroller
 - **NVIC:** Nested Vector Interrupt Control
 - **RCC :** Reset and Clock Controller
 - **RTC:** Real-Time Clock
+- **DMA:** Direct Memory Access
 
 ## Various issues
 

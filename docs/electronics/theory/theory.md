@@ -135,6 +135,7 @@ To check : [https://electronics.stackexchange.com/questions/292140/why-is-a-resi
   - Chose Decoder -> I2C
   - Select the right clock channel
   - Select the right data channel
+  - The Rigol oscilloscope supports saving a screen­shot as a PNG image file onto a USB “thumb­drive.” The drive must be formatted as FAT32, must be less than 8GB, and must be plugged into the front USB port before turning the unit on. Pressing the print button will capture the screen.
 
 ### Multimeter (BM235)
 

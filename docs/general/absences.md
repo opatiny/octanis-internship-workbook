@@ -39,8 +39,8 @@
 
 - 04.10.2019 : from 9:00 to 10:30
 - 08.10.2019 : from 12:30 to 15:00 (visit of EPFL reprography)
-- 15.10.2019 : from 17:15 to 18:00
-- 17.10.2019 : from 13:00 to 14:00
+- 15.10.2019 : from 17:15 to 18:00 (cause arrived earlier)
+- 17.10.2019 : from 13:00 to 14:00 (lunch with M. and B.)
 - 31.10.2019 : all day (Science on Stage festival)
 
 ### November

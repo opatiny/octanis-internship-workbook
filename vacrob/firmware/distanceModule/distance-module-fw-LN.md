@@ -93,19 +93,19 @@ Apparently, the firmware can be used to change the device I2C address!
 VL53L0X_SetDeviceAddress();
 ```
 
-## Trying to communicate through I2C with the distance sensor
+## Trying to communicate through I2C with the distance sensor (Epic fail)
 
 Test code is written inside of the `freertos.c` file, it the default task.
 
 Problem: The existing API for the VL53L has to be adapted to the STM32 at the level of the I2C communication (-> write adapted driver).
 
-We use HAL functions to communicate in I2C with the sensor. The first test that needs to be run is to check if the sensor is responding on the I2C bus. To do that, we used the `HAL_I2C_IsDeviceReady(&hi2c1, (uint16_t)(address<<1)`, 2, 2); function.
+We use HAL functions to communicate in I2C with the sensor. The first test that needs to be run is to check if the sensor is responding on the I2C bus. To do that, we used the `HAL_I2C_IsDeviceReady(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint32_t Trials, uint32_t Timeout);` function.
 
 ```c
 HAL_I2C_IsDeviceReady(&hi2c1, (uint16_t)(address<<1), 2, 2);
 ```
 
-The best way to see if the sensor is actually responding is to use the oscilloscope and to connect it on the I2C bus (-> the middle header on the board). Then, the I2C bus cn be decoded. In our case, we got `W:34 W:34`. This is the hexadecimal value for 52, which shows that the sensor is responding to the message sent by the microcontroller.
+The best way to see if the sensor is actually responding is to use the oscilloscope and to connect it on the I2C bus (-> the middle header on the board). Then, the I2C bus cn be decoded. In our case, we got `W:34 W:34`. This is the hexadecimal value for 52 52. The first 52 is sent by the MCU. THe second one it the acknowlegment sent by the distance sensor. This shows that everything is fine with the sensor from a hardware point of view -> it is soldered well.
 
 <img src="./distance-module-oscilloscope.jpg" alt="oscilloscope setup" width="40%" class="center">
 
@@ -115,13 +115,34 @@ Setup for the I2C bus decoding.
 
 Result of the decoder
 
+**CAUTION:** What I did there was **completely wrong**... Firstly, the device address that I used is false. The right address is `0x52`... Secondly, there was the message 52 twice on the bus, because **the MCU made two trials to connect to the sensor** -> read functions prototypes/doc!!!
+
+So let's start this all over again.
+
+After running some more tests and asking Raph for advice, he thought that the hardware could be wrong. After checking the PCB, we realized that the SDA and SCA lines were inverted.... 
+
+## Trying to communicate through I2C with the distance sensor again after fixing hardware with wires
+
+Let's start with what we know from the VL53L datasheet:
+- the device has one I2C address: `0x52`
+- every time the MCU wants to communicate with the I2C device, it will:
+  - send the device address slided one bit to the left. The first bit of the byte (lsb: least significant byte) has value 0 if the mcu wants to write and 1 if it wants to read
+    - lsb: 1 -> read, 0 -> write
+  - wait for an acknowledge bit from the sensor, which is the SDA line that goes high and is driven low while SCL is low (refer to image)
+  - continue with the desired register address on one byte
+  - ...
+- a message can only be ended by the bus master
+
+
+<img src="./data-transfer-protocol.png" alt="I2C data transfer protocol" width="40%" class="center">
+
 ## Retrieving the value of a register
 
 A second step in communicating with the sensor, as well as learning how the HAL I2C functions work is to try retrieving the value of one of the registers. We want to try to get the serial number.
 
 First, we have to check the VL53L datasheet to know in which register it might be.
 
-<img src="./ref-registers.png" alt="VL53L reference registers" width="50%" class="center">
+<img src="./ref-registers.png" alt="VL53L reference registers" width="30%" class="center">
 
 In the datasheet, there is no register for the serial number. So we will try to retrieve the value of register 0xC1, which should have value 0xAA (=170).
 
