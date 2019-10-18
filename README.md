@@ -38,6 +38,7 @@ Various information that has been useful / doc produced:
 - [CubeMX procedure](./docs/programming/stm32Programming/cubeMX.md)
 - [C tips](./docs/stm32Programming/programming/stm32Programming/c.md)
 - [FreeRTOS basic notions](./docs/programming/stm32Programming/freertos.md)
+- [Firmware notes](./docs/programming/stm32Programming/firmware.md)
 - [UAVCAN GUI Tools tips](./docs/programming/uavcan/uavcan.md)
 - [Python tips](./docs/programming/python/python.md)
 
@@ -45,7 +46,7 @@ Various information that has been useful / doc produced:
 
 - [Robotics theory](./docs/robotics/theory.md)
 - [ROS](./docs/robotics/ros.md)
-- [Mobile Robotics course notes](./docs/robotics/mobileRobotics/mobileRobotics.md)
+- [Mobile Robotics course notes and exercices(own repo)](https://github.com/opatiny/mobile-robotics)
 - [Robot Mapping course notes](./docs/robotics/robotMapping/robotMapping.md)
 
 **Others:**
@@ -59,8 +60,11 @@ First project that has been realized: an autonomous vacuum cleaner robot that us
 
 [**Vacuum cleaner robot project**](./xiaomiRemake/xiaomiRemake.md)
 
-- [Useful links related to the project](./xiaomiRemake/docs/refs.md)
+- [Mechanics](./xiaomiRemake/docs/mechanics/mechanics.md)
+- [Electronics](./xiaomiRemake/docs/electronics/electronics.md)
 - [The different PCBs used in the project](./xiaomiRemake/docs/pcb/pcb.md)
+- [Writing the firmware of the distance boards - Lab notebook](./xiaomiRemake/docs/firmware/distanceModule/distance-module-fw-LN.md)
+- [Useful links related to the project](./xiaomiRemake/docs/refs.md)
 
 ### Small projects
 
