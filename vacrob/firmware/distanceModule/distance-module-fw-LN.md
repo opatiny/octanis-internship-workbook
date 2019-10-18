@@ -132,9 +132,19 @@ Let's start with what we know from the VL53L datasheet:
   - continue with the desired register address on one byte
   - ...
 - a message can only be ended by the bus master
-
-
+- 
 <img src="./data-transfer-protocol.png" alt="I2C data transfer protocol" width="40%" class="center">
+
+It still didn't work. The reason for that is the XSHUT pin, which was low. Toggling this pin allowed the sensor to boot, and it worked afterwards.
+
+<img src="./vl53l-acknowledge.png" alt="the distance sensor aknowledges" width="40%" class="center">
+
+VL53L drives SDA line low after it's address is sent on the I2C bus -> acknowledge bit.
+
+The correct funtion:
+```c
+HAL_I2C_IsDeviceReady(&hi2c1, 0x52, 1, 10);
+```
 
 ## Retrieving the value of a register
 
@@ -146,3 +156,16 @@ First, we have to check the VL53L datasheet to know in which register it might b
 
 In the datasheet, there is no register for the serial number. So we will try to retrieve the value of register 0xC1, which should have value 0xAA (=170).
 
+<img src="./vl53l-answer.png" alt="the distance sensor answers when register is read" width="40%" class="center">
+
+VL53L answers with the value expected (170).
+
+Function used to get this:
+```c
+  uint16_t address = 0x52;
+  uint16_t registerPointer = 0xC1;
+  uint8_t returnValue = 0;
+  uint16_t size = 1;
+  
+    HAL_I2C_Mem_Read(&hi2c1, address, registerPointer, I2C_MEMADD_SIZE_8BIT, &returnValue, size, 1000);
+```
