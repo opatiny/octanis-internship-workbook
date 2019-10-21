@@ -199,3 +199,13 @@ WHAT NEXT?
 - spoke about moving forwards: start with hardware programming
   - firmware for distance module
   - firmware for dc motor board encoders
+
+## 2019-10-21 15h00
+
+- Sam helped me debug some firmware -> the memory allocated to my thread was too small
+- Still, the DataInit() function is crashing the debugger -> dive in by commenting everything and slowly un-commenting stuff
+- Installed Microsoft chat -> new work platform
+- my idea: since the Alibaba manufacturer doesn't seem super reliable, order some of the ZHR and Grove cables to have a backup (to solder by hand)
+- the [Contrel](https://contrel.com/fr/accumulateur-d-energie/) webpage is working again -> chose the appropriate battery for the vacrob (battery should be max 12 volts and with a big capacity and a reasonable price)
+- 6 weeks to go: I won't have time to learn resin printing, but maybe CNC and how to export files for it from FUsion 360
+- I'll learn UAVCAN when I'll have to publish the distance value from the distance module

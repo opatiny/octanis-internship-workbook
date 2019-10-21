@@ -611,3 +611,12 @@ TO DO:
   - install software
   - use it to decode I2C bus
 - finally managed to communicate with VL53L and to get an acknowledge bit! (the problem was with the boot sequence -> toggle XSHUT1)
+
+### 2019.10.21 - w16
+
+- work on distance module firmware
+- weekly meeting with Sam
+- handled Alibaba custom cable backup
+- tried to find a good battery for vacrob on Contel, bu didn't
+
+
