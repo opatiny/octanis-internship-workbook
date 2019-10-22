@@ -16,6 +16,14 @@ Another possibility is to use a **logic analyzer** (e.g.: Analog Discovery 2).
 
 However, to make it work, you have to make sure to **remove the `-oG` option** in the `Makefile`. Otherwise, the code is optimized and the debugger is not able to access the registers values.
 
-## Threads
+Also, the debugger doesn't work really well if they are more than 6 break points.
+
+## Threads memory allocation
 
 Since we use [FreeRTOS](./freertos.md), we have different tasks running in parallel on the MCU. There might be the case where the code is crashing because a thread is trying to access more memory than it has been allocated, so always check that!
+
+Also, it might happen that the size allocated to the whole heap is too small. You can check that in the `FreeRTOSConfig.h` file:
+
+```C
+#define configTOTAL_HEAP_SIZE   ((size_t)13072) // number of bytes
+```

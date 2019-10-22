@@ -617,6 +617,11 @@ TO DO:
 - work on distance module firmware
 - weekly meeting with Sam
 - handled Alibaba custom cable backup
-- tried to find a good battery for vacrob on Contel, bu didn't
+- tried to find a good battery for vacrob on Contel, but didn't
 
+### 2019.10.22
 
+- work on `DataInit()` function and solved it
+- try to run continuous ranging example -> stuck at `getDeviceInfo()`
+- learn more about NFC (Near Field Communication)
+- work on MR course theory w7
