@@ -75,6 +75,7 @@ Also, if flashing doesn't work, change the file extension from `.hex` to `.elf` 
 - **RCC :** Reset and Clock Controller
 - **RTC:** Real-Time Clock
 - **DMA:** Direct Memory Access
+- **NVM:** Non-Volatile Memory
 
 ## Various issues
 

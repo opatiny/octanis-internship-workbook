@@ -625,3 +625,10 @@ TO DO:
 - try to run continuous ranging example -> stuck at `getDeviceInfo()`
 - learn more about NFC (Near Field Communication)
 - work on MR course theory w7
+
+### 2019.10.23
+
+- tried making pictures of PCB
+- checked alibaba for 2 ends ZHR cable
+- work on distance module fw: moving to calibration
+- struggling on the staticInit() function -> error linked with the reference SPADs (got help form Raph)

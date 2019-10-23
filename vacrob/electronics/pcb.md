@@ -80,7 +80,7 @@ AVX board-to-board (BTB) connector spec for male layout:
   - long-range mode: about 2.2 m
 - Class 1 laser safety limits
 - temperature shouldn't get over 260 deg C
-- Single Photon Avalanche Diodes (**SPADs**)
+- Single Photon Avalanche Diodes (**SPADs**): The term Single-Photon Avalanche Diode (SPAD) defines a class of photodetectors able to detect low intensity signals (down to the single photon) and to signal the time of the photon arrival with high temporal resolution (few tens of picoseconds).
 
 ### MPN of a few components
 

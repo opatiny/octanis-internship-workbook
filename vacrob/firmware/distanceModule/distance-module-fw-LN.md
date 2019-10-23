@@ -169,3 +169,8 @@ Function used to get this:
   
     HAL_I2C_Mem_Read(&hi2c1, address, registerPointer, I2C_MEMADD_SIZE_8BIT, &returnValue, size, 1000);
 ```
+## Struggling with the continuous ranging example from the distance sensor API
+
+Trying to get the example with continuous ranging to work -> managed to retrieve some data from the sensor with `GetDeviceInfo()`. However, unable to get the staticInit to work -> problem with the reference SPADs (`Status = -50`).
+
+**To do:** try to see if the device type is actually requested from the module, and check where this type is used.
