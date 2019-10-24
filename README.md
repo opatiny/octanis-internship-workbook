@@ -54,17 +54,20 @@ Various information that has been useful / doc produced:
 - [Windows tips](./docs/windows.md)
 - [Useful webpages](./docs/links.md)
 
-### VACROB
+### VacRob
 
-First project that has been realized: an autonomous vacuum cleaner robot that uses the technologies developed at Octanis Instuments.
+Main project that has been worked on: an autonomous vacuum cleaner robot that implements the technologies developed at Octanis Instuments.
 
-[**Vacuum cleaner robot project**](./xiaomiRemake/xiaomiRemake.md)
+[**Vacuum cleaner robot project**](./vacrob/vacrob.md)
 
-- [Mechanics](./xiaomiRemake/docs/mechanics/mechanics.md)
-- [Electronics](./xiaomiRemake/docs/electronics/electronics.md)
-- [The different PCBs used in the project](./xiaomiRemake/docs/pcb/pcb.md)
-- [Writing the firmware of the distance boards - Lab notebook](./xiaomiRemake/docs/firmware/distanceModule/distance-module-fw-LN.md)
-- [Useful links related to the project](./xiaomiRemake/docs/refs.md)
+- [Mechanics](./vacrob/mechanics/mechanics.md)
+  - [Assembly 1](./vacrob/mechanics/assembly1.md)
+  - [Assembly 2](./vacrob/mechanics/assembly2.md)
+  - [Assembly 3](./vacrob/mechanics/assembly3.md)
+- [Electronics](./vacrob/electronics/electronics.md)
+- [The different PCBs used in the project](./vacrob/pcb/pcb.md)
+- [Firmware of the distance modules - Lab Notebook](./vacrob/firmware/distanceModule/distance-module-fw-LN.md)
+- [Useful links related to the project](./vacrob/docs/refs.md)
 
 ### Small projects
 
