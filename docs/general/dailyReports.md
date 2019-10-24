@@ -519,7 +519,6 @@ TODO:
 - modify design of pump output part
 - learn C programming
 
-
 ### 2019.10.07 - w15
 
 - continue learning C programming
@@ -555,7 +554,8 @@ TODO:
 
 ### 2019.10.14 - w16
 
-**Goal of the day:** start programming the robot 
+**Goal of the day:** start programming the robot
+
 - work on distance board firmware -> retrieve values of distance sensor
 - work on dc motor board firmware -> implement encoder reading
 
@@ -593,6 +593,7 @@ Tomorrow: Look into the hal I2C file and read the doc -> use these functions in 
 - try retrieving a register from the distance sensor an failed -> realized that the message seen on the oscilloscope is sent by the mcu and no ack is coming back... #sad
 
 TO DO:
+
 - as an exercise:
   - use some HAL functions to communicate with the distance sensor directly
   - try retrieving the serial number, for example
@@ -632,3 +633,11 @@ TO DO:
 - checked alibaba for 2 ends ZHR cable
 - work on distance module fw: moving to calibration
 - struggling on the staticInit() function -> error linked with the reference SPADs (got help form Raph)
+
+### 2019.10.24
+
+- soldered 2 MCU for Raph
+- updated top, bottom and face parts of vacrob
+- modeled and printed bumper part (-> best one is v2)
+- checked alibaba for 2 ends ZHR 5pins cable
+- wrote documentation on vacrob mechanics assemblies
