@@ -1,5 +1,7 @@
 # Distance modules firmware writing - Lab Notebook
 
+[Home](../../README.md) | [Project main page](../vacrob.md) | [Links / References](../docs/refs.md)
+
 ## Bumper
 
 An interrupt has been coded to get the bumper state. The interrupt is defined in the `freertos.c` file in the function `HAL_GPIO_EXT1_Callback()`.
@@ -23,7 +25,7 @@ Functions to run at the beginning to get the device working (from the [API UM](.
 
 ```C
 // device initialization
-VL53L0X_DataInit(); 
+VL53L0X_DataInit();
 // loading settings
 VL53L0X_StaticInit();
 // SPADs calibration, to do in case of cover glass -> returns number and type of spads to be used (2 values to store!)
@@ -45,7 +47,7 @@ VL53L0X_PerformOffsetCalibration();;
 
 ```C
 // device initialization (to cal once and only once after reboot)
-VL53L0X_DataInit(); 
+VL53L0X_DataInit();
 // loading settings
 VL53L0X_StaticInit();
 // get type and number of SPADs stored on host
@@ -89,6 +91,7 @@ VL53L0X_GetRangeStatusString();
 ```
 
 Apparently, the firmware can be used to change the device I2C address!
+
 ```C
 VL53L0X_SetDeviceAddress();
 ```
@@ -119,11 +122,12 @@ Result of the decoder
 
 So let's start this all over again.
 
-After running some more tests and asking Raph for advice, he thought that the hardware could be wrong. After checking the PCB, we realized that the SDA and SCA lines were inverted.... 
+After running some more tests and asking Raph for advice, he thought that the hardware could be wrong. After checking the PCB, we realized that the SDA and SCA lines were inverted....
 
 ## Trying to communicate through I2C with the distance sensor again after fixing hardware with wires
 
 Let's start with what we know from the VL53L datasheet:
+
 - the device has one I2C address: `0x52`
 - every time the MCU wants to communicate with the I2C device, it will:
   - send the device address slided one bit to the left. The first bit of the byte (lsb: least significant byte) has value 0 if the mcu wants to write and 1 if it wants to read
@@ -132,7 +136,8 @@ Let's start with what we know from the VL53L datasheet:
   - continue with the desired register address on one byte
   - ...
 - a message can only be ended by the bus master
-- 
+-
+
 <img src="./data-transfer-protocol.png" alt="I2C data transfer protocol" width="40%" class="center">
 
 It still didn't work. The reason for that is the XSHUT pin, which was low. Toggling this pin allowed the sensor to boot, and it worked afterwards.
@@ -142,6 +147,7 @@ It still didn't work. The reason for that is the XSHUT pin, which was low. Toggl
 VL53L drives SDA line low after it's address is sent on the I2C bus -> acknowledge bit.
 
 The correct funtion:
+
 ```c
 HAL_I2C_IsDeviceReady(&hi2c1, 0x52, 1, 10);
 ```
@@ -161,14 +167,16 @@ In the datasheet, there is no register for the serial number. So we will try to 
 VL53L answers with the value expected (170).
 
 Function used to get this:
+
 ```c
   uint16_t address = 0x52;
   uint16_t registerPointer = 0xC1;
   uint8_t returnValue = 0;
   uint16_t size = 1;
-  
+
     HAL_I2C_Mem_Read(&hi2c1, address, registerPointer, I2C_MEMADD_SIZE_8BIT, &returnValue, size, 1000);
 ```
+
 ## Struggling with the continuous ranging example from the distance sensor API
 
 Trying to get the example with continuous ranging to work -> managed to retrieve some data from the sensor with `GetDeviceInfo()`. However, unable to get the staticInit to work -> problem with the reference SPADs (`Status = -50`).

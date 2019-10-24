@@ -41,6 +41,8 @@ In the end, one big battery still fitted in the robot, so this was used instead 
 
 <img src="../../docs/pictures/electronics/battery.jpg" alt="battery and output connectors" width="50%" class="center">
 
+**Problem with the big battery:** It is so heavy and off-center that it makes the robot lean -> we have to find another alternative.
+
 ## Distance boards
 
 The distance sensing boards are part of the UAVCAN bus and they are easily connected using the CAN cables (daisy-chained).

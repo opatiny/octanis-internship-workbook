@@ -1,6 +1,6 @@
 # The PCBs of the robot
 
-[Home](../../../README.md) | [Project main page](../../xiaomiRemake.md)
+[Home](../../README.md) | [Project main page](../vacrob.md) | [Links / References](../docs/refs.md) | [Electronics general doc](./electronics.md)
 
 ## Computer board (big format)
 

@@ -1,6 +1,6 @@
-# Vacuum cleaner robot
+# Vacuum cleaner robot (VacRob)
 
-[Home](../README.md) | [Links / References](./docs/refs.md) | [Project PCBs doc](./docs/pcd/pcb.md)
+[Home](../README.md) | [Links / References](./docs/refs.md)
 
 ## Goal
 
@@ -8,12 +8,12 @@ Make a vacuum cleaning robot applying the technologies developed at Octanis Inst
 
 ## Table of contents
 
-- [Mechanics](./docs/mechanics/mechanics.md)
-- [Electronics](./docs/electronics/electronics.md)
-- [Software](./prog/prog.md)
+- [Mechanics](./mechanics/mechanics.md)
+- [Electronics](./electronics/electronics.md)
+- [Firmware](./firmware/prog.md)
 
 ## Things to consider (perspectives)
 
 - we could place a robotic arm on the robot if it supported the weight ([AR2](https://www.youtube.com/watch?v=CCgI4R1TEzI))
 - adaptive gripper? [https://www.thingiverse.com/thing:2527079](https://www.thingiverse.com/thing:2527079) and [https://www.youtube.com/watch?v=x9KWuQXTURI](https://www.youtube.com/watch?v=x9KWuQXTURI)
-- add LEDs or a microphone for user interface
+- add LEDs and/or a microphone for user interface
