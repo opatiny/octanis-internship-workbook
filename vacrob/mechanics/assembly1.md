@@ -18,17 +18,21 @@
 
 - 5 mm acrylic glass (PMMA)
   - 8 faces
+
 - 5 mm polystyrene (PS)
   - 1 top
   - 1 bottom
   - 1 flap
+
 - Prusament PLA
   - 1 bottom clip
   - 8 corner top
   - 8 corner bottom
   - 1 front wheel fix
+
 - FlexiSmart flexible filament
   - 2 hinges
+
 - 86 M3x15 black nylon screws
   - fix top and bottom to corners (16)
   - front wheel (3)
@@ -36,15 +40,17 @@
   - fix corners to faces (48)
   - top and bottom clip (2)
   - lidar (8)
+
 - 61 M3 black nylon bolts
   - fix corners to faces (48)
   - top and bottom clip (2)
   - front wheel (3)
   - hinges (8)
+
 - 16 M3x4 brass threads
   - melt into bottom and top corner parts
-- 8 M3x8 double-female black nylon spacers
 
+- 8 M3x8 double-female black nylon spacers
   - lidar
 
 ## Things that are good
