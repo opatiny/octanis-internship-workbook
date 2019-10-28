@@ -641,3 +641,19 @@ TO DO:
 - modeled and printed bumper part (-> best one is v2)
 - checked alibaba for 2 ends ZHR 5pins cable
 - wrote documentation on vacrob mechanics assemblies
+
+### 2019.10.25
+
+- laser-cut top, bottom and face of vacrob out of MDF
+- made mechanics assembly 3 of vacrob (checked if all the parts fitted)
+- documented assembly 3
+
+### 2019.10.28 - w17
+
+- worked on distance module fw and solved the staticInit issue
+- managed to read the distance!
+- adapted the api platform to accept devices on various I2C buses
+- realized that the daughter board is wrong -> even by hacking SCL and SDA, I cannot make the device work.
+- corrected daughter board schematics and layout
+- continued working on firmware
+

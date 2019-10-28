@@ -179,6 +179,10 @@ Function used to get this:
 
 ## Struggling with the continuous ranging example from the distance sensor API
 
-Trying to get the example with continuous ranging to work -> managed to retrieve some data from the sensor with `GetDeviceInfo()`. However, unable to get the staticInit to work -> problem with the reference SPADs (`Status = -50`).
+Trying to get the example with continuous ranging to work -> managed to retrieve some data from the sensor with `GetDeviceInfo()`. However, unable to get the `staticInit` to work -> problem with the reference SPADs (`Status = -50`).
 
 **To do:** try to see if the device type is actually requested from the module, and check where this type is used.
+
+[Forum dealing with this exact issue](https://community.st.com/s/question/0D50X00009XkYOCSA3/spad-initialization-error)
+
+**Solution:** The problem was actually in the bad implementation of the api I2C communication -> copying the code given on the forum (slightly adapted) worked fine. The device datasheet described the protocol necessary to read and write bytes, this is where I might have seen that my implementation was faulty.
