@@ -20,7 +20,7 @@ Also, the debugger doesn't work really well if they are more than 6 break points
 
 ## Threads memory allocation
 
-Since we use [FreeRTOS](./freertos.md), we have different tasks running in parallel on the MCU. There might be the case where the code is crashing because a thread is trying to access more memory than it has been allocated, so always check that!
+Since we use [FreeRTOS](./freertos.md), we have different tasks running in parallel on the MCU. There might be the case where the code is crashing because a thread is trying to access more memory than it has been allocated, so always check that (in the start task functions in `freertos.c`)! I stack is missing, you fall in the `void HardFault_Handler(void)` function, in `stm32f3xx_it.c` (hard fault interrupt). 
 
 Also, it might happen that the size allocated to the whole heap is too small. You can check that in the `FreeRTOSConfig.h` file:
 

@@ -185,4 +185,19 @@ Trying to get the example with continuous ranging to work -> managed to retrieve
 
 [Forum dealing with this exact issue](https://community.st.com/s/question/0D50X00009XkYOCSA3/spad-initialization-error)
 
-**Solution:** The problem was actually in the bad implementation of the api I2C communication -> copying the code given on the forum (slightly adapted) worked fine. The device datasheet described the protocol necessary to read and write bytes, this is where I might have seen that my implementation was faulty.
+**Solution:** The problem was actually in the **bad implementation of the api I2C communication** -> copying the code given on the forum (slightly adapted) worked fine. The device datasheet described the protocol necessary to read and write bytes, this is where I might have seen that my implementation was faulty.
+
+Once this was done, I was able to read the distance and see it in the debugger. 
+
+**Caution:** Range measurement is only valid if `pRangingMeasurementData->RangeStatus = 0`.
+
+## Code structure
+
+The distance will be retrieved using a code based on the continuous ranging example. One additional feature has to be added to the ones existing: we must be able to chose on which I2C bus the device is. To implement this, an additional property is added to the `VL53L0X_Dev_t` structures, which is a pointer on an instance of type `I2C_HandleTypeDef *` (i2C bus definition). This property is then used in the platform specific I2C communication code.
+
+Once the bus choice worked, the continuous ranging example has been simplified and subdivided into two functions: the first one handles all the initialization and calibration, the second one is an infinite loop executing continuous measurements.
+
+
+## Creating separate threads for both distance sensors
+
+New threads can be initialized in CubeMX -> save and commit the code before you make any modifications using CubeMX.

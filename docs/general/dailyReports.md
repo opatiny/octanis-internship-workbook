@@ -657,3 +657,18 @@ TO DO:
 - corrected daughter board schematics and layout
 - continued working on firmware
 
+### 2019.10.29
+
+- work on distance module fw
+- modify text on distance module mother and daughter boards
+- learn more about UAVCAN (watched [https://www.youtube.com/watch?v=MBtROivYPik](https://www.youtube.com/watch?v=MBtROivYPik))
+- got the distance sensor 1 task to work
+- tried finding a good battery pack of 18x650 for the vacrob with Raph -> we thought of a pack of 2 in parallel x 3 in series
+  - we looked on this site: [Conrad](https://www.conrad.ch/fr/)
+
+TO DO (tomorrow):
+- understand a bit more how UAVCAN works
+- add new parameters to uavcan to have:
+  - the bumper status
+  - horizontal distance
+  - vertical distance
