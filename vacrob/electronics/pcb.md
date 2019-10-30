@@ -58,7 +58,7 @@ Wheels reverse engineered electric scheme:
 
 ## Distance and bump sensing board (small format)
 
-Each board should include two distance sensors, one vertical (to prevent fall) and one horizontal, and one bump sensor. The sensor we want to use is an SMD, therefore, a daughter board has to be designed to have one sensor perpendicular to the other. Another possibility, as Sam says, would be to make a **rigid-flex PCB**.
+Each board should include two distance sensors, one vertical (to prevent fall) and one horizontal, and one bump sensor. The sensor we want to use is an SMD, therefore, a daughter board has to be designed to have one sensor perpendicular to the other. Another possibility, would be to make a **rigid-flex PCB**.
 
 Distance sensor: [**VL53L0X, Time-of-Flight (ToF) ranging sensor**](https://www.st.com/en/mems-and-sensors/proximity-sensors.html#products)
 

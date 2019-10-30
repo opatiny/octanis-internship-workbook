@@ -45,7 +45,7 @@ uavcan_gui_tool
 ```
 
 ### Run UAVCAN GUI Tools
-In a terminal (be sure to be in the python environment where zou did the install):
+In a terminal (be sure to be in the python environment where you did the install):
 
 ```bash
 uavcan_gui_tool
@@ -66,12 +66,30 @@ reboot -h now
 
 To be able to scan a UAVCAN network, you have to have all your nodes connected with the UAVCAN cables. The board at one extremity of the chain must be connected to a **Zubax Babel** board, which is connected to a computer using a micro USB cable.
 
+### Various features of uavcan gui tools
+
+**Send parameters to the nodes: double-click on a recognized node**
+
+If you then click on "Fetch parameters", all the parameters defined on the board will appear. Then, you can edit all the fields of the parameters and send these new values to the board -> good for debugging.
+
+**Bus Monitor: Tools -> Bus Monitor**
+
+Allows you to see all the packets that are sent on a bus. When you click on one of the messages, more details appear, like the key and the value.
+
+**Plotter: Tools -> Plotter**
+
+Allows to plot some of the variables sent on the bus. You can add a variable by clicking on the +. Then, chose what is the message type, who is the emitter and what the key of the message should be. This is a bit tricky, because you have to check the ASKII code of each letter separately: `msg.key[0]==98`.
+
+
+
 ### errors you might get
 
 #### `SLCAN ACK timeout`
 
-Be sure that the bit rate is the same in the code and in the graphical interface. In the code, the bit rate is defined in 
-
+Be sure that the bit rate is the same in the code and in the graphical interface. In the code, the bit rate is defined in `oi_uavcan.h` as:
+```c
+#define CANSPEED 100000
+```
 
 ### Get a board to appear as a node in UAVCAN GUI Tools
 

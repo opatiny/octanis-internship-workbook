@@ -667,8 +667,19 @@ TO DO:
   - we looked on this site: [Conrad](https://www.conrad.ch/fr/)
 
 TO DO (tomorrow):
-- understand a bit more how UAVCAN works
-- add new parameters to uavcan to have:
+- [ ] understand a bit more how UAVCAN works
+- [ ] add new parameters to uavcan to have:
   - the bumper status
   - horizontal distance
   - vertical distance
+- [ ] find good battery and battery charger for vacrob -> order on Thursday
+
+### 2019.10.30
+
+- found right battery for vacrob (should be ordered tomorrow)
+- worked on distance module firmware
+  - implemented the uavcan broadcast messages for bumper and distance
+  - used uavcan gui tools to see RT plots of these two values changing
+- custom cable sample finally arrived!
+- tested the plexiglass cover glass over the distance sensor -> does not work! -> crosstalk -> have to find a solution to this
+- weekly meeting with Sam

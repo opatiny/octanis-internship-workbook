@@ -209,3 +209,17 @@ WHAT NEXT?
 - the [Contrel](https://contrel.com/fr/accumulateur-d-energie/) webpage is working again -> chose the appropriate battery for the vacrob (battery should be max 12 volts and with a big capacity and a reasonable price)
 - 6 weeks to go: I won't have time to learn resin printing, but maybe CNC and how to export files for it from FUsion 360
 - I'll learn UAVCAN when I'll have to publish the distance value from the distance module
+
+## 2019-10-30 16h00
+
+- resumed advances on firmware
+  - add bus to the parameters of the distance sensor api
+  - add tasks for the two distance sensors
+  - uavcan messages working and basic configuration from gui tools
+- checked that the custom cable is good
+- showed the enhancements of mechanics assembly 3
+- talked about what next
+  - write firmware for encoders on dc motor board
+  - get the lidar to work?
+  - setup ROS on the raspberry pi of the mother board
+  - added the screen to the mother board
