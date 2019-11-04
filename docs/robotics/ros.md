@@ -6,7 +6,7 @@
 
 To be able to install ROS, you need a computer with Xenial (Ubuntu 16.04), which is the best supported OS.
 
-## Install ROS
+## Install ROS on computer
 
 We will use ROS Kinetic, which you can install by following this tutorial:
 
@@ -17,4 +17,12 @@ Many ROS tutorials for beginners: [http://wiki.ros.org/ROS/Tutorials](http://wik
 ## Creating a model in ROS
 
 [https://wiki.ros.org/urdf/Tutorials/Building%20a%20Visual%20Robot%20Model%20with%20URDF%20from%20Scratch](https://wiki.ros.org/urdf/Tutorials/Building%20a%20Visual%20Robot%20Model%20with%20URDF%20from%20Scratch)
+
+## ROS on RaspBerry Pi
+
+Our goal is to have ROS installed on a robot which has a Raspberry pi as a micro-processor.
+
+An image of Ubuntu with ROS for Rapsberry Pi can be downloaded here: [https://downloads.ubiquityrobotics.com/pi.html](https://downloads.ubiquityrobotics.com/pi.html).
+
+The documentation that comes with this image is here: [https://learn.ubiquityrobotics.com](https://learn.ubiquityrobotics.com).
 

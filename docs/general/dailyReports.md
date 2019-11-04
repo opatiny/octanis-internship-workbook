@@ -683,3 +683,15 @@ TO DO (tomorrow):
 - custom cable sample finally arrived!
 - tested the plexiglass cover glass over the distance sensor -> does not work! -> crosstalk -> have to find a solution to this
 - weekly meeting with Sam
+
+## November
+
+### 2019.11.04
+
+- the custom cable sample that arrived had some cables wrong (my mistake)
+- corrected the custom cable drawing and handled alibaba manufacturers -> ordered 220 corected cables
+- checked that mother and daughter boards of distance modules are correct (rev2) for production
+- tried connecting the lidar to the computer board and to make the touch screen work -> very unclear about how to do
+- worked on MR course theory w8
+- worked on MR course exercises w5
+
