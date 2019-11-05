@@ -695,3 +695,8 @@ TO DO (tomorrow):
 - worked on MR course theory w8
 - worked on MR course exercises w5
 
+### 2019.11.05
+
+- finished MR course w5 exercices
+- started MR course w8 theory
+
