@@ -700,3 +700,11 @@ TO DO (tomorrow):
 - finished MR course w5 exercices
 - started MR course w8 theory
 
+### 2019.11.06
+
+- finish MR course theory w8
+- touchscreen protocol: DSI? -> see if someone has troubles with touchscreen on raspberry with ubuntu
+- managed to get the touch screen working (keyboard still required)
+- tried to set up an VNC server and clent to be able to connect remotely to the rpi
+- wired the lidar (motor is working for sure) and tried connecting to it through screen -> didn't work
+
