@@ -212,10 +212,10 @@ WHAT NEXT?
 
 ## 2019-10-30 16h00
 
-- resumed advances on firmware
+- summed up advances on firmware
   - add bus to the parameters of the distance sensor api
   - add tasks for the two distance sensors
-  - uavcan messages working and basic configuration from gui tools
+  - uavcan messages working and basic configuration from gui tool
 - checked that the custom cable is good
 - showed the enhancements of mechanics assembly 3
 - talked about what next
@@ -223,3 +223,31 @@ WHAT NEXT?
   - get the lidar to work?
   - setup ROS on the raspberry pi of the mother board
   - added the screen to the mother board
+
+## 2019-11-07 16h00
+
+- summary of last week
+  - worked on MR course
+    - w5 exercises -> 3D plot
+    - w8 theory
+  - got VNC server in place
+  - connected raspi of vacrob to the wifi
+
+To Do next:
+- get the lidar to work
+  - try connecting it by USB
+  - check if the TX data is at logic 5V -> if it is it probably fried the port of the raspi (which works in 3.3V)
+- manage to show the data of the lidar on the touch screen
+- solder 8 distance modules and flash them
+- finish assembling vacrob
+- print 7 small PCB cases
+- modify some old motor board firmware to make an application specific fw: read the messages on the can bus and modify the motors' speed depending on the distances published by the 8 boards
+  - keep robot in the middle of a corridor
+  - make it stop if any object is closer than 10cm
+  - make it stop in case the vertical distance sensors detect void
+
+Ideally:
+- install the mp3 module in the vacrob -> GPIO input -> leads to playing an mp3 file
+- put some mp3 files on a micro-sd card
+- play mp3 files when bumping into walls
+

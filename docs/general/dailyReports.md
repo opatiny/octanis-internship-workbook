@@ -708,3 +708,10 @@ TO DO (tomorrow):
 - tried to set up an VNC server and clent to be able to connect remotely to the rpi
 - wired the lidar (motor is working for sure) and tried connecting to it through screen -> didn't work
 
+### 2019.11.07
+
+- managed to get the VNC server right on the robot and to connect to it as a client
+- worked on getting wifi on the vacrob -> succeded: USB dongle was required!
+- tried making `screen` on the lidar -> failed
+- weekly meeting
+
