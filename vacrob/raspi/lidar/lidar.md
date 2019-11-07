@@ -16,7 +16,7 @@ The lidar is placed on the robot's top, about 15 cm away from it's center. It is
 
 ## Wiring
 
-<img src="./neato-pinout.png" alt="neato lidar pinout" width="20%" class="center">
+<img src="./neato-pinout.png" alt="neato lidar pinout" class="center">
 
 Neato lidar pinout
 
@@ -36,15 +36,43 @@ Computer module:
 
 ## Reading data
 
-Procedure to follow: [https://wiki.ros.org/xv_11_laser_driver/Tutorials/Running%20the%20XV-11%20Node](https://wiki.ros.org/xv_11_laser_driver/Tutorials/Running%20the%20XV-11%20Node)
-
+First setup:
 - we connect the robot computer to an external screen, keyboard and mouse
 - we get internet through an Ethernet cable
 - we power the raspberry through micro usb -> this also powers the lidar and the lidar motor
-- we use the `screen` command to see if there is any data on the serial bus. `screen` takes two arguments: port and baud rate!  
+
+More advanced setup:
+- Raspberry powered by micro USB
+- Raspberry hosting VNC server
+- computer connected to the VNC server to see and act on what's on the touch screen of the raspi
+
+We use the `screen` command to see if there is any data on the serial bus. `screen` takes two arguments: port and baud rate!  
   ```bash
   screen /dev/ttyAMA0 115200
   ```
+
+To see all the serial devices that are accessible, use this bash command:
+```bash
+dmesg | grep tty
+```
+
+Procedure to follow: [https://wiki.ros.org/xv_11_laser_driver/Tutorials/Running%20the%20XV-11%20Node](https://wiki.ros.org/xv_11_laser_driver/Tutorials/Running%20the%20XV-11%20Node)
+
+Install driver package:
+```bash
+udo apt-get install ros-kinetic-xv-11-laser-driver
+```
+
+Build driver from source:
+```bash
+cd catkin_ws/src
+git clone https://github.com/rohbotics/xv_11_laser_driver.git
+cd ..
+catkin_make
+source devel/setup.bash
+```
+
+
 
 ## Links
 

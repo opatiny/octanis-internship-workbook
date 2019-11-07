@@ -9,8 +9,13 @@ Make a vacuum cleaning robot applying the technologies developed at Octanis Inst
 ## Table of contents
 
 - [Mechanics](./mechanics/mechanics.md)
+  - [Assembly 1](./mechanics/assembly1.md)
+  - [Assembly 2](./mechanics/assembly2.md)
+  - [Assembly 3](./mechanics/assembly3.md)
 - [Electronics](./electronics/electronics.md)
-- [Firmware](./firmware/prog.md)
+- [The different PCBs used in the project](./pcb/pcb.md)
+- [Firmware of the distance modules - Lab Notebook](./firmware/distanceModule/distance-module-fw-LN.md)
+- [Useful links related to the project](./docs/refs.md)
 
 ## Things to consider (perspectives)
 

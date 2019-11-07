@@ -14,5 +14,5 @@ To know what kind of battery is needed, the power consumption must first be esti
 
 We used a variable power supply to estimate the current necessary for the motors at 12V: each motor uses approx. 0.1A. Let's consider the "worst" case for energy consumption with the five motors (considering  the pump) working simultaneously. Then, we have a instant power consumption of: $P = 5 \cdot 12 \cdot 0.1 = 6W$.
 
-Looking on [Conrad](https://www.conrad.ch), one possible battery is a [pack of 2 in parallel x 3 in series 18x650 cells](https://www.conrad.ch/fr/p/pack-de-piles-rechargeables-6x-18650-li-ion-ansmann-2447-3050-01-11-1-v-5200-mah-1547351.html). This battery pack hax a tension of 11.1V and a capacity of 5200 mAh. The robot will requires 0.5 A. Therefore, it would have an autonomy of 10 hours. This is definitely good enough if the battery is recharged often enough.
+Looking on [Conrad](https://www.conrad.ch), one possible battery is a [pack of 2 in parallel x 3 in series 18x650 cells](https://www.conrad.ch/fr/p/pack-de-piles-rechargeables-6x-18650-li-ion-ansmann-2447-3050-01-11-1-v-5200-mah-1547351.html). This battery pack hax a tension of 11.1V and a capacity of 5200 mAh. The robot will requires 0.5 A. Therefore, it would have an autonomy of 10 hours. This is definitely sufficient, if the battery is recharged often enough.
 
