@@ -715,3 +715,11 @@ TO DO (tomorrow):
 - tried making `screen` on the lidar -> failed
 - weekly meeting
 
+### 2019.11.08
+
+- work on getting the lidar to work
+- checked the logic level on the ocsilloscope -> it is 5V... so it probably fried the uart of the raspi
+- used the USB dongle to do uart over usb -> managed to see some stuff when using `screen`
+- disassembled the rover to use it's lidar -> the one I had did not work (verified using `rostopic`)
+- tested with the new lidar -> finally managed to plot some data in `rviz`
+
