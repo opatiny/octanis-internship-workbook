@@ -686,7 +686,7 @@ TO DO (tomorrow):
 
 ## November
 
-### 2019.11.04
+### 2019.11.04 - w18
 
 - the custom cable sample that arrived had some cables wrong (my mistake)
 - corrected the custom cable drawing and handled alibaba manufacturers -> ordered 220 corected cables
@@ -723,3 +723,8 @@ TO DO (tomorrow):
 - disassembled the rover to use it's lidar -> the one I had did not work (verified using `rostopic`)
 - tested with the new lidar -> finally managed to plot some data in `rviz`
 
+### 2019.11.11 - w19
+
+- worked on understanding how the mp3 module works
+- thought about hardwre of vacrob: how to solve dist sensors crosstalk problem?
+- also: how to implement a pid to keep the vacrob in the middle of a corridor?
