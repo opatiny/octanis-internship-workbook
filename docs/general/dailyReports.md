@@ -667,6 +667,7 @@ TO DO:
   - we looked on this site: [Conrad](https://www.conrad.ch/fr/)
 
 TO DO (tomorrow):
+
 - [ ] understand a bit more how UAVCAN works
 - [ ] add new parameters to uavcan to have:
   - the bumper status
@@ -728,3 +729,7 @@ TO DO (tomorrow):
 - worked on understanding how the mp3 module works
 - thought about hardwre of vacrob: how to solve dist sensors crosstalk problem?
 - also: how to implement a pid to keep the vacrob in the middle of a corridor?
+- work on the vacrob crosstalk problem
+  - laser cut face crosstalk test -> laser cutter crashing all the time
+  - 3D printed crosstalk part
+  - 3D printed small pcb case 2 v4
