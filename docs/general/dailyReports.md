@@ -749,3 +749,8 @@ TO DO (tomorrow):
   - laser cut face crosstald test v5
 
 ### 2019.11.12
+
+- wrote a lot of documentation about distance module
+  - how to plot the data in uavcan gui tool
+  - made experiments with the distance sensor to see how it acts in different conditions
+- continued working on the crosstalk hardware (laser-cutting and 3D printing)
