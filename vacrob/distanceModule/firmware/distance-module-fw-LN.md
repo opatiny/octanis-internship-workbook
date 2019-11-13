@@ -1,6 +1,6 @@
 # Distance modules firmware writing - Lab Notebook
 
-[Home](../../README.md) | [Project main page](../vacrob.md) | [Links / References](../docs/refs.md)
+[Home](../../../README.md) | [Project main page](../../vacrob.md) | [Fixing crosstalk problem](../crosstalk/crosstalk.md) | [Testing distance sensor](../sensorTest/sensorTest.md) | [Links / References](../../docs/references/refs.md)
 
 ## Bumper
 
@@ -13,7 +13,7 @@ The distance sensors on the distance module have only one I2C address: **0x52** 
 
 The message type to use for the distance sensor output: [https://github.com/UAVCAN/public_regulated_data_types/blob/master/uavcan/equipment/range_sensor/1050.Measurement.uavcan](https://github.com/UAVCAN/public_regulated_data_types/blob/master/uavcan/equipment/range_sensor/1050.Measurement.uavcan)
 
-<img src="./firmware-state-machine-dist-sensor.png" alt="firmware state machine distance sensor" width="50%" class="center">
+<img src="./specs/firmware-state-machine-dist-sensor.png" alt="firmware state machine distance sensor" width="50%" class="center">
 
 The sensor measurements are based on Single Photon Avalanche Diodes (**SPADs**).
 
@@ -110,11 +110,11 @@ HAL_I2C_IsDeviceReady(&hi2c1, (uint16_t)(address<<1), 2, 2);
 
 The best way to see if the sensor is actually responding is to use the oscilloscope and to connect it on the I2C bus (-> the middle header on the board). Then, the I2C bus cn be decoded. In our case, we got `W:34 W:34`. This is the hexadecimal value for 52 52. The first 52 is sent by the MCU. THe second one it the acknowlegment sent by the distance sensor. This shows that everything is fine with the sensor from a hardware point of view -> it is soldered well.
 
-<img src="./distance-module-oscilloscope.jpg" alt="oscilloscope setup" width="40%" class="center">
+<img src="./resultsI2C/distance-module-oscilloscope.jpg" alt="oscilloscope setup" width="40%" class="center">
 
 Setup for the I2C bus decoding.
 
-<img src="./firmware-state-machine-dist-sensor.png" alt="firmware state machine distance sensor" width="40%" class="center">
+<img src="./specs/firmware-state-machine-dist-sensor.png" alt="firmware state machine distance sensor" width="40%" class="center">
 
 Result of the decoder
 
@@ -138,11 +138,11 @@ Let's start with what we know from the VL53L datasheet:
 - a message can only be ended by the bus master
 -
 
-<img src="./data-transfer-protocol.png" alt="I2C data transfer protocol" width="40%" class="center">
+<img src="./specs/data-transfer-protocol.png" alt="I2C data transfer protocol" width="40%" class="center">
 
 It still didn't work. The reason for that is the XSHUT pin, which was low. Toggling this pin allowed the sensor to boot, and it worked afterwards.
 
-<img src="./vl53l-acknowledge.png" alt="the distance sensor aknowledges" width="40%" class="center">
+<img src="./resultsI2C/vl53l-acknowledge.png" alt="the distance sensor aknowledges" width="40%" class="center">
 
 VL53L drives SDA line low after it's address is sent on the I2C bus -> acknowledge bit.
 
@@ -158,11 +158,11 @@ A second step in communicating with the sensor, as well as learning how the HAL 
 
 First, we have to check the VL53L datasheet to know in which register it might be.
 
-<img src="./ref-registers.png" alt="VL53L reference registers" width="30%" class="center">
+<img src="./specs/ref-registers.png" alt="VL53L reference registers" width="30%" class="center">
 
 In the datasheet, there is no register for the serial number. So we will try to retrieve the value of register 0xC1, which should have value 0xAA (=170).
 
-<img src="./vl53l-answer.png" alt="the distance sensor answers when register is read" width="40%" class="center">
+<img src="./resultsI2C/vl53l-answer.png" alt="the distance sensor answers when register is read" width="40%" class="center">
 
 VL53L answers with the value expected (170).
 
@@ -197,7 +197,42 @@ The distance will be retrieved using a code based on the continuous ranging exam
 
 Once the bus choice worked, the continuous ranging example has been simplified and subdivided into two functions: the first one handles all the initialization and calibration, the second one is an infinite loop executing continuous measurements.
 
-
 ## Creating separate threads for both distance sensors
 
 New threads can be initialized in CubeMX -> save and commit the code before you make any modifications using CubeMX.
+
+## Plotting the distance in `uavcan_gui_tools`
+
+`uavcan_gui_tool` has a tool to plot a parameter that is being sent on the uavcan bus. Here is how you do it:
+
+**Hardware:**
+- connect a distance board with a functionnal firmware to a CAN to USB board
+- connect the CAN to USB board to your computer
+- 
+**Software:**
+- in a terminal, run `uavcan_gui_tool`
+- a window pops up, modify the "CAN bus bit rate" to 100000 (remove one zero) and click ok
+- if everything is fine, the main graphical interface should open
+  
+  <img src="./uavcan/uavcanMainNoLocalNodeID.png" alt="uavcan gui tools: no local node ID" width="90%" class="center">
+
+- click on the set local node ID tick -> the previously detected nodes get a name and you can now double-click on them to access their parameters
+  
+  <img src="./uavcan/uavcanMainLocalNodeID.png" alt="uavcan gui tools: local node ID set" width="90%" class="center">
+
+- click on Tools -> Bus monitor: to see all the packages on the CAN bus -> click on one of the packages to see more info (for instance the key)
+  
+  <img src="./uavcan/uavcanBusMonitor.png" alt="uavcan gui tools: bus monitor" width="70%" class="center">
+
+- click on Tools -> Plotter -> New Plot -> Add Y-T plot: a new plot appears
+  
+  <img src="./uavcan/uavcanEmptyPlot.png" alt="uavcan gui tools: new Y-T plot" width="70%" class="center">
+
+- now you have to set the parameters that you want to monitor: click on the little "+"
+- there, you define the parameter to be plotted by specifying the message key, you have to do that letter by letter, using ASKII code (see image)
+  
+  <img src="./uavcan/uavcanChosePlotParameter.png" alt="uavcan gui tools: set plot variable" width="40%" class="center">
+
+- see the evolution of your variables
+  
+  <img src="./uavcan/uavcanPlot.png" alt="uavcan gui tools: plot" width="70%" class="center">
