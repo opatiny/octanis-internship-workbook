@@ -78,8 +78,7 @@ Allows you to see all the packets that are sent on a bus. When you click on one 
 
 **Plotter: Tools -> Plotter**
 
-Allows to plot some of the variables sent on the bus. You can add a variable by clicking on the +. Then, chose what is the message type, who is the emitter and what the key of the message should be. This is a bit tricky, because you have to check the ASKII code of each letter separately: `msg.key[0]==98`.
-
+Allows to plot some of the variables sent on the bus. You can add a variable by clicking on the +. Then, chose what is the message type, who is the emitter and what the key of the message should be. This is a bit tricky, because you have to check the ASKII code of each letter of the key separately (max. 3): `msg.key[0]==98`.
 
 
 ### errors you might get
