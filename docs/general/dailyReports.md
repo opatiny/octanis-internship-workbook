@@ -747,3 +747,5 @@ TO DO (tomorrow):
   - printed crossTalkH v5
   - printed small PCB case 2 v4
   - laser cut face crosstald test v5
+
+### 2019.11.12

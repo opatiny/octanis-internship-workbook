@@ -64,3 +64,5 @@ Then reboot, it should work.
 ```bash
 gsettings set org.gnome.desktop.screensaver lock-enabled false
 ```
+
+This actually did not work...

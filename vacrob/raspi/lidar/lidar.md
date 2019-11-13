@@ -160,12 +160,14 @@ rosrun rviz rviz
 
 ### Launch rviz once logged in
 
+[https://askubuntu.com/questions/542953/command-not-running-in-rc-local-but-works-in-terminal](https://askubuntu.com/questions/542953/command-not-running-in-rc-local-but-works-in-terminal)
+
 Modify the file `/etc/rc.local` and add to the end:
 
 ```bash
 rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map neato_laser 10 &
 rosrun xv_11_laser_driver neato_laser_publisher _port:=/dev/ttyUSB0 &
-rosrun rviz rviz -d ~/.rviz/lidarFullScreen.rviz
+rosrun rviz rviz -d /home/ubuntu/.rviz/lidarFullScreen.rviz
 ```
 
 ## Links
