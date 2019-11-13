@@ -2,16 +2,16 @@
 
 We want to integrate a speaker to make the VacRob scream and swear when it bumps into walls.
 
-To achieve thi, we are using a WTV020M01 module  and a super cheap piezo speaker.
+To achieve thi, we are using a WTV020M01 module and a super cheap piezo speaker.
 
 ### Specifications
 
 - you have to solder a jumper to select 3.3V power supply
 - uses a micro SD card (recommended <= 2B)
-- the audio format is a proprietary format: to overcome this, convert the files into 16 bits ...
+- the audio format is a proprietary format (AD4): to overcome this, convert the files into 16 bits ...
 - the file to be played is set through an SPI interface
 
-<img src="./neato-pinout.png" alt="WTV020M01pinout" class="center">
+<img src="./wtv020m01_pinout.jpg" width="50%" alt="WTV020M01 pinout" class="center">
 
 Pinout of the audio module.
 

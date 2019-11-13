@@ -22,50 +22,70 @@ Neato lidar pinout
 
 They are 6 cables to connect.
 
+**Computer module:**
 
-Computer module:
-- **Motor:** GND and 3.3V
+- **Motor:** GND and 4.2V
   - GND: H102, pin 28
-  - 3.3V: J104, pa
+  - 5V: H102, pin 30 -> to make 4.2V from 5V, we solder a N4148 diode on the jump cable that goes to the + pin of the motor -> 0.7V drop
 - **Comms:** RX and TX (solder 0 Ohm resistors on JP111 and JP112)
   - RX: H10, pin 39
   - TX: H101, pin 40
 - **Lidar power:** GND and 5V
-  - GND: H102, pin 25
+- - GND: H102, pin 25
   - 5V: H102, pin 29
 
 ## Reading data from serial
 
 First setup:
+
 - we connect the robot computer to an external screen, keyboard and mouse
 - we get internet through an Ethernet cable
 - we power the raspberry through micro usb -> this also powers the lidar and the lidar motor
 
 More advanced setup:
+
 - Raspberry powered by micro USB
 - Raspberry hosting VNC server
 - computer connected to the VNC server to see and act on what's on the touch screen of the raspi
 
-We use the `screen` command to see if there is any data on the serial bus. `screen` takes two arguments: port and baud rate!  
-  ```bash
-  screen /dev/ttyAMA0 115200
-  ```
+We use the `screen` command to see if there is any data on the serial bus. `screen` takes two arguments: port and baud rate!
+
+```bash
+screen /dev/ttyAMA0 115200
+```
 
 To see all the serial devices that are accessible, use this bash command:
+
 ```bash
 dmesg | grep tty
 ```
+
+**Remark:** This (`screen`) did not work with the first lidar we had -> black screen showing up, or screen terminating immediately. Indeed, we used the oscilloscope to verify the logic level of the data on the serial bus, and it was 5 volts: a lot too high for the 3.3V raspi -> the serial port is probably broken.
+
+To overcome this problem, we use a serial USB dongle plugged in the raspberry pi. The RX and TX lines were just plugged in the corresponding header pins, as shown underneath.
+
+<img src="./usb-serial-dongle.jpg" width="50%" alt="serial over USB dongle" class="center">
+
+This allowed us to `screen` the lidar, which is now on `ttyUSB0`.
+
+```bash
+screen /dev/ttyUSB0
+```
+
+This time, some weird characters showed up in the terminal, which shows that the communication was received (even though the baud rate was wrong).
 
 ## Plotting data in `rviz`
 
 Procedure to follow: [https://wiki.ros.org/xv_11_laser_driver/Tutorials/Running%20the%20XV-11%20Node](https://wiki.ros.org/xv_11_laser_driver/Tutorials/Running%20the%20XV-11%20Node)
 
 Install driver package:
+
 ```bash
 udo apt-get install ros-kinetic-xv-11-laser-driver
 ```
 
 Build driver from source:
+
 ```bash
 cd catkin_ws/src
 git clone https://github.com/rohbotics/xv_11_laser_driver.git
@@ -75,26 +95,31 @@ source devel/setup.bash
 ```
 
 Launch ROS:
+
 ```bash
 roscore
 ```
 
 To kill ROS (it can be useful after some new installs), just use:
+
 ```bash
 killall roscore
 ```
 
 Finally, launch the lidar driver (in background):
+
 ```bash
 rosrun xv_11_laser_driver neato_laser_publisher _port:=/dev/ttyUSB0 &
 ```
 
 You should also create a reference frame for the lidar data to be shown:
+
 ```bash
 rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map my_fra 10 &
 ```
 
-To see what are the inputs that ROS detects (very useful for debug):
+To see what the inputs that ROS detects are (very useful for debug):
+
 ```bash
 rostopic list
 ```
@@ -106,6 +131,7 @@ rostopic echo /screen
 ```
 
 Launch `rviz`:
+
 ```bash
 rosrun rviz rviz
 ```
@@ -113,21 +139,37 @@ rosrun rviz rviz
 ## To do every time `rviz` is run
 
 Create frame called `neato_laser`:
+
 ```bash
 rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map neato_laser 10 &
 ```
 
 Run lidar driver:
+
 ```bash
 rosrun xv_11_laser_driver neato_laser_publisher _port:=/dev/ttyUSB0 &
 ```
 
 Launch `rviz`:
+
 ```bash
 rosrun rviz rviz
+```
+
+## Launch rviz config automatically at boot
+
+### Launch rviz once logged in
+
+Modify the file `/etc/rc.local` and add to the end:
+
+```bash
+rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map neato_laser 10 &
+rosrun xv_11_laser_driver neato_laser_publisher _port:=/dev/ttyUSB0 &
+rosrun rviz rviz -d ~/.rviz/lidarFullScreen.rviz
 ```
 
 ## Links
 
 - tutorial on how to test/use the lidar: [https://www.impulseadventure.com/elec/robot-lidar-neato-xv11.html](https://www.impulseadventure.com/elec/robot-lidar-neato-xv11.html)
 - manage to visualize the data in ROS: [https://wiki.ros.org/xv_11_laser_driver/Tutorials/Running%20the%20XV-11%20Node](https://wiki.ros.org/xv_11_laser_driver/Tutorials/Running%20the%20XV-11%20Node)
+- documentation about rviz: [https://github.com/cse481sp17/cse481c/wiki/Lab-11:-Visualizations-in-ROS-with-RViz](https://github.com/cse481sp17/cse481c/wiki/Lab-11:-Visualizations-in-ROS-with-RViz)

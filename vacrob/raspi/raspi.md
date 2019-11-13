@@ -26,16 +26,41 @@ Initially, an Ethernet cable was used to connect the rapsi to the internet. Howe
 ```bash
 sudo pifi set-hostname vacrob
 ```
+
 Reboot after this step.
 
 You can now connect to the robot using:
+
 ```bash
 ssh ubuntu@vacrob.local
 ```
 
 Then add the WiFi of the LAN:
+
 ```bash
 sudo pifi add MYNETWORK PASSWORD
 ```
 
 Reboot after this step.
+
+## Enable auto login on the ubuntu
+
+[https://ubuntu-mate.community/t/auto-login-to-the-desktop/60](https://ubuntu-mate.community/t/auto-login-to-the-desktop/60)
+
+```bash
+sudo vi /usr/share/lightdm/lightdm.conf.d/60-lightdm-gtk-greeter.conf
+```
+
+Add the end of this file, add (where `ubuntu` is your username):
+
+```
+autologin-user=ubuntu
+```
+
+Then reboot, it should work.
+
+## Disable lock screen
+
+```bash
+gsettings set org.gnome.desktop.screensaver lock-enabled false
+```

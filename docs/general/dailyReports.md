@@ -733,3 +733,17 @@ TO DO (tomorrow):
   - laser cut face crosstalk test -> laser cutter crashing all the time
   - 3D printed crosstalk part
   - 3D printed small pcb case 2 v4
+
+### 2019.11.12
+
+- worked on the speaker for vacrob
+  - made a basic breadboard circuit with the mp3 device
+  - found waw files and converted them to ad4 format -> apparently the only format that the device accepts
+  - tried to make it work, but failed
+- managed to make the lidar work by reducing the input voltage to 4.2V
+- removed raspi screen login page -> didn't manage to disable sleep
+- tried to lauch the right rviz config at boot of the raspi
+- worked on crosstalk problem
+  - printed crossTalkH v5
+  - printed small PCB case 2 v4
+  - laser cut face crosstald test v5

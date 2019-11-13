@@ -419,7 +419,6 @@ The print lasts 20 hours! Also, the part is so big that the head is sometimes ou
 - Filament: FlexiSMART FFF world (ice blue)
 - Infill: 25%
 
-
 ### pump output v2
 
 - Date : 2019.10.04
@@ -427,3 +426,23 @@ The print lasts 20 hours! Also, the part is so big that the head is sometimes ou
 - Print settings: 0.2mm QUALITY
 - Filament: FlexiSMART FFF world (ice blue)
 - Infill: 25%
+
+### crosstalkH
+
+- Date : 2019.11.12
+- Printer: top Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: Prusament PLA (black)
+- Infill: 15%
+
+-> infill has not been made greater because the part is so small -> excess of heat wouldn't let the plastic to harden quickly enough
+
+### small PCB case 2 v4
+
+- Date : 2019.11.12
+- Printer: bottom Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: Prusament PLA (black)
+- Infill: 15%
+
+-> test run
