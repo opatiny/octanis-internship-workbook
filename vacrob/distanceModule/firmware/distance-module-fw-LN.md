@@ -236,3 +236,8 @@ New threads can be initialized in CubeMX -> save and commit the code before you 
 - see the evolution of your variables
   
   <img src="./uavcan/uavcanPlot.png" alt="uavcan gui tools: plot" width="70%" class="center">
+
+
+Here, we are plotting both distances and the bumper status.
+
+<img src="./uavcan/plot2DistanceAndBumper.png" alt="2 distance and bumper plot" width="70%" class="center">

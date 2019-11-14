@@ -754,3 +754,13 @@ TO DO (tomorrow):
   - how to plot the data in uavcan gui tool
   - made experiments with the distance sensor to see how it acts in different conditions
 - continued working on the crosstalk hardware (laser-cutting and 3D printing)
+
+### 2019.11.13
+
+- made actual test with the hardware crosstalk hack -> the method is not effective
+- wrote doc about crosstalk
+- worked on new method to avoid crosstalk: no cover glass
+- soldered 3 distance modules rev2 (and burned one)
+- tested the new module: both distance sensors work!
+- had problems with pull and push to distance module repo -> permission denied
+
