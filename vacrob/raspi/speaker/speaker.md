@@ -17,11 +17,15 @@ Pinout of the audio module.
 
 ### Wiring for testing
 
-- **Pin 4:**speaker VCC
-- **Pin 5:**speaker GND
-- **Pin 8:**GND
+- **Pin 4:** speaker VCC
+- **Pin 5:** speaker GND
+- **Pin 8:** GND
 - **Pin 15:** BUSY -> we put an LED on it and a pull-up resistor -> the LED will be on when no file is played
 - **Pin 16:** 3.3V (not more!)
+
+Final setup:
+
+<img src="./speakerBreadboard.jpg" width="50%" alt="speaker test setup" class="center">
 
 ### Links
 
