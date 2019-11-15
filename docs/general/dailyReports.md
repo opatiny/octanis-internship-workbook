@@ -748,14 +748,14 @@ TO DO (tomorrow):
   - printed small PCB case 2 v4
   - laser cut face crosstald test v5
 
-### 2019.11.12
+### 2019.11.13
 
 - wrote a lot of documentation about distance module
   - how to plot the data in uavcan gui tool
   - made experiments with the distance sensor to see how it acts in different conditions
 - continued working on the crosstalk hardware (laser-cutting and 3D printing)
 
-### 2019.11.13
+### 2019.11.14
 
 - made actual test with the hardware crosstalk hack -> the method is not effective
 - wrote doc about crosstalk
@@ -764,3 +764,7 @@ TO DO (tomorrow):
 - tested the new module: both distance sensors work!
 - had problems with pull and push to distance module repo -> permission denied
 
+### 2019.11.15
+
+- fixed pull push problem in distance module repo
+- weekly meeting

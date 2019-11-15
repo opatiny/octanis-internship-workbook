@@ -46,3 +46,10 @@ When the 3D printed part is slightly moved around, the results can be better and
 The hack as it is in version 5 is very unreliable and only allows to get a range half as god as without cover glass. This does not seem to be a good approach. Now, what we can do is either to try to re-calibrate the sensor with software, or use no cover glass just above the sensors.
 
 It is difficult to estimate which option is better. For a vacuum cleaner, it would be necessary to have the sensors covered and the PCBs protected from ambient dust. However this might be too difficult to do in the next two weeks.
+
+
+## More tests with distance module revision 2
+
+THis time, the hack seems to be working a lot better, allowing measurements up to 800 mm. Over this value, there is a clear status error -> the distance is -1, quite reliably.
+
+<img src="./crosstalkHackVeryGood.png" alt="cover glass and hack v5 better results with rev2 of dist module" width="100%" class="center">

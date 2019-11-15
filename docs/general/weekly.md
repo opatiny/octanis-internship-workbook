@@ -251,3 +251,12 @@ Ideally:
 - put some mp3 files on a micro-sd card
 - play mp3 files when bumping into walls
 
+## 2019-11-15 11h30
+
+- progress of the week:
+  - lidar is working and showing the scan in full screen -> still has to launch automatically!!
+  - distance module rev2 were soldered
+  - the new module works! -> able to plot both distances and bumper
+  - tried to make the mp3 module work, but didn't manage
+- to do:
+  - use Alexa as bluetooth speaker to play sounds?
