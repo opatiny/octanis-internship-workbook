@@ -768,3 +768,6 @@ TO DO (tomorrow):
 
 - fixed pull push problem in distance module repo
 - weekly meeting
+- tried working on crosstalk problem
+  - had a lot of troubles with the laser cutter stopping regularly in the middle of a cut
+- installed amazon alexa to get the alexa speaker to work
