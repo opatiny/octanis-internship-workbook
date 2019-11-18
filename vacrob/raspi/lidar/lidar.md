@@ -1,5 +1,7 @@
 # Lidar on the VacRob
 
+[Home](../../../README.md) | [Project main page](../../vacrob.md) | [Computer module/raspi doc](../raspi.md) | [Touch screen doc](./touchscreen/touchscreen.md)
+
 One of the main sensors that are placed on the robot is a lidar. This works by emitting a laser pulse and calculating the time it takes to get back (light sensor). The whole device spins, which allows to get distance measurements on a whole plane with a high resolution (1 pt/degree). The lidar that we use is the **Neato XV11 Lidar** (that is found on the neato vacuum robots).
 
 ## Some specifications
@@ -162,12 +164,30 @@ rosrun rviz rviz
 
 [https://askubuntu.com/questions/542953/command-not-running-in-rc-local-but-works-in-terminal](https://askubuntu.com/questions/542953/command-not-running-in-rc-local-but-works-in-terminal)
 
-Modify the file `/etc/rc.local` and add to the end:
+**Warning:** adding commands to the `rc.local` files did not work when we tried because the file is run as root and is therefore in a restricted environment.
+
 
 ```bash
 rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map neato_laser 10 &
 rosrun xv_11_laser_driver neato_laser_publisher _port:=/dev/ttyUSB0 &
 rosrun rviz rviz -d /home/ubuntu/.rviz/lidarFullScreen.rviz
+```
+
+Check status of the service (for rc.local file):
+
+```bash
+sudo systemctl status rc-local.service
+```
+
+[https://askubuntu.com/questions/814/how-to-run-scripts-on-start-up](https://askubuntu.com/questions/814/how-to-run-scripts-on-start-up)
+
+```bash
+crontab -e
+```
+
+Cron logs:
+```bash
+grep CRON /var/log/syslog
 ```
 
 ## Links

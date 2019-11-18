@@ -1,5 +1,7 @@
 #VacRob higher level control unit: Raspberry Pi
 
+[Home](../../../README.md) | [Project main page](../../vacrob.md) | [Lidar doc](./lidar/lidar.md) | [Touch screen doc](./touchscreen/touchscreen.md)
+
 The VacRob contains a computer module, which implements a Raspberry Pi. We want to have Ubuntu Xenial (16.04) with ROS running on it, to be able to develop a substantial robotics application.
 
 ## Installing ROS and Xenial
@@ -61,8 +63,4 @@ Then reboot, it should work.
 
 ## Disable lock screen
 
-```bash
-gsettings set org.gnome.desktop.screensaver lock-enabled false
-```
-
-This actually did not work...
+In the Ubuntu GUI, go to Preferences -> Screensaver -> Disable Screensaver.

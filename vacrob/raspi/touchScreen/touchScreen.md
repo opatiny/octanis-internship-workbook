@@ -1,5 +1,7 @@
 # Touch screen on Raspberry pi running Ubuntu
 
+[Home](../../../README.md) | [Project main page](../../vacrob.md) | [Computer module/raspi doc](../raspi.md) | [Lidar doc](../lidar/lidar.md) |
+
 ## Specifications
 
 The touch screen we use is a 7'' Raspberry Pi Touch Display.
