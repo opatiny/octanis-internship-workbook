@@ -771,3 +771,14 @@ TO DO (tomorrow):
 - tried working on crosstalk problem
   - had a lot of troubles with the laser cutter stopping regularly in the middle of a cut
 - installed amazon alexa to get the alexa speaker to work
+
+### 2019.11.18 - w20
+
+- set up the laser cutter software on the new computer (Sam replaced it to fix the crashing problem)
+- worked on vacrob crosstalk
+  - laser cut crosstalk tests: face and bottom
+  - managed to get good distance measurements with both sensors
+- distance module rev 2:
+  - soldered 5 mother boards 
+  - soldered 3 daughter boards
+- flashed the new boards
