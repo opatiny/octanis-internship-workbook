@@ -160,12 +160,62 @@ rosrun rviz rviz
 
 ## Launch rviz config automatically at boot
 
-### Launch rviz once logged in
+### The actual solution
+
+[https://askubuntu.com/questions/598195/how-to-add-a-script-to-startup-applications-from-the-command-line](https://askubuntu.com/questions/598195/how-to-add-a-script-to-startup-applications-from-the-command-line)
+
+First, we created a bash script in the home directory, which contains the commands that need to be run after every reboot.
+
+What it does:
+- 9: creates a very basic map, that allows to show the lidar points in rviz
+- 10: runs the lidar driver
+- 11: launches rviz with an existing conf file
+
+```bash
+#!/bin/bash
+
+# running the right rviz conf after reboot -> using startup applications (set up in ~/.config/autostart/)
+
+# getting ros related commands
+source /opt/ros/kinetic/setup.sh
+
+# making sure the GUI is set up
+xmessage "Click on the button to launch rviz"
+
+rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map neato_laser 10 &
+rosrun xv_11_laser_driver neato_laser_publisher _port:=/dev/ttyUSB0 &
+rosrun rviz rviz -d ~/.rviz/lidarFullScreen.rviz &
+```
+
+Then, we had to create the following file in `~/.config/autostart/`. The file name is `rvizAutoLaunch.sh.desktop`.
+
+```bash
+cd ~/.config/autostart/
+vi rvizAutoLaunch.sh.desktop
+```
+
+Inside this file:
+```bash
+[Desktop Entry]
+Type=Application
+Exec="/home/ubuntu/rvizAutoLaunch.sh"
+X-GNOME-Autostart-enabled=true
+```
+
+### All the troubles we had before
 
 [https://askubuntu.com/questions/542953/command-not-running-in-rc-local-but-works-in-terminal](https://askubuntu.com/questions/542953/command-not-running-in-rc-local-but-works-in-terminal)
 
 **Warning:** adding commands to the `rc.local` files did not work when we tried because the file is run as root and is therefore in a restricted environment.
 
+Will using this command help (add at the beginning of script)???? It should fetch the ros related commands.
+```bash
+source /opt/ros/kinetic/setup.sh
+```
+The underneath script:
+- creates a very basic map, that allows to show the lidar points in rviz
+- runs the lidar driver
+- launches rviz with an existing conf file
 
 ```bash
 rosrun tf static_transform_publisher 0 0 0 0 0 0 1 map neato_laser 10 &
@@ -181,13 +231,50 @@ sudo systemctl status rc-local.service
 
 [https://askubuntu.com/questions/814/how-to-run-scripts-on-start-up](https://askubuntu.com/questions/814/how-to-run-scripts-on-start-up)
 
+Create a bash script and add the path to it in the file opened when you run: 
+
 ```bash
 crontab -e
 ```
+You can use the `@reboot` option to run your script after every reboot.
 
 Cron logs:
 ```bash
 grep CRON /var/log/syslog
+```
+
+Something that looks pretty promising (systemd):
+[https://forum.ubiquityrobotics.com/t/changing-start-up-nodes-in-pi-image/55](https://forum.ubiquityrobotics.com/t/changing-start-up-nodes-in-pi-image/55)
+
+[https://forum.ubiquityrobotics.com/t/robot-upstart-add-launch-file/209/5](https://forum.ubiquityrobotics.com/t/robot-upstart-add-launch-file/209/5)
+
+-> from this last blog:
+
+" I edited magni-base, and added in two places in this file:
+$ sudo nano /usr/sbin/magni-base
+
+One for declaring a ROS ‘source’ ~ (near the top of the file)
+source /home/ubuntu/SOMEWHERE_ws/devel/setup.bash
+
+And, the other for the call to my launch file ~(near the bottom of the file)
+roslaunch MYpackage MYlaunchfile.launch & ~(Don’t forget this ampersand)
+MYPID=$!
+log info "… $MYPID…"
+echo $MYPID > $log_path/my_launch.pid
+
+(REBOOT) ~ and it works. "
+
+## Pop-up window with text
+
+There are many possibilities among which `xmessage` and `zenity`.
+```bash
+xmessage "my message" -timeout 3
+
+```
+The `timeout` option makes the message disappear after x seconds.
+
+```bash
+zenity --info --text="Calculation complete"
 ```
 
 ## Links

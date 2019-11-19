@@ -789,4 +789,7 @@ TO DO (tomorrow):
 - tried having multiple boards on the CAN bus and access the packages with uavcan_gui_tool
 - tested the boards: two of the daughter boards aren't working -> d_2 is always -1
 - worked on the hardware and realized the new version of face, pump face and bottom (with crosstalk) for assembly4
+- tried to setup alexa and the echo dot and to use it as a bluetooth speaker, but the sound was lagging a lot
+- finally managed to get rviz to be launched automatically!!!!
+
 
