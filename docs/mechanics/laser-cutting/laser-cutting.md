@@ -20,7 +20,7 @@
 
 ## LightBurn
 
-### Procedure
+### Procedure for every cut
 
 - turn on chiller and wait for the temperature to be below 17°C
 - turn on laser cutter computer (switch is underneath the computer) and open [LightBurn](https://lightburnsoftware.com/pages/trial-version-try-before-you-buy)
@@ -52,6 +52,14 @@
 #### -Z hard limit error
 
 Once you get this error (because the laser hit the bed or something), the software doesn't allow you to move the bed up or down anymore. So, you have move it down. To do that, slip your fingers under the front panel of the laser cutter to access the belt. Pilling it towards the right should make the bed go down. Clear the error.
+
+### Crashing problem
+
+At some point, the laser cutter started randomly stopping in the middle of a cut, which was extremely annoying. There was no apparent reason for this behavior. The way it has been fixed was by replacing the computer on which LightBurn was running by a 10 years more recent one.
+
+After this was done, however, the soft had to be configured. In particular, the six macros in the console tab had to be set again. To do that, we had to open LightBurn on the previous computer, then right-click on the macros and copy the commands they correspond to in the soft on the new computer.
+
+After this step, the laser cutter could be used as usual and the crashing problem was solved.
 
 ## Links
 

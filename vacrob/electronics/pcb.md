@@ -1,10 +1,10 @@
-# The PCBs of the robot
+# The PCBs of the VacRob
 
-[Home](../../README.md) | [Project main page](../vacrob.md) | [Links / References](../docs/refs.md) | [Electronics general doc](./electronics.md)
+[Home](../../../README.md) | [Project main page](../../vacrob.md) | [Links / References](../../docs/refs.md) | [Electronics general doc](./electronics.md)
 
 ## Computer board (big format)
 
-The computer board is the main board of the project. A Raspberry PI slides onto it and acts as the main micro-controller. The Lidar, the screen and the battery will be directly connected to it.
+The computer board is the main board of the project. A Raspberry PI COmpute Module slides onto it and acts as the main micro-controller. The Lidar, the screen and the battery will be directly connected to it.
 
 ## DC motor board (big format)
 
@@ -58,18 +58,20 @@ Wheels reverse engineered electric scheme:
 
 ## Distance and bump sensing board (small format)
 
-Each board should include two distance sensors, one vertical (to prevent fall) and one horizontal, and one bump sensor. The sensor we want to use is an SMD, therefore, a daughter board has to be designed to have one sensor perpendicular to the other. Another possibility, would be to make a **rigid-flex PCB**.
+Each board should include two distance sensors, one vertical (to prevent fall) and one horizontal. The sensor we want to use is an SMD, therefore, a daughter board has to be designed to have one sensor perpendicular to the other. Another possibility, would have been to make a **rigid-flex PCB**.
+
+Additionally, the boards include a bump sensor.
 
 Distance sensor: [**VL53L0X, Time-of-Flight (ToF) ranging sensor**](https://www.st.com/en/mems-and-sensors/proximity-sensors.html#products)
 
-Snap switch (endstop): [https://www.digikey.com/product-detail/en/zf-electronics/DB3CB1LB/CH880-ND/1083873](https://www.digikey.com/product-detail/en/zf-electronics/DB3CB1LB/CH880-ND/1083873)
+Snap switch (endstop/bumper): [https://www.digikey.com/product-detail/en/zf-electronics/DB3CB1LB/CH880-ND/1083873](https://www.digikey.com/product-detail/en/zf-electronics/DB3CB1LB/CH880-ND/1083873)
 
 Board to board connector: [https://www.digikey.com/en/product-highlight/a/amphenol-fci/minitek-connectors](https://www.digikey.com/en/product-highlight/a/amphenol-fci/minitek-connectors)
 
 AVX board-to-board (BTB) connector spec for male layout:
 <img src="../docs/datasheets/avx-connector/avx-btb-conn-6pos-male-layout.jpg" alt="avx btb conn 6pos male layout"  rotate="180" width="80%" class="center">
 
-### VL53L0X (distance sensor)
+### VL53L0X (distance sensor) specs
 
 - **ToF** (time-of-flight) module
 - **940 nm** VCSEL emitter
@@ -91,4 +93,4 @@ AVX board-to-board (BTB) connector spec for male layout:
 
 To design!
 
-Coral is an IA that detects objects and recognizes them. A board integrating it will be needed. THe coral hardware is a USB stick
+Coral is an IA that detects objects and recognizes them. A board integrating it might be included in the project. The coral hardware is a USB stick.

@@ -1,6 +1,6 @@
 # Electronics
 
-[Home](../../README.md) | [Project main page](../vacrob.md) | [Links / References](../docs/refs.md) | [PCB doc](./pcb.md)
+[Home](../../../README.md) | [Project main page](../../vacrob.md) | [Links / References](../../docs/refs.md) | [PCB doc](./pcb.md)
 
 It is important to design the outer case in a way that put forward the electronics inside, indeed, the goal of the robot is to show the ecosystem developed by the company, which mainly consists of the easy to assemble PCBs and the software / firmware.
 

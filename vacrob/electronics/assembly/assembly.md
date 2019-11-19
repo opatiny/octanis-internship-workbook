@@ -37,11 +37,13 @@ All motors connected, except pump.
 
 ## Battery
 
-In the end, one big battery still fitted in the robot, so this was used instead of packs of 18x650 batteries. The battery used is an RS Pro Lead-acid battery 12V/5AH/20HR. A recharge module has been added to it, as well as an on/off switch (see image). Two output connectors were soldered onto it: a Molex Unifit to power the boards (left), and a M12 IP68 connector 4 pins for recharge (right).
+One possibility is to use an RS Pro Lead-acid battery 12V/5AH/20HR. A recharge module has been added to it, as well as an on/off switch (see image). Two output connectors were soldered onto it: a Molex Unifit to power the boards (left), and a M12 IP68 connector 4 pins for recharge (right).
 
 <img src="../../docs/pictures/electronics/battery.jpg" alt="battery and output connectors" width="50%" class="center">
 
 **Problem with the big battery:** It is so heavy and off-center that it makes the robot lean -> we have to find another alternative.
+
+Another alternative is to use packs of 18x650 batteries. More precisely, we would use 
 
 ## Distance boards
 

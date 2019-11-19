@@ -782,3 +782,6 @@ TO DO (tomorrow):
   - soldered 5 mother boards 
   - soldered 3 daughter boards
 - flashed the new boards
+
+### 2019.11.19
+
