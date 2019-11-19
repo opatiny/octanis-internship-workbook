@@ -785,3 +785,8 @@ TO DO (tomorrow):
 
 ### 2019.11.19
 
+- flashing new boards again to give each a unique ID (from 12 to 18)
+- tried having multiple boards on the CAN bus and access the packages with uavcan_gui_tool
+- tested the boards: two of the daughter boards aren't working -> d_2 is always -1
+- worked on the hardware and realized the new version of face, pump face and bottom (with crosstalk) for assembly4
+
