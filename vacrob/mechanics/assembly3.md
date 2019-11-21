@@ -39,28 +39,23 @@
   - 2 hinges
   - 1 pump output
   
-- M3x15 screws (black nylon and clear acrylic)
-  - fix top and bottom to corners (16)
+- 94 M3x15 screws (black nylon and clear acrylic)
+  - fix bottom to corners (8)
   - front wheel (3)
   - hinges (8)
   - fix corners to faces (48)
   - top and bottom clip (2)
   - lidar (8)
-  
-- 61 M3 black nylon bolts
-  - fix corners to faces (48)
-  - top and bottom clip (2)
-  - front wheel (3)
-  - hinges (8)
-
-- M3 black nylon bolts
-  - fix corners to faces (48)
-  - top and bottom clip (2)
-  - front wheel (3)
-  - hinges (8)
-  - big PCB (4)
+  - main wheels (8)
   - main brush (4)
-  - small brush (3)
+  - dust collector - pump part (5)
+
+- 65 M3 black nylon bolts
+  - fix corners to faces (48)
+  - top and bottom clip (2)
+  - front wheel (3)
+  - hinges (8)
+  - main brush (4)
   
 - 16 M3x8 double-female black nylon spacers
   - lidar (8)
@@ -90,3 +85,4 @@
 - model a part that will act as a spacer for the main brush that would also guide the dust (avoid it to go everywhere in the robot)
 - cut the top and bottom out of acrylic glass, the faces as well? -> is it still too early?
 - find a solution to the side brush position: as it is, it doesn't allow to clean the corners well
+- replace front wheel fix so that there is no friction anymore

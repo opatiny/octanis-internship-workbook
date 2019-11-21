@@ -12,13 +12,17 @@ To realize the models (either 2D or 3D), **Fusion 360** has been used, which is 
 
 _Outer case assembled in Fusion 360 (v18)_
 
+More images of the last version of the case can be found in [Assembly 4](./assembly4.md).
+
 ## Different assemblies
 
-Specific documentation has been written for each assembly of the robot mechanics:
+Specific documentation has been written for each assembly of the robot mechanics. Over the five months of the internship, four different assemblies of the robot's case were made.
 
 - [Assembly 1](./assembly1.md)
 - [Assembly 2](./assembly2.md)
 - [Assembly 3](./assembly3.md)
+- [Assembly 4](./assembly4.md)
+
 
 ## Not making holes for distance sensors
 
