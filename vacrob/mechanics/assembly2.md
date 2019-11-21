@@ -31,8 +31,7 @@
 
 - Prusament PLA
   - 1 bottom clip
-  - 8 corner top
-  - 8 corner bottom
+  - 8 corners
   - 1 front wheel fix 2
   - 8 small PCB cases
   - 2 wheel fix

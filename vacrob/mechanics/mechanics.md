@@ -28,6 +28,8 @@ The distance sensor that we want to use (VL53L0X) emits at 940 nm. Referring to 
 
 [Plexiglas optical and transmission characteristics](https://www.plexiglas.com/export/sites/plexiglas/.content/medias/downloads/sheet-docs/plexiglas-optical-and-transmission-characteristics.pdf)
 
+Actual tests with the distance boards have shown that this didn't work. Indeed, crosstalk occurred, which means that the emitted beam was reflected on the plexiglass and came directly back on the receiver. To see how this problem was fixed, look at the [crosstalk section](../distanceModule/crosstalk/crosstalk.md).
+
 ## The hinges
 
 Hinges are needed to make a door that allows easy access to the dust collector and to the battery. Initially, regular commercial brass hinges were to be used. However, they were finally 3D printed using flexible filament. This allows to vary the shape, size and color of the hinges (not sure that it is cheaper, though).
