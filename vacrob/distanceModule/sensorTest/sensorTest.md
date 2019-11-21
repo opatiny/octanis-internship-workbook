@@ -96,13 +96,14 @@ Graph of about 2 min of measurements:
 
 
 ### Summary of all measurements
-|                               | Exp. 1 | Exp. 2 | Exp. 3 | Exp. 4    |
-|---                            |---:    |---:    |---:    |---:       |
-| Target Color                  | White  | Black  | White  | Dark grey |
-| Actual distance [mm]          | 250    | 250    | 750    | 750       |
-| Average measured distance [mm]| 268    | 241    | 721    | 535       |
-| Offset [mm]                   | 16     | -9     | -39    | -215      |
-| Uncertainty [mm]              | 4      | 9      | 15     | 30        |
+
+|                                | Exp. 1 | Exp. 2 | Exp. 3 |    Exp. 4 |
+| ------------------------------ | -----: | -----: | -----: | --------: |
+| Target Color                   |  White |  Black |  White | Dark grey |
+| Actual distance [mm]           |    250 |    250 |    750 |       750 |
+| Average measured distance [mm] |    268 |    241 |    721 |       535 |
+| Offset [mm]                    |     16 |     -9 |    -39 |      -215 |
+| Uncertainty [mm]               |      4 |      9 |     15 |        30 |
 
 ### Global remarks
 
@@ -111,4 +112,14 @@ More data would be required to confirm the following statements.
 - In our results, the uncertainty on the measurement is twice bigger if the target is dark.
 - When the distance measured is big, a dark target can have an offset up to 5 times bigger.
 - A white target can be too reflective for small distances which results in a positive offset.
-- 
+
+## Test 4: switch from light to dark target
+
+**Procedure:** The distance module is placed face down on the table so that the horizontal sensor has the ground as target (distance is 75cm). A white sheet of paper is placed on the floor, and then removed. 
+
+<img src="./darkGreyToWhite.png" alt="white then dark target" width="100%" class="center">
+
+**Observations:** 
+- The measured distance is smaller when the target is dark as when it is white.
+- The noise is bigger when the target is dark.
+- The offset is bigger when the target is dark.
