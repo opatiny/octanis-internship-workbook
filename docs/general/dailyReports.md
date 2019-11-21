@@ -791,5 +791,14 @@ TO DO (tomorrow):
 - worked on the hardware and realized the new version of face, pump face and bottom (with crosstalk) for assembly4
 - tried to setup alexa and the echo dot and to use it as a bluetooth speaker, but the sound was lagging a lot
 - finally managed to get rviz to be launched automatically!!!!
+- mass printed small PCB case 2
 
+### 2019.11.20
 
+- exported face, top and bottom for assembly 4
+- corrected bottom in inkscape
+- cut out mdf tests with the laser cutter
+- cut out all the parts out of 5mm plexiglass
+- disassembled rev3 of vacrob hardware and started assembly 4
+- mass printed crosstalk cone and crosstalkV
+- wrote doc about assembly 4

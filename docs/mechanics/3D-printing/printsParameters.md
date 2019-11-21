@@ -446,3 +446,27 @@ The print lasts 20 hours! Also, the part is so big that the head is sometimes ou
 - Infill: 15%
 
 -> test run
+
+### small PCB case 2 v4 (7x)
+
+- Date : 2019.11.19
+- Printer: top Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: Prusament PLA (black)
+- Infill: 25%
+
+### crosstalk cone v6 (8x)
+
+- Date : 2019.11.20
+- Printer: top Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: Prusament PLA (black)
+- Infill: 25%
+
+### crosstalk V v5 (8x)
+
+- Date : 2019.11.20
+- Printer: bottom Prusa
+- Print settings: 0.2mm QUALITY
+- Filament: Prusament PLA (black)
+- Infill: 25%

@@ -49,6 +49,7 @@
 - 01.11.2019 : all day (Science on Stage festival)
 - 04.11.2019 : from 9:00 to 10:00 (came back very late from SoS)
 - 05.11.2019 : from 14:00 to 15:00 (interview Femina)
+- 21.11.2019 : from 17:00 to 18:00 (arrived earlier)
 - 28.11.2019 : all day? (meeting the president of the confederation)
 
 ### December
@@ -58,3 +59,4 @@
 - 05.06.2019 : started at 8am
 - 17.06.2019 : finished at 7pm
 - 15.10.2019 : started at 8:15am
+- 21.11.2019 : from 8:00 to 9:00
