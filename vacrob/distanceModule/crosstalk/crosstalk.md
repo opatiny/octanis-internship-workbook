@@ -23,29 +23,29 @@ The concept behind this hack is fairly simple. The goal is to build a physical o
 
 For more tests, refer to [Sensor test][../sensorTest/sensorTest.md].
 
-<img src="./crosstalk-noCoverGlass.png" alt="no cover glass" width="100%" class="center">
+<img src="./plots/crosstalk-noCoverGlass.png" alt="no cover glass" width="100%" class="center">
 
 ### Cover glass and hack (horizontal)
 
 A distance module is fixed in a small PCB case 2 v4. A piece of 5 mm plexiglass is laid on top of the case.
 
-<img src="./crosstalk-coverGlass.png" alt="cover glass" width="100%" class="center">
+<img src="./plots/crosstalk-coverGlass.png" alt="cover glass" width="100%" class="center">
 
 ### Cover glass and hack (horizontal)
 
 A distance module is fixed in a small PCB case 2 v4. The case is screwed to a crosstalk test v5 cut in 5mm plexiglass. The 3D printed crosstalk part (v5, slightly adjusted) is inserted in the slot.
 
-<img src="./crosstalk-coverGlass-hackv5.png" alt="cover glass and hack v5" width="100%" class="center">
+<img src="./plots/crosstalk-coverGlass-hackv5.png" alt="cover glass and hack v5" width="100%" class="center">
 
 When the 3D printed part is slightly moved around, the results can be better and we can measure a distance up to 600 mm. This is however very unreliable.
 
-<img src="./crosstalk-test-good.png" alt="cover glass and hack v5 better results" width="100%" class="center">
+<img src="./plots/crosstalk-test-good.png" alt="cover glass and hack v5 better results" width="100%" class="center">
 
 ### Cover glass and hack (vertical)
 
 The hack has also been tested with the vertical distance sensor, which requires less precision: we only want to know it there is any risk for the robot to fall. We see that the base signal whe obstacle is too far is very noisy. However when there is a target, the noise is smaller.
 
-<img src="./crosstalkV-plot.png" alt="cover glass and hack v4 on vertical dist sensor" width="100%" class="center">
+<img src="./plots/crosstalkV-plot.png" alt="cover glass and hack v4 on vertical dist sensor" width="100%" class="center">
 
 
 ## Conclusions
@@ -59,4 +59,4 @@ It is difficult to estimate which option is better. For a vacuum cleaner, it wou
 
 This time, the hack seems to be working a lot better, allowing measurements up to 800 mm. Over this value, there is a clear status error -> the distance is -1, quite reliably.
 
-<img src="./crosstalkHackVeryGood.png" alt="cover glass and hack v5 better results with rev2 of dist module" width="100%" class="center">
+<img src="./plots/crosstalkHackVeryGood.png" alt="cover glass and hack v5 better results with rev2 of dist module" width="100%" class="center">
