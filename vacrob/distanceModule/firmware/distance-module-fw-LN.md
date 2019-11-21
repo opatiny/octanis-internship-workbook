@@ -2,6 +2,9 @@
 
 [Home](../../../README.md) | [Project main page](../../vacrob.md) | [Fixing crosstalk problem](../crosstalk/crosstalk.md) | [Testing distance sensor](../sensorTest/sensorTest.md) | [Links / References](../../docs/references/refs.md)
 
+
+**The distance module has got its own repository:** [https://make.octanis.ch/oi/oibus-mini-distance-module](https://make.octanis.ch/oi/oibus-mini-distance-module)
+
 ## Bumper
 
 An interrupt has been coded to get the bumper state. The interrupt is defined in the `freertos.c` file in the function `HAL_GPIO_EXT1_Callback()`.

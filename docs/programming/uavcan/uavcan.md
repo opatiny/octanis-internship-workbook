@@ -45,6 +45,7 @@ uavcan_gui_tool
 ```
 
 ### Run UAVCAN GUI Tools
+
 In a terminal (be sure to be in the python environment where you did the install):
 
 ```bash
@@ -65,6 +66,8 @@ reboot -h now
 ### hardware interface
 
 To be able to scan a UAVCAN network, you have to have all your nodes connected with the UAVCAN cables. The board at one extremity of the chain must be connected to a **Zubax Babel** board, which is connected to a computer using a micro USB cable.
+
+**Warning:** Be very careful when connecting the boards that the cables are correct. They are parallel and anti-parallel cables, and you must verify that the pins are correct on both sides!!!
 
 ### Various features of uavcan gui tools
 

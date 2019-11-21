@@ -808,4 +808,9 @@ TO DO (tomorrow):
 - finished vacrob assembly 4
 - learned to make rendering in Fusion
 - wrote a lot of documentation (general, and vacrob assembly 4)
-
+- tried powering up the robot: it is possible that some of the distance boards burned because the uavcan cables were inverted...
+- the robot is powered through the black molex connector of the computer module
+- the cable used to power up is a hacked male molex connecter soldered onto a 12V power supply
+- don't forget to press the button on the side to power up the whole device
+- the lidar and screen work using this power suppyl
+- tried to monitor the uavcan bus with compute and motor modules connected, but no node was appearing

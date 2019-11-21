@@ -58,6 +58,8 @@ Wheels reverse engineered electric scheme:
 
 ## Distance and bump sensing board (small format)
 
+**Project repository:** [https://make.octanis.ch/oi/oibus-mini-distance-module](https://make.octanis.ch/oi/oibus-mini-distance-module)
+
 Each board should include two distance sensors, one vertical (to prevent fall) and one horizontal. The sensor we want to use is an SMD, therefore, a daughter board has to be designed to have one sensor perpendicular to the other. Another possibility, would have been to make a **rigid-flex PCB**.
 
 Additionally, the boards include a bump sensor.
