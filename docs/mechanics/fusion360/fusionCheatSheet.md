@@ -64,6 +64,10 @@ j: joint in assembly mode
 - chose the extension you want (STEP)
 - click save
 
+### Rendering
+
+When you are working on an assembly of components, you can switch to the **Render workspace** and then click on the Render button (teapot) chose the parameters you want and click render. After approximately 10 min (for easy things) you can click on your rendering and export it as an image.
+
 ## Realize technical drawings
 
 - click File -> New Drawing from Design

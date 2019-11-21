@@ -2,8 +2,6 @@
 
 Documentation resulting of my 20 weeks internship at Octanis Instruments.
 
-## Documentation
-
 [Absences](./docs/general/absences.md)
 
 A detailed document following the work hours made can be found [here](https://docs.google.com/spreadsheets/d/1_l2dqrJrQ-v7qfd-l_EuGI3AZ5O0yJDEYIXwj1KPvaY/edit?usp=sharing).
@@ -17,20 +15,20 @@ To have global insight of what has been done during the internship:
 
 Various information that has been useful / doc produced:
 
-**Mechanics:**
+## Mechanics
 
 - [Fusion 360 cheat sheet](./docs/mechanics/fusion360/fusion360CheatSheet.md)
 - [3D printers doc](./docs/mechanics/3D-printing/printers.md)
   - [Slicers parameters of all prints](./docs/mechanics/3D-printing/printsParameters.md)
 - [Laser cutting doc](./docs/mechanics/laser-cutting/laser-cutting.md)
 
-**Electronics:**
+## Electronics
 
 - [Electronics theory](./docs/electronics/theory/theory.md)
 - [KiCAD cheatsheet](./docs/electronics/pcb/kicad.md)
   - [Rigid-flex PCB](./docs/electronics/pcb/rigid-flex.md)
 
-**Programming and IT:**
+## Programming and IT
 
 - [Setup a dual boot Windows / Xenial (Ubuntu)](./docs/programming/general/dualBoot.md)
 - [Useful theory and definitions](./docs/programming/general/theory.md)
@@ -42,19 +40,19 @@ Various information that has been useful / doc produced:
 - [UAVCAN GUI Tools tips](./docs/programming/uavcan/uavcan.md)
 - [Python tips](./docs/programming/python/python.md)
 
-**Robotics:**
+## Robotics
 
 - [Robotics theory](./docs/robotics/theory.md)
 - [ROS](./docs/robotics/ros.md)
 - [Mobile Robotics course notes and exercices(own repo)](https://github.com/opatiny/mobile-robotics)
 - [Robot Mapping course notes](./docs/robotics/robotMapping/robotMapping.md)
 
-**Others:**
+## Others
 
 - [Windows tips](./docs/windows.md)
 - [Useful webpages](./docs/links.md)
 
-### VacRob
+## VacRob
 
 Main project that has been worked on: an autonomous vacuum cleaner robot that implements the technologies developed at Octanis Instuments.
 
@@ -64,12 +62,17 @@ Main project that has been worked on: an autonomous vacuum cleaner robot that im
   - [Assembly 1](./vacrob/mechanics/assembly1.md)
   - [Assembly 2](./vacrob/mechanics/assembly2.md)
   - [Assembly 3](./vacrob/mechanics/assembly3.md)
+  - [Assembly 4](./vacrob/mechanics/assembly4.md)
 - [Electronics](./vacrob/electronics/electronics.md)
 - [The different PCBs used in the project](./vacrob/pcb/pcb.md)
 - [Firmware of the distance modules - Lab Notebook](./vacrob/firmware/distanceModule/distance-module-fw-LN.md)
+- [Raspberry Pi compute module](./raspi/raspi.md)
+  - [Lidar](./raspi/lidar/lidar.md)
+  - [Touch screen](./raspi/touchScreen/touchScreen.md)
+  - [Speaker](./raspi/speaker/speaker.md)
 - [Useful links related to the project](./vacrob/docs/refs.md)
 
-### Small projects
+## Small projects
 
 Other small projects that have been worked on (aka small contributions):
 

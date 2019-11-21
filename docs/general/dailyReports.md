@@ -802,3 +802,10 @@ TO DO (tomorrow):
 - disassembled rev3 of vacrob hardware and started assembly 4
 - mass printed crosstalk cone and crosstalkV
 - wrote doc about assembly 4
+
+### 2019.11.21
+
+- finished vacrob assembly 4
+- learned to make rendering in Fusion
+- wrote a lot of documentation (general, and vacrob assembly 4)
+
