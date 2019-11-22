@@ -200,6 +200,13 @@ The distance will be retrieved using a code based on the continuous ranging exam
 
 Once the bus choice worked, the continuous ranging example has been simplified and subdivided into two functions: the first one handles all the initialization and calibration, the second one is an infinite loop executing continuous measurements.
 
+## UAVCAN parameters
+
+- **d_1:** horizontal distance, -1 if data is not valid
+- **d_2:** vertical distance, -1 if data is not valid
+- **bmp:** bumper status, 0 when button not pressed, 1 when button pressed
+
+
 ## Creating separate threads for both distance sensors
 
 New threads can be initialized in CubeMX -> save and commit the code before you make any modifications using CubeMX.

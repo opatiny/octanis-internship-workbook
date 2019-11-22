@@ -2,7 +2,8 @@
 
 [Home](../../README.md) | [Useful definitions](../general/theory.md) | [FreeRTOS](./freertos.md) | [CubeMX procedure](./cubeMX.md) | [C tips](../C/c.md)
 
-The procedure followed: [https://docs.octanis.ch/display/PUB/VSCode+STM32+Firmware+development](https://docs.octanis.ch/display/PUB/VSCode+STM32+Firmware+development)
+## Tutorial
+First of all, follow this tutorial: [https://docs.octanis.ch/display/PUB/VSCode+STM32+Firmware+development](https://docs.octanis.ch/display/PUB/VSCode+STM32+Firmware+development)
 
 ## Install docker
 
@@ -21,7 +22,11 @@ Install these extensions:
 
 In the firmware of your project:
 
-- Create a `.devcontainer` folder and copy `devcontainer.json` and `Dockerfile` to it (ther's acopy of these files in `./envFiles/`)
+- Create a `.devcontainer` folder at first level and copy `devcontainer.json` and `Dockerfile` to  it (there's acopy of these files in `./envFiles/`)
 - Copy `launch.json` and `c_cpp_properties.json` to your `.vscode` folder
 - Click on the green icon at the bottom-left of the vscode window and pick "Reopen Folder in container"
 - Copy the `STM32F303.svd` file to the root of the project
+
+Also, if **CTRL + Click** to jump to function definition doesn't work after all the files were copied, verify the following:
+- all the include paths in `c_cpp_properties.json` are correct
+- you have the **C/C++ extension** installed in the dev container!

@@ -260,3 +260,14 @@ Ideally:
   - tried to make the mp3 module work, but didn't manage
 - to do:
   - use Alexa as bluetooth speaker to play sounds?
+
+## 2019-11-22 14h30
+
+- progress of the week:
+  - soldered 5 dist modules rev5
+  - 3 of them work for sure
+  - made assembly 4 of vacrob hardware: implementing crosstalk hacks
+  - finally managed to have rviz run at boot
+- now:
+  - having troubles with the uavcan bus -> messed up with the cables
+  - have to start programming the motor module!

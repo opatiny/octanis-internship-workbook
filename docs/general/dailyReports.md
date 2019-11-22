@@ -814,3 +814,12 @@ TO DO (tomorrow):
 - don't forget to press the button on the side to power up the whole device
 - the lidar and screen work using this power suppyl
 - tried to monitor the uavcan bus with compute and motor modules connected, but no node was appearing
+
+### 2019.11.22
+
+- dismantled the vacrob electronics to see if anything had burned -> it hopefully hadn't
+- tried understanding which uavcan cables are good and which are not -> the good cables have the wires in the same order at both ends, when placed next to each other!!!
+- tested the new distance boards all at once on a can bus: only three are fully working
+- boards 13 and 14 behave weird: if plugged in without daughter board, d1 works, if plugged in with daughter board, d2 works and d1 doesn't
+- started working on motor board firmware (uavcan data retrieving)
+- weekly meeting
