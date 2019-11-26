@@ -823,3 +823,17 @@ TO DO (tomorrow):
 - boards 13 and 14 behave weird: if plugged in without daughter board, d1 works, if plugged in with daughter board, d2 works and d1 doesn't
 - started working on motor board firmware (uavcan data retrieving)
 - weekly meeting
+
+### 2019.11.25 - w21
+
+- wrote fw all day for vacrob
+  - managed to get the logs working -> I keep the last n values of the distance to be able to treat it afterwards
+
+### 2019.11.26
+
+- vacrob fw all day
+- created new structure for motors data
+- managed to power the boards properly (molex cable in the motor board)
+- managed to have a motor turning
+- had problems with the distance boards: both sensors refuse to work simultaneously
+
