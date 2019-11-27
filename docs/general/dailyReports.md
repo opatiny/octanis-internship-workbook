@@ -837,3 +837,11 @@ TO DO (tomorrow):
 - managed to have a motor turning
 - had problems with the distance boards: both sensors refuse to work simultaneously
 
+### 2019.11.27
+
+- vacrob fw the hole day:
+  - wrote doc about functions
+  - split code into sub-modules
+  - creates separate h files for each sub-module
+  - managed to act on the motors from the processed distance data
+  - worked on bumper detect and handling
