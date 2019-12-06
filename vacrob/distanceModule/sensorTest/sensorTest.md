@@ -113,11 +113,11 @@ More data would be required to confirm the following statements.
 - When the distance measured is big, a dark target can have an offset up to 5 times bigger.
 - A white target can be too reflective for small distances which results in a positive offset.
 
-## Test 4: switch from light to dark target
+## Test 4: switch from dark to light target
 
-**Procedure:** The distance module is placed face down on the table so that the horizontal sensor has the ground as target (distance is 75cm). A white sheet of paper is placed on the floor, and then removed. 
+**Procedure:** The distance module is placed face down on the table so that the horizontal sensor has the dark grey ground as target (distance is 75cm). A white sheet of paper is then placed on the floor. 
 
-<img src="./darkGreyToWhite.png" alt="white then dark target" width="100%" class="center">
+<img src="./darkGreyToWhite.png" alt="dark grey then white target" width="100%" class="center">
 
 **Observations:** 
 - The measured distance is smaller when the target is dark as when it is white.
