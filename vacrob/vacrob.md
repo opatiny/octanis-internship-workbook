@@ -19,10 +19,12 @@ Make a vacuum cleaning robot applying the technologies developed at Octanis Inst
   - [Firmware - Lab Notebook](./distanceModule/firmware/distance-module-fw-LN.md)
   - [Fixing crosstalk problem](./distanceModule/crosstalk/crosstalk.md)
   - [Sensor accuracy test](./distanceModule/sensorTest/sensorTest.md)
+- [Motor module specific firmware](./motorModuleFW/motorModuleFW.md)
 - [Raspberry Pi compute module](./raspi/raspi.md)
   - [Lidar](./raspi/lidar/lidar.md)
   - [Touch screen](./raspi/touchScreen/touchScreen.md)
   - [Speaker](./raspi/speaker/speaker.md)
+- [Software / general behavior of the robot](./software/software.md)
 - [Useful links related to the project](./docs/refs.md)
 
 ## Things to consider (perspectives)

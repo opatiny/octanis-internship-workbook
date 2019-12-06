@@ -842,6 +842,14 @@ TO DO (tomorrow):
 - vacrob fw the hole day:
   - wrote doc about functions
   - split code into sub-modules
-  - creates separate h files for each sub-module
+  - creates separate h files for each sub-modul
+  - renamed all functions to match public and private standard
   - managed to act on the motors from the processed distance data
   - worked on bumper detect and handling
+- weekly meeting -> just summed up progress
+- internship review: checking all the points of the scope of internship and deciding if it's acquired or not
+
+### 2019.11.29
+
+- managed to get multiple distance boards working simultaneously
+- the motor is reacting as expected to the distance measurements
