@@ -234,6 +234,7 @@ WHAT NEXT?
   - connected raspi of vacrob to the wifi
 
 To Do next:
+
 - get the lidar to work
   - try connecting it by USB
   - check if the TX data is at logic 5V -> if it is it probably fried the port of the raspi (which works in 3.3V)
@@ -247,6 +248,7 @@ To Do next:
   - make it stop in case the vertical distance sensors detect void
 
 Ideally:
+
 - install the mp3 module in the vacrob -> GPIO input -> leads to playing an mp3 file
 - put some mp3 files on a micro-sd card
 - play mp3 files when bumping into walls
@@ -271,3 +273,13 @@ Ideally:
 - now:
   - having troubles with the uavcan bus -> messed up with the cables
   - have to start programming the motor module!
+
+## 2019-11-27 15h00
+
+- progress of the week
+  - working on the fw of the motor board very intensively
+  - managed to get multiple boards on a CAN bus
+  - managed to get a motor reacting to the measurements of multiple distance boards
+- internship review
+
+TO DO: Write documentation for someone to continue working on the project!
