@@ -1,5 +1,7 @@
 # DC motor board FW: specific for the application
 
+[Home](../../../README.md) | [Project main page](../../vacrob.md) | [DC motor module main page](../MotorModule.md) | [Links / References](../../docs/references/refs.md)
+
 Firmware repository: [https://make.octanis.ch/oi/oibus-dc-motor-controller/tree/master/stm32-freertos-fw-vacrob](https://make.octanis.ch/oi/oibus-dc-motor-controller/tree/master/stm32-freertos-fw-vacrob)
 
 In general, we are trying to write FW for the different UAVCAN modules that is independent from the application. However, in the case of the VacRob, we will write some application specific firmware. Indeed, all the decisions based on the distance boards measurements are made in there.
