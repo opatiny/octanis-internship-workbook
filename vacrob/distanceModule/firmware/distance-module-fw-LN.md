@@ -1,6 +1,7 @@
 # Distance modules firmware writing - Lab Notebook
 
-[Home](../../../README.md) | [Project main page](../../vacrob.md) | [Fixing crosstalk problem](../crosstalk/crosstalk.md) | [Testing distance sensor](../sensorTest/sensorTest.md) | [Links / References](../../docs/references/refs.md)
+[Home](../../../README.md) | [Project main page](../../vacrob.md) | [Distance module main page](../distanceModules.md) | [Links / References](../../docs/references/refs.md)
+
 
 
 **The distance module has got its own repository:** [https://make.octanis.ch/oi/oibus-mini-distance-module](https://make.octanis.ch/oi/oibus-mini-distance-module)
