@@ -845,3 +845,11 @@ TO DO (tomorrow):
   - creates separate h files for each sub-module
   - managed to act on the motors from the processed distance data
   - worked on bumper detect and handling
+- last weekly meeting
+  - with Sam, we reviewed all the points of the scope of internship and evaluated if the different skills have been aquired or not
+
+### 2019.11.29
+
+- wrote firmware all day
+  - managed to get the bump handling to work
+  - they are two modes available for bump: stop or move (backwards or forwards)
