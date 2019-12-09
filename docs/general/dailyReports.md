@@ -856,3 +856,20 @@ TO DO (tomorrow):
   - they are two modes available for bump: stop or move (backwards or forwards)
 - managed to get multiple distance boards working simultaneously
 - the motor is reacting as expected to the distance measurements
+
+## After the end of the internship
+
+### 2019.12.09
+
+There are still a few things that I would like to do before moving on to another project. Indeed, it would be too bad to abandon the VacRob so close to having it to work.
+
+Here are a few points:
+
+- reassemble the electronics that work inside of the robot
+- try to finally make it move, at least in a very rudimentary way
+- make a nice video of the project: the assembly of the electronics, how it boots, maybe some stuff about the construction, etc... Also show the final results and how it moves, maybe also make a small video on the distance modules and how the data is plotted in `uavcan_gui_tool`
+- write documentation for people who would like to continue working on the VacRob, put a lot of links to the documentation that is already written for each specific aspect of the project
+- re-write the main page of the project and show all the current results and the work that has been done
+- maybe clone the things related to VacRob in an independent github repo
+- put the stickers with unique numbers on the distance boards and document them in the right gitlab issue
+
