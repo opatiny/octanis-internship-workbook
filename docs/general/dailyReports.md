@@ -873,3 +873,7 @@ Here are a few points:
 - maybe clone the things related to VacRob in an independent github repo
 - put the stickers with unique numbers on the distance boards and document them in the right gitlab issue
 
+### 2019.12.18
+
+- took the camera and microphone to document on the VacRob
+- loads of filming
