@@ -56,21 +56,7 @@ Various information that has been useful / doc produced:
 
 Main project that has been worked on: an autonomous vacuum cleaner robot that implements the technologies developed at Octanis Instuments.
 
-[**Vacuum cleaner robot project**](./vacrob/vacrob.md)
-
-- [Mechanics](./vacrob/mechanics/mechanics.md)
-  - [Assembly 1](./vacrob/mechanics/assembly1.md)
-  - [Assembly 2](./vacrob/mechanics/assembly2.md)
-  - [Assembly 3](./vacrob/mechanics/assembly3.md)
-  - [Assembly 4](./vacrob/mechanics/assembly4.md)
-- [Electronics](./vacrob/electronics/electronics.md)
-- [The different PCBs used in the project](./vacrob/pcb/pcb.md)
-- [Firmware of the distance modules - Lab Notebook](./vacrob/firmware/distanceModule/distance-module-fw-LN.md)
-- [Raspberry Pi compute module](./raspi/raspi.md)
-  - [Lidar](./raspi/lidar/lidar.md)
-  - [Touch screen](./raspi/touchScreen/touchScreen.md)
-  - [Speaker](./raspi/speaker/speaker.md)
-- [Useful links related to the project](./vacrob/docs/refs.md)
+Refer to the [**Vacuum cleaner robot project**](./vacrob/vacrob.md) MD file to access all the useful information.
 
 ## Small projects
 

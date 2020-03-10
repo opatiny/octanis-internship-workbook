@@ -2,8 +2,6 @@
 
 [Home](../../../README.md) | [Project main page](../../vacrob.md) | [Distance module main page](../distanceModules.md) | [Links / References](../../docs/references/refs.md)
 
-
-
 **The distance module has got its own repository:** [https://make.octanis.ch/oi/oibus-mini-distance-module](https://make.octanis.ch/oi/oibus-mini-distance-module)
 
 ## Bumper
@@ -191,13 +189,13 @@ Trying to get the example with continuous ranging to work -> managed to retrieve
 
 **Solution:** The problem was actually in the **bad implementation of the api I2C communication** -> copying the code given on the forum (slightly adapted) worked fine. The device datasheet described the protocol necessary to read and write bytes, this is where I might have seen that my implementation was faulty.
 
-Once this was done, I was able to read the distance and see it in the debugger. 
+Once this was done, I was able to read the distance and see it in the debugger.
 
 **Caution:** Range measurement is only valid if `pRangingMeasurementData->RangeStatus = 0`.
 
 ## Code structure
 
-The distance will be retrieved using a code based on the continuous ranging example. One additional feature has to be added to the ones existing: we must be able to chose on which I2C bus the device is. To implement this, an additional property is added to the `VL53L0X_Dev_t` structures, which is a pointer on an instance of type `I2C_HandleTypeDef *` (i2C bus definition). This property is then used in the platform specific I2C communication code.
+The distance will be retrieved using a code based on the continuous ranging example. One additional feature has to be added to the ones existing: we must be able to chose on which I2C bus the device is. To implement this, an additional property is added to the `VL53L0X_Dev_t` structures, which is a pointer on an instance of type `I2C_HandleTypeDef *` (I2C bus definition). This property is then used in the platform specific I2C communication code.
 
 Once the bus choice worked, the continuous ranging example has been simplified and subdivided into two functions: the first one handles all the initialization and calibration, the second one is an infinite loop executing continuous measurements.
 
@@ -206,7 +204,6 @@ Once the bus choice worked, the continuous ranging example has been simplified a
 - **d_1:** horizontal distance, -1 if data is not valid
 - **d_2:** vertical distance, -1 if data is not valid
 - **bmp:** bumper status, 0 when button not pressed, 1 when button pressed
-
 
 ## Creating separate threads for both distance sensors
 
@@ -217,37 +214,39 @@ New threads can be initialized in CubeMX -> save and commit the code before you 
 `uavcan_gui_tool` has a tool to plot a parameter that is being sent on the uavcan bus. Here is how you do it:
 
 **Hardware:**
+
 - connect a distance board with a functionnal firmware to a CAN to USB board
 - connect the CAN to USB board to your computer
-- 
+-
+
 **Software:**
+
 - in a terminal, run `uavcan_gui_tool`
 - a window pops up, modify the "CAN bus bit rate" to 100000 (remove one zero) and click ok
 - if everything is fine, the main graphical interface should open
-  
+
   <img src="./uavcan/uavcanMainNoLocalNodeID.png" alt="uavcan gui tools: no local node ID" width="90%" class="center">
 
 - click on the set local node ID tick -> the previously detected nodes get a name and you can now double-click on them to access their parameters
-  
+
   <img src="./uavcan/uavcanMainLocalNodeID.png" alt="uavcan gui tools: local node ID set" width="90%" class="center">
 
 - click on Tools -> Bus monitor: to see all the packages on the CAN bus -> click on one of the packages to see more info (for instance the key)
-  
+
   <img src="./uavcan/uavcanBusMonitor.png" alt="uavcan gui tools: bus monitor" width="70%" class="center">
 
 - click on Tools -> Plotter -> New Plot -> Add Y-T plot: a new plot appears
-  
+
   <img src="./uavcan/uavcanEmptyPlot.png" alt="uavcan gui tools: new Y-T plot" width="70%" class="center">
 
 - now you have to set the parameters that you want to monitor: click on the little "+"
 - there, you define the parameter to be plotted by specifying the message key, you have to do that letter by letter, using ASKII code (see image)
-  
+
   <img src="./uavcan/uavcanChosePlotParameter.png" alt="uavcan gui tools: set plot variable" width="40%" class="center">
 
 - see the evolution of your variables
-  
-  <img src="./uavcan/uavcanPlot.png" alt="uavcan gui tools: plot" width="70%" class="center">
 
+  <img src="./uavcan/uavcanPlot.png" alt="uavcan gui tools: plot" width="70%" class="center">
 
 Here, we are plotting both distances and the bumper status.
 

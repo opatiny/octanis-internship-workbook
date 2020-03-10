@@ -1,12 +1,12 @@
 # VacRob software
 
-In the end, the VacRob is a fairly complex system with over ten micro-controller. Therefore, we have to have a very clear idea how all the different components interact with each other. Also, we must know what is dependent from what, what is critical in time, etc.
+In the end, the VacRob is a fairly complex system with over ten micro-controllers. Therefore, we need a very clear idea of how all the different components interact with each other. Also, we must know what is dependent from what, what is critical in time (for RTOS), etc.
 
 ## Overview of the robot's elements
 
 The VacRob contains all of the following elements:
 
-- 1 compute module (integrate a Raspberry Pi)
+- 1 compute module (integrates a Raspberry Pi)
 - 1 DC motor module rev2
 - (1 10 channels power output module)
 - 8 mini distance modules rev 2
@@ -17,9 +17,16 @@ The VacRob contains all of the following elements:
 - 1 Xiomi Roborock side brush
 - (1 Xiomi Roborock pump -> not connected)
 
-<img src="./vacrob-elements.png" alt="wheel encoder electrical scheme" width="70%" class="center">
+## Code written during the internship
 
-## General description of the behavior
+- The whole firmware of the mini distance modules had to be programmed. In the end, the distance modules are working using that firmware and they send the necessary parameters on the CAN bus. Details can be found in [Distance modules firmware - Lab Notebook](../distanceModule/firmware/distance-module-fw-LN.md).
+- The core of the projects firmware has been written as an application specific firmware for the DC motor board. This means that this board is actually working as the main micro-controller, supervising all of the data on the CAN bus, and analyzing it to react correspondingly. All the information about this code is in [Motor module specific firmware](../motorModule/motorModuleFW/motorModuleFW.md)
+
+## Interactions between all the elements
+
+<img src="./vacrob-elements.png" alt="all electronic components of the vacrob" width="70%" class="center">
+
+## General description of the desired behavior
 
 Listed underneath are all the functionalities that would be useful to implement in the robot. We haven't been able to achieve all of them.
 
@@ -40,3 +47,7 @@ Listed underneath are all the functionalities that would be useful to implement 
 8. The user should be able to remote control the robot from a computer.
 
 9. The user should be able to visualize all the data produced by the robot in real time.
+
+## Actual results / state of the software at the end of the internship (2019.11.29)
+
+The last two weeks of my internship consisted of sole C programming. During this time, I mounted all of the electronics inside of the robots hardware. I quickly realized that this was a mistake. Indeed, to be efficient, I had to work step by step, first programming only one distance sensing board, then adding one more, and so on. This was necessary, because I could have troubles with the electronic hardware (aka sensors not wired properly or burned) at any time.

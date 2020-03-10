@@ -1,7 +1,6 @@
 # DC motor module (big format)
 
-[Home](../../../README.md) | [Project main page](../../vacrob.md) | [DC motor module main page](../MotorModule.md) | [Links / References](../../docs/references/refs.md)
-
+[Home](../../../README.md) | [Project main page](../../vacrob.md) | [DC motor module main page](../MotorModule.md)
 
 GitLab project: [https://make.octanis.ch/oi/oibus-dc-motor-controller/tree/master](https://make.octanis.ch/oi/oibus-dc-motor-controller/tree/master)
 

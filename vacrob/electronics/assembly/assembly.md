@@ -43,12 +43,16 @@ One possibility is to use an RS Pro Lead-acid battery 12V/5AH/20HR. A recharge m
 
 **Problem with the big battery:** It is so heavy and off-center that it makes the robot lean -> we have to find another alternative.
 
-Another alternative is to use packs of 18x650 batteries. More precisely, we would use 
+Another alternative is to use packs of 18x650 batteries. More precisely, we would use packs of 4 batteries in series.
 
 ## Distance boards
 
 The distance sensing boards are part of the UAVCAN bus and they are easily connected using the CAN cables (daisy-chained).
 
+WARNING: Beware the cable orientation! Some of the cables which were at Octanis are wrong.
+
 ## Lidar
 
 ## Screen
+
+The Raspberry Pi screen is connected to the compute module using a flat cable for data. Additionally, two cables are required for power (5V and GND), we connected them using jumper cables.

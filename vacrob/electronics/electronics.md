@@ -6,15 +6,15 @@ It is important to design the outer case in a way that puts forwards the electro
 
 The robot required some functionalities that had already been developed, like the computer board. However, some boards had either to be modified (DC motor module) or completely designed (distance sensing module).
 
-## DC motor module 
+## DC motor module
 
-This is the board which allows the control of the wheels and brushes motors. It was an existing modules, based on which we created a new revision more adapted to the project.
+This is the board which allows the control of the wheels and brushes motors. It was an existing module based on which we created a new revision more adapted to the project (rev2).
 
 [DC motor module documentation](../motorModule/motorModule.md)
 
 ## Distance sensing module
 
-The distance sensing module has been created specifically for this application. It has two distance sensor and a snap switch.
+The distance sensing module has been created specifically for this application. It includes two distance sensors and a snap switch.
 
 [Distance sensing module documentation](../distanceModules/distanceModules.md)
 
@@ -33,4 +33,3 @@ Waiting for the battery pack, a regular battery holder for three 18x650 Lion cel
 " The device is powered by 5V micro USB. Exactly how much current (mA) the Raspberry Pi requires is dependent on which model you are using, and what you hook up to it. We recommend a 2.5A (2500mA) power supply, from a reputable retailer, that will provide you with enough power to run your Raspberry Pi for most applications, including use of the 4 USB ports. "
 
 This might considerably reduce the autonomy that we have estimated before!
-
