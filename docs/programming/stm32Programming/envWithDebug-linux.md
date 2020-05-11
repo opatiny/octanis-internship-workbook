@@ -9,7 +9,7 @@ First of all, follow this tutorial: [https://docs.octanis.ch/display/PUB/VSCode+
 
 [https://docs.docker.com/install/linux/docker-ce/ubuntu/](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
-You have to install the repository in which there is the last version of docker -> it is not something you can make with apt-get because it the repositories of apt-get are not necessarily upt-to-date with the last version of Docker
+You have to install the repository in which there is the last version of docker -> it is not something you can make with apt-get because the repositories of apt-get are not necessarily up-to-date with the last version of Docker.
 
 ## In VSCode
 
@@ -22,7 +22,7 @@ Install these extensions:
 
 In the firmware of your project:
 
-- Create a `.devcontainer` folder at first level and copy `devcontainer.json` and `Dockerfile` to  it (there's acopy of these files in `./envFiles/`)
+- Create a `.devcontainer` folder at first level and copy `devcontainer.json` and `Dockerfile` to it (there's a copy of these files in `./envFiles/`)
 - Copy `launch.json` and `c_cpp_properties.json` to your `.vscode` folder
 - Click on the green icon at the bottom-left of the vscode window and pick "Reopen Folder in container"
 - Copy the `STM32F303.svd` file to the root of the project
