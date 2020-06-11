@@ -1,4 +1,4 @@
-#VacRob higher level control unit: Raspberry Pi
+# VacRob higher level control unit: Raspberry Pi
 
 [Home](../../../README.md) | [Project main page](../../vacrob.md) | [Lidar doc](./lidar/lidar.md) | [Touch screen doc](./touchscreen/touchscreen.md)
 
@@ -87,14 +87,17 @@ Warning: This server only allowed to create new sessions and didn't let the clie
 **Procedure:** [https://tecadmin.net/setup-x11vnc-server-on-ubuntu-linuxmint/](https://tecadmin.net/setup-x11vnc-server-on-ubuntu-linuxmint/)
 
 **Install package:**
+
 ```bash
 sudo apt-get update
 sudo apt-get install x11vnc
 x11vnc -storepasswd # create a password for clients that want to connect to the server
 ```
+
 The password is: raspivnc
 
 **Start the server:**
+
 ```bash
 sudo x11vnc -auth guess -forever -loop -noxdamage -repeat -rfbauth /home/ubuntu/.vnc/passwd -rfbport 5900 -shared
 ```
@@ -104,6 +107,7 @@ sudo x11vnc -auth guess -forever -loop -noxdamage -repeat -rfbauth /home/ubuntu/
 ```bash
 sudo vi /etc/systemd/system/x11vnc.service
 ```
+
 In the new file that you created, paste (change path!):
 
 ```bash
@@ -139,7 +143,7 @@ sudo systemctl enable x11vnc.service
 VNC client / viewer: [https://www.linuxhelp.com/how-to-install-vinagre-in-ubuntu](https://www.linuxhelp.com/how-to-install-vinagre-in-ubuntu)
 
 - run the soft (Windows -> vnc)
-- type in the IP address of the device (192.168.1.24 through ethernet) followed by :0 -> the session that you want to join  
+- type in the IP address of the device (192.168.1.24 through ethernet) followed by :0 -> the session that you want to join
   ```
   192.168.1.24:0
   ```
