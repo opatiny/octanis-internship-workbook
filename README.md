@@ -2,18 +2,12 @@
 
 Documentation resulting of my 20 weeks internship at Octanis Instruments.
 
-[Absences](./docs/general/absences.md)
-
-A detailed document following the work hours made can be found [here](https://docs.google.com/spreadsheets/d/1_l2dqrJrQ-v7qfd-l_EuGI3AZ5O0yJDEYIXwj1KPvaY/edit?usp=sharing).
-
-An [auto-evaluation](https://docs.google.com/spreadsheets/d/1lY56Y4fPrlJRqQMzHWMoeDCFBBWHa7X-nrasgqzNMNE/edit?usp=sharing) has also been made during the whole internship to follow the progress.
-
 To have global insight of what has been done during the internship:
 
 - [Daily reports](./docs/general/dailyReports.md)
 - [Conclusions of weekly meetings](./docs/general/weekly.md)
 
-Various information that has been useful / doc produced:
+Various information that has been useful / doc written:
 
 ## Mechanics
 
