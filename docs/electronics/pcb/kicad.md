@@ -16,13 +16,13 @@ Whole KiCAD serie:
 
 ### Sketch
 
-**a :** add component
-**e :** see parameters of component
-**g :** grab
-**m :** move
-**p :** add power component
-**r :** rotate
-**q :** add a NC symbol
+- **a :** add component
+- **e :** see parameters of component
+- **g :** grab
+- **m :** move
+- **p :** add power component
+- **r :** rotate
+- **q :** add a NC symbol
 
 - **no connect :** blue cross on the right toolbar
 - edit the text at the bottom of a sketch: File -> Page Settings
