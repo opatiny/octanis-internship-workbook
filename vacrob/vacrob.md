@@ -6,6 +6,12 @@
 
 Make a vacuum cleaning robot applying the technologies developed at Octanis Instruments. The robot will use some of the same components as the Xiaomi Mi Roborock (already existing vacuum cleaner robot). Yet, all the user interface, the electronics and the sensors will be new.
 
+# Pictures of the final robot
+
+<img src="./docs/pictures/finalRobot/vacrob-closed.JPG" alt="final robot closed v30" width="50%" class="center">
+<img src="./docs/pictures/finalRobot/vacrob-open.JPG" alt="final robot open v30" width="50%" class="center">
+
+
 ## Table of contents
 
 - [Mechanics](./mechanics/mechanics.md)
